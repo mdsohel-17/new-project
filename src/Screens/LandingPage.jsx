@@ -1,7 +1,14 @@
 import React from "react";
+import Header from "../components/Header";
+import Slider from "../components/Slider";
 
 const LandingPage = () => {
-  return <div className="w-100 mx-auto">Landing page</div>;
+  return (
+    <>
+      <Header />
+      <Slider />
+    </>
+  );
 };
 
 export default LandingPage;
