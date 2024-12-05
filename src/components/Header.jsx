@@ -1,5 +1,5 @@
 import React from "react";
-import { logo } from "../utils/utils";
+import { logo, logonobg } from "../utils/utils";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="w-100 h-fit flex flex-wrap px-20 justify-between items-center bg-white shadow-lg border-b anim py-2 sticky top-0 z-50">
       <div className="w-2/12 flex items-center">
-        <img src={logo} alt="" className="w-3/12" />
+        <img src={logonobg} alt="" className="w-3/12" />
         <span className=" text-lg leading-[20px] font-mono font-medium text-[#af601a] ">
           TrailBliss
           <div className="ms-14">Bags</div>

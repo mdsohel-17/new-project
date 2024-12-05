@@ -22,11 +22,11 @@ const Slider = () => {
         <div className="flex flex-wrap h-full -mx-3">
           <div className="w-full px-2">
             <div className=" text-center pt-10">
-              <h1 className="text-5xl font-medium px-36 leading-[65px]">
+              <h1 className=" text-lg sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl font-medium md:px-24 lg:px-36 xl:leading-[65px] lg:leading-[45px]">
                 TrailBliss Bags Brings You High-Quality Bags Designed to Fit
                 Your Everyday Life.
               </h1>
-              <p className="mt-3 font-medium">
+              <p className="mt-3 text-xs md:text-sm lg:text-base font-medium">
                 TrailBliss Bags offers stylish, durable, and versatile bags for
                 every occasion. Carry comfort and quality wherever you go.
               </p>

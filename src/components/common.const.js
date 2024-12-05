@@ -1,45 +1,87 @@
-import { bagimage1, bagimage2, bagimage3, bagimage4, bagimage5, bagimage6 } from "../utils/utils";
+import {
+  bagimage1,
+  bagimage2,
+  bagimage3,
+  bagimage4,
+  bagimage5,
+  bagimage6,
+  bagimage7,
+} from "../utils/utils";
 
 export const collections = [
-    {
-        title:'Product 1',
-        price:'210',
-        decription:'it is a good product',
-        productImage:bagimage1
-    },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: bagimage1,
+  },
+  {
+    title: "TrailBliss Adventure Backpack",
+    price: "$99.99",
+    decription:
+      "Durable and water-resistant, ideal for travel and outdoor use.",
+    productImage: bagimage2,
+  },
+  {
+    title: "TrailBliss Luxe Leather Satchel",
+    price: "$25.00",
+    decription: "Elegant and functional, crafted from premium leather.",
+    productImage: bagimage3,
+  },
+  {
+    title: "TrailBliss City Crossbody",
+    price: "$26.00",
+    decription: "Compact and stylish, perfect for on-the-go convenience.",
+    productImage: bagimage4,
+  },
+  {
+    title: "TrailBliss Eco Shopper Bag",
+    price: "$22.00",
+    decription: "Reusable and eco-friendly, perfect for shopping trips.",
+    productImage: bagimage5,
+  },
+  {
+    title: "Travel Duffel Bag",
+    price: "$27.00",
+    decription: "Spacious and sturdy, your perfect travel companion.",
+    productImage: bagimage6,
+  },
+  {
+    title: "Classic Laptop Bag",
+    price: "$22.00",
+    decription: "Protective and sleek, designed for work and commute.",
+    productImage: bagimage7,
+  },
+  {
+    title: "Convertible Backpack",
+    price: "$25.00",
+    decription: "Versatile design that transforms from backpack to tote.",
+    productImage: bagimage3,
+  },
+  {
+    title: "Minimalist Sling Bag",
+    price: "$39.99",
+    decription: "Compact and modern, ideal for essentials on the go.",
+    productImage: bagimage1,
+  },
 
-    {
-        title:'Product 2',
-        price:'200',
-        decription:'it is a good product',
-        productImage:bagimage2
-    },
+  {
+    title: "Kids' Fun Backpack",
+    price: "$99.99",
+    decription: "Colorful and lightweight, perfect for school or play.",
+    productImage: bagimage2,
+  },
+  {
+    title: "TrailBliss Luxe Leather Satchel",
+    price: "$25.00",
+    decription: "Elegant and functional, crafted from premium leather.",
+    productImage: bagimage3,
+  },
 
-    {
-        title:'Product 3',
-        price:'250',
-        decription:'it is a good product',
-        productImage:bagimage3
-    },
-
-    {
-        title:'Product 4',
-        price:'260',
-        decription:'it is a good product',
-        productImage:bagimage4
-    },
-
-    {
-        title:'Product 5',
-        price:'220',
-        decription:'it is a good product',
-        productImage:bagimage5
-    },
-
-    {
-        title:'Product 6',
-        price:'270',
-        decription:'it is a good product',
-        productImage:bagimage6
-    }
-]
+  {
+    title: "TrailBliss City Crossbody",
+    price: "$26.00",
+    decription: "Compact and stylish, perfect for on-the-go convenience.",
+    productImage: bagimage4,
+  },
+];
