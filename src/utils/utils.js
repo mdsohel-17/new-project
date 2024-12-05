@@ -1,4 +1,5 @@
 export const logo = require('../assets/image/logo.png')
+export const logonobg = require('../assets/image/logo-nobg.png')
 export const slider1 = require('../assets/image/slider 1.png')
 export const bagimage1 = require('../assets/image/bagimage1.png')
 export const bagimage2 = require('../assets/image/bagimage2.png')
@@ -6,3 +7,4 @@ export const bagimage3 = require('../assets/image/bagimage3.png')
 export const bagimage4 = require('../assets/image/bagimage4.png')
 export const bagimage5 = require('../assets/image/bagimage5.png')
 export const bagimage6 = require('../assets/image/bagimage6.png')
+export const  bagimage7  = require("../assets/image/bag111.png");
