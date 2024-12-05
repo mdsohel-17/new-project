@@ -18,7 +18,7 @@ import { faArrowTrendUp, faShop } from "@fortawesome/free-solid-svg-icons";
 const Slider = () => {
   return (
     <>
-      <div className="h-[90vh] px-20">
+      <div className="bg-[#ebf5fb] h-[90vh] px-20">
         <div className="flex flex-wrap h-full -mx-3">
           <div className="w-full px-2">
             <div className=" text-center pt-10">
@@ -34,11 +34,11 @@ const Slider = () => {
           </div>
           <div className="flex flex-wrap justify-between px-2 pb-10 items-end">
             <div className="w-2/12 px-3">
-              <div className=" py-16 shadow-lg shadow-[#1c150f4a] bg-[#af601a] rounded-3xl ">
+              <div className=" group py-16 shadow-lg shadow-[#1c150f4a] bg-[#af601a] rounded-3xl ">
                 <img
                   src={bag}
                   alt=""
-                  className="hover:scale-150 transition-all duration-1000"
+                  className="group-hover:scale-150 transition-all duration-1000"
                 />
               </div>
             </div>
@@ -52,7 +52,7 @@ const Slider = () => {
                   />
                 </div>
                 <h1 className="mt-3 text-white font-medium text-4xl">100+</h1>
-                <p className="text-white py-4 text-xl ">
+                <p className="text-white py-4 xl:text-xl  ">
                   Bags Sold Every Week, Bringing Quality, Style, and Versatility
                   to Our Customers Every Single Day!
                 </p>
@@ -78,11 +78,11 @@ const Slider = () => {
             </div>
 
             <div className="w-2/12 px-3">
-              <div className=" py-16  shadow-lg group-[]: shadow-[#1c150f4a]  bg-[#af601a] rounded-3xl">
+              <div className=" py-16 group shadow-lg group-[]: shadow-[#1c150f4a]  bg-[#af601a] rounded-3xl">
                 <img
                   src={bag}
                   alt=""
-                  className="hover:scale-150 transition-all duration-1000"
+                  className="group-hover:scale-150 transition-all duration-1000"
                 />
               </div>
             </div>
