@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Header = () => {
   return (
-    <div className="w-100 h-fit flex flex-wrap px-20 justify-between items-center bg-white shadow-lg border-b anim py-2 sticky top-0 z-50">
+    <div className="w-100 h-fit flex flex-wrap px-20 justify-between items-center bg-white shadow-lg border-b anim py-3 sticky top-0 z-50">
       <div className="w-2/12 flex items-center">
         <img src={logonobg} alt="" className="w-3/12" />
         <span className=" text-lg leading-[20px] font-mono font-medium text-[#af601a] ">

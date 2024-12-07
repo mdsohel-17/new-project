@@ -1,3 +1,4 @@
+import { faHandshake, faPersonWalkingLuggage, faScissors, faStar } from "@fortawesome/free-solid-svg-icons";
 import {
   bagimage1,
   bagimage2,
@@ -7,6 +8,7 @@ import {
   bagimage6,
   bagimage7,
 } from "../utils/utils";
+import { faPagelines } from "@fortawesome/free-brands-svg-icons";
 
 export const collections = [
   {
@@ -85,3 +87,30 @@ export const collections = [
     productImage: bagimage4,
   },
 ];
+export const CHOOSE_US = [
+  {
+    title: "Premium Quality Materials",
+    desc: "Crafted from high-quality materials for long-lasting durability.",
+    icon: faStar,
+  },
+  {
+    title: "Timeless Designs",
+    desc: "Elegant and versatile designs for any occasion or style.",
+    icon: faScissors,
+  },
+  {
+    title: "Carry with Ease",
+    desc: "Perfectly designed for comfort and efficient organization.",
+    icon: faPersonWalkingLuggage,
+  },
+  {
+    title: "Sustainability Commitment",
+    desc: "Eco-friendly materials for a sustainable and responsible future.",
+    icon: faPagelines,
+  },
+  {
+    title: "Trusted by Thousands",
+    desc: "Over 1,000 bags sold weekly, trusted by loyal customers.",
+    icon: faHandshake,
+  },
+]; 
