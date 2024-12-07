@@ -22,7 +22,7 @@ const Promotion = () => {
               elegance, and durability, making them the perfect companion for
               every occasion.
             </p>
-            <div className="relative group overflow-hidden rounded-full border p-4 cursor-pointer text-center border-primarycolor w-1/4 mt-8">
+            <div className="relative group overflow-hidden rounded-full border p-4 cursor-pointer text-center border-primarycolor w-2/6 mt-8">
               <p className="text-black group-hover:text-textColor z-10 relative ">
                 Find Out More
               </p>
@@ -30,10 +30,10 @@ const Promotion = () => {
             </div>
           </div>
         </div>
-        <div className="lg:w-6/12 bg-primarycolor px-20 ">
+        <div className="lg:w-6/12 bg-primarycolor pe-20 ps-5 ">
           <div className="flex flex-wrap justify-center px-0 pt-20 pb-20 lg:pb-0 -mx-3">
             {CHOOSE_US.map((val) => (
-              <div className="w-12/12 sm:w-6/12 md:w-4/12 px-3 py-3 hover:scale-110 transition-all duration-[.6s] ease-linear">
+              <div className="w-12/12 sm:w-6/12 md:w-4/12 px-2 py-2 hover:scale-110 transition-all duration-[.6s] ease-linear">
                 <div className="bg-white w-full shadow-lg h-full shadow-[#1c150f4a] p-3">
                   <FontAwesomeIcon
                     icon={val.icon}
