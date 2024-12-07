@@ -1,3 +1,4 @@
+import { faHandshake, faPersonWalkingLuggage, faScissors, faStar } from "@fortawesome/free-solid-svg-icons";
 import {
   bagimage1,
   bagimage2,
@@ -6,7 +7,28 @@ import {
   bagimage5,
   bagimage6,
   bagimage7,
+  leatherbag1,
+  leatherbag2,
+  leatherbag3,
+  leatherbag4,
+  leatherbag5,
+  officebag1,
+  officebag2,
+  officebag3,
+  officebag4,
+  officebag5,
+  schoolbag1,
+  schoolbag2,
+  schoolbag3,
+  schoolbag4,
+  schoolbag5,
+  trackingbag1,
+  trackingbag2,
+  trackingbag3,
+  trackingbag4,
+  trackingbag5,
 } from "../utils/utils";
+import { faPagelines } from "@fortawesome/free-brands-svg-icons";
 
 export const collections = [
   {
@@ -83,5 +105,165 @@ export const collections = [
     price: "$26.00",
     decription: "Compact and stylish, perfect for on-the-go convenience.",
     productImage: bagimage4,
+  },
+];
+
+export const leatherbag = [
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: leatherbag1,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: leatherbag2,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: leatherbag3,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: leatherbag4,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: leatherbag5,
+  },
+];
+
+export const schoolbag = [
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: schoolbag1,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: schoolbag2,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: schoolbag3,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: schoolbag4,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: schoolbag5,
+  },
+];
+
+export const trackingbag = [
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: trackingbag1,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: trackingbag2,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: trackingbag3,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: trackingbag4,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: trackingbag5,
+  },
+];
+
+export const officebag = [
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: officebag1,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: officebag2,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: officebag3,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: officebag4,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: officebag5,
+  },
+];
+
+export const CHOOSE_US = [
+  {
+    title: "Premium Quality Materials",
+    desc: "Crafted from high-quality materials for long-lasting durability.",
+    icon: faStar,
+  },
+  {
+    title: "Timeless Designs",
+    desc: "Elegant and versatile designs for any occasion or style.",
+    icon: faScissors,
+  },
+  {
+    title: "Carry with Ease",
+    desc: "Perfectly designed for comfort and efficient organization.",
+    icon: faPersonWalkingLuggage,
+  },
+  {
+    title: "Sustainability Commitment",
+    desc: "Eco-friendly materials for a sustainable and responsible future.",
+    icon: faPagelines,
+  },
+  {
+    title: "Trusted by Thousands",
+    desc: "Over 1,000 bags sold weekly, trusted by loyal customers.",
+    icon: faHandshake,
   },
 ];

@@ -4,14 +4,16 @@ import Slider from "../components/Slider";
 import Product from "../components/Product";
 import Footer from "../components/Footer";
 import Banner from "../components/Banner";
+import Promotion from "../components/Promotion";
 
 const LandingPage = () => {
   return (
     <>
       <Header />
       <Slider />
+      {/* <Banner/> */}
       <Product />
-      <Banner/>
+      <Promotion/>
       <Footer/>
     </>
   );
