@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   box-sizing: border-box;
+}
+.first-child:hover {
+  perspective: 1000px;
+  transform-origin: top right;
+  transform: rotateX(25deg) rotateY(-15deg) rotateZ(15deg);
+}
+.second-child:hover {
+  perspective: 1000px;
+  transform-origin: top left;
+  transform: rotateX(-25deg) rotateY(-15deg) rotateZ(-15deg);
 }
