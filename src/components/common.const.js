@@ -12,6 +12,9 @@ import {
   leatherbag3,
   leatherbag4,
   leatherbag5,
+  leatherbag6,
+  leatherbag7,
+  leatherbag8,
   officebag1,
   officebag2,
   officebag3,
@@ -138,6 +141,24 @@ export const leatherbag = [
     price: "$39.99",
     decription: "Lightweight and spacious, perfect for your daily needs.",
     productImage: leatherbag5,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: leatherbag6,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: leatherbag7,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: leatherbag8,
   },
 ];
 
