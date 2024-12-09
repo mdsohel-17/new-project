@@ -1,4 +1,9 @@
-import { faHandshake, faPersonWalkingLuggage, faScissors, faStar } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHandshake,
+  faPersonWalkingLuggage,
+  faScissors,
+  faStar,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   bagimage1,
   bagimage2,
@@ -242,28 +247,61 @@ export const officebag = [
 
 export const CHOOSE_US = [
   {
+    id: 1,
     title: "Premium Quality Materials",
     desc: "Crafted from high-quality materials for long-lasting durability.",
     icon: faStar,
   },
   {
+    id: 2,
     title: "Timeless Designs",
     desc: "Elegant and versatile designs for any occasion or style.",
     icon: faScissors,
   },
   {
+    id: 3,
     title: "Carry with Ease",
     desc: "Perfectly designed for comfort and efficient organization.",
     icon: faPersonWalkingLuggage,
   },
   {
+    id: 4,
     title: "Sustainability Commitment",
     desc: "Eco-friendly materials for a sustainable and responsible future.",
     icon: faPagelines,
   },
   {
+    id: 5,
     title: "Trusted by Thousands",
     desc: "Over 1,000 bags sold weekly, trusted by loyal customers.",
     icon: faHandshake,
+  },
+];
+
+export const NAV_LINKS = [
+  {
+    id:1,
+    link: "Home",
+    innerLinks: "",
+  },
+  {
+    id:2,
+    link: "Product",
+    innerLinks: "",
+  },
+  {
+    id:3,
+    link: "Gallery",
+    innerLinks: "",
+  },
+  {
+    id:4,
+    link: "About",
+    innerLinks: "",
+  },
+  {
+    id:5,
+    link: "Contact",
+    innerLinks: "",
   },
 ];
