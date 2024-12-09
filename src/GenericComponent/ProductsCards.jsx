@@ -10,13 +10,13 @@ import {
 const ProductsCards = (props) => {
   const { heading, cardJson } = props;
   return (
-    <div className="bg-white px-20 ">
+    <div className="bg-white px-20 py-10 ">
       <h1 className=" text-center text-3xl md:text-5xl font-medium  text-textColor">
         {heading}
       </h1>
-
+     <div class="flex flex-wrap -mx-3 mt-16 ">
       {cardJson.map((val) => (
-        <div className="xl:w-3/12 lg:w-4/12 md:w-6/12 sm:w-6/12 w-full px-3 py-3">
+        <div className="xl:w-2/12 lg:w-5/12 md:w-6/12 sm:w-6/12 w-full px-3 py-3">
           <div
             className={` group overflow-hidden bg-white flex  flex-col items-center justify-center rounded-2xl relative shadow-lg h-full shadow-[#1c150f4a]`}
           >
@@ -52,6 +52,7 @@ const ProductsCards = (props) => {
           </div>
         </div>
       ))}
+      </div>
     </div>
   );
 };
