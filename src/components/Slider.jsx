@@ -8,7 +8,7 @@ const Slider = () => {
   return (
     <>
       <div className="bg-white lg:h-screen -mt-20 px-20">
-        <div className="flex flex-wrap h-full -mx-3">
+        <div className="flex flex-wrap -mx-3">
           <div className="w-full px-2 mb-10">
             <div className=" text-center pt-10">
               <h1 className=" text-lg sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl mt-20 font-medium md:px-24 lg:px-36 xl:leading-[65px] lg:leading-[45px]">
