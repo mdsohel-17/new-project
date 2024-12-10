@@ -70,7 +70,12 @@ const Header = () => {
                   delay: val.id * 0.2,
                 },
               }}
-              className="text-lg flex text-[#0b0f12a3] hover:text-[#af601a] font-medium relative after:absolute hover:after:absolute hover:after:content-[''] after:w-0 after:rounded-lg after:h-[2.5px] after:bg-[#af601a] after:top-7 hover:after:w-full hover:translate-y-[-8%] transition-all"
+              whileHover={{
+                scale: 1.1,
+                color: "#af601a",
+                transition: { duration: 0.1 }, // Optional: Customize hover transition
+              }}
+              className="text-lg flex text-[#0b0f12a3] hover:text-[] font-medium relative after:absolute hover:after:absolute hover:after:content-[''] after:w-0 after:rounded-lg after:h-[2.5px] after:bg-[#af601a] after:top-7 hover:after:w-full hover:translate-y-[-8%] transition-all"
             >
               {val.link}
             </motion.li>
@@ -81,21 +86,25 @@ const Header = () => {
         <div className="relative flex items-center border border-primarycolor pe-2 rounded-3xl me-5 w-full">
           <input
             type="text"
-            name=""
-            id=""
-            className="bg-transparent h-full py-2 px-3 me-3 rounded-full focus:outline-none w-full"
+            name="search"
+            id="search"
+            placeholder="Search"
+            className="h-full py-2 px-3 me-3 rounded-full focus:outline-none w-full"
           />
           <FontAwesomeIcon
             icon={faMagnifyingGlass}
             style={{ color: "#af601a" }}
             size="lg"
             className=""
+            onClick={onSearchClick}
           />
         </div>
         <GenericButton
           text={"Sign In"}
-          mainClass={"py-2 text-sm w-full sm:w-4/5 md:w-1/5 lg:w-[50%] xl:w-[35%] "}
-          animate={true}
+          mainClass={
+            "py-3 text-sm w-full sm:w-4/5 md:w-1/5 lg:w-[50%] xl:w-[35%] "
+          }
+          primary={true}
         />
       </div>
     </div>
