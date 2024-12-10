@@ -6,6 +6,7 @@ import {
   leatherbag4,
   leatherbag5,
 } from "../utils/utils";
+import GenericButton from "./GenericButton";
 
 const ProductsCards = (props) => {
   const { heading, cardJson } = props;
@@ -39,11 +40,11 @@ const ProductsCards = (props) => {
                 </div> 
              
             </div> */}
-              <div class="bg-slate-400 text-center">
+              <div class="bg-yellow-400 text-cente flex flex-col items-center">
                 <p>{val.title}</p>
                 <p>{val.decription}</p>
                 <p>{val.Price}</p>
-                
+              <GenericButton text={"Buy Now"} mainClass={"w-6/12 p-3"} animate={true} rounded={true}/> 
               </div>
             </div>
           </div>
