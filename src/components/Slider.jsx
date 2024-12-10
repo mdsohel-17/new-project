@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Slider = () => {
   return (
     <>
-      <div className="bg-white lg:h-screen -mt-20 px-20 overflow-hidden">
+      <div className="bg-white lg:h-screen -mt-16 px-20  overflow-hidden">
         <div className="flex flex-wrap -mx-3">
           <div className="w-full px-2 mb-10">
             <div className=" text-center pt-10">
@@ -20,7 +20,7 @@ const Slider = () => {
                     duration: 0.5,
                   },
                 }}
-                className=" text-lg sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl mt-20 font-medium md:px-24 lg:px-36 xl:leading-[65px] lg:leading-[45px]"
+                className=" text-lg sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl mt-12 font-medium md:px-24 lg:px-36 xl:leading-[65px] lg:leading-[45px]"
               >
                 TrailBliss Bags Brings You High-Quality Bags Designed to Fit
                 Your Everyday Life.
@@ -41,7 +41,7 @@ const Slider = () => {
               </motion.p>
             </div>
           </div>
-          <div className="flex flex-wrap justify-between px-2 -mx-3 -my-3 items-end mt-20">
+          <div className="flex flex-wrap justify-between px-2 -mx-3 -my-3 items-end ">
             <motion.div
               initial={{ x: -50, opacity: 0 }}
               animate={{
