@@ -17,21 +17,33 @@ import {
   leatherbag3,
   leatherbag4,
   leatherbag5,
+  leatherbag6,
+  leatherbag7,
+  leatherbag8,
   officebag1,
   officebag2,
   officebag3,
   officebag4,
   officebag5,
+  officebag6,
+  officebag7,
+  officebag8,
   schoolbag1,
   schoolbag2,
   schoolbag3,
   schoolbag4,
   schoolbag5,
+  schoolbag6,
+  schoolbag7,
+  schoolbag8,
   trackingbag1,
   trackingbag2,
   trackingbag3,
   trackingbag4,
   trackingbag5,
+  trackingbag6,
+  trackingbag7,
+  trackingbag8,
 } from "../utils/utils";
 import { faFacebook, faInstagram, faPagelines, faTiktok, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 
@@ -156,6 +168,24 @@ export const leatherbag = [
     decription: "Lightweight and spacious, perfect for your daily needs.",
     productImage: leatherbag5,
   },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: leatherbag6,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: leatherbag7,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: leatherbag8,
+  },
 ];
 
 export const schoolbag = [
@@ -188,6 +218,24 @@ export const schoolbag = [
     price: "$39.99",
     decription: "Lightweight and spacious, perfect for your daily needs.",
     productImage: schoolbag5,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: schoolbag6,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: schoolbag7,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: schoolbag8,
   },
 ];
 
@@ -222,6 +270,24 @@ export const trackingbag = [
     decription: "Lightweight and spacious, perfect for your daily needs.",
     productImage: trackingbag5,
   },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: trackingbag6,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: trackingbag7,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: trackingbag8,
+  },
 ];
 
 export const officebag = [
@@ -254,6 +320,24 @@ export const officebag = [
     price: "$39.99",
     decription: "Lightweight and spacious, perfect for your daily needs.",
     productImage: officebag5,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: officebag6,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: officebag7,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: officebag8,
   },
 ];
 
