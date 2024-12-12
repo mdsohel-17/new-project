@@ -12,6 +12,14 @@ import {
   bagimage5,
   bagimage6,
   bagimage7,
+  dufflebag1,
+  dufflebag2,
+  dufflebag3,
+  dufflebag4,
+  dufflebag5,
+  dufflebag6,
+  dufflebag7,
+  dufflebag8,
   leatherbag1,
   leatherbag2,
   leatherbag3,
@@ -444,6 +452,57 @@ export const FOOTER_LINKS = [
         link: "Address : 1018, 16th Main Rd, Tavarekere, Aicobo Nagar, 1st Stage, BTM 1st Stage, Bengaluru, Karnataka 560029",
       },
     ],
+  },
+];
+
+export const dufflebag = [
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: dufflebag1,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: dufflebag2,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: dufflebag3,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: dufflebag4,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: dufflebag5,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: dufflebag6,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: dufflebag7,
+  },
+  {
+    title: "TrailBliss Everyday Tote",
+    price: "$39.99",
+    decription: "Lightweight and spacious, perfect for your daily needs.",
+    productImage: dufflebag8,
   },
 ];
 
