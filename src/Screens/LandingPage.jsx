@@ -5,16 +5,18 @@ import Product from "../components/Product";
 import Footer from "../components/Footer";
 import Banner from "../components/Banner";
 import Promotion from "../components/Promotion";
+import MainSlider from "../components/MainSlider";
 
 const LandingPage = () => {
   return (
     <>
       <Header />
-      <Slider />
+      <MainSlider />
+      {/* <Slider /> */}
       {/* <Banner/> */}
       <Product />
-      <Promotion/>
-      <Footer/>
+      <Promotion />
+      <Footer />
     </>
   );
 };

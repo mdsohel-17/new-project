@@ -14,7 +14,7 @@ const Footer = () => {
             whileInView={{
               x: 0,
               opacity: 1,
-              transition: { duration: 0.4 },
+              transition: { duration: 0.6 },
             }}
             viewport={{ once: true }}
             className=" text-lg leading-[20px] w-fit block font-mono font-medium text-white hover:text-primarycolor "
@@ -25,7 +25,7 @@ const Footer = () => {
               whileInView={{
                 x: 0,
                 opacity: 1,
-                transition: { duration: 0.5, delay: 1 },
+                transition: { duration: 0.8, delay: 1 },
               }}
               viewport={{ once: true }}
               className="ms-14 w-fit block"
@@ -40,7 +40,7 @@ const Footer = () => {
             whileInView={{
               y: 0,
               opacity: 1,
-              transition: { duration: 0.6 },
+              transition: { duration: 1 },
             }}
             viewport={{ once: true }}
             className="w-full sm:w-6/12 py-3 lg:ps-0 md:ps-3 md:w-3/12"
@@ -58,7 +58,7 @@ const Footer = () => {
           whileInView={{
             y: 0,
             opacity: 1,
-            transition: { duration: 0.6 },
+            transition: { duration: 1 },
           }}
           viewport={{ once: true }}
           className="w-full sm:w-6/12 py-3 lg:ps-0 md:ps-3 md:w-3/12"

@@ -36,6 +36,11 @@ import {
   schoolbag6,
   schoolbag7,
   schoolbag8,
+  sliderImage1,
+  sliderImage2,
+  sliderImage3,
+  sliderImage4,
+  sliderImage5,
   trackingbag1,
   trackingbag2,
   trackingbag3,
@@ -45,7 +50,13 @@ import {
   trackingbag7,
   trackingbag8,
 } from "../utils/utils";
-import { faFacebook, faInstagram, faPagelines, faTiktok, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebook,
+  faInstagram,
+  faPagelines,
+  faTiktok,
+  faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 export const collections = [
   {
@@ -448,3 +459,27 @@ export const FOOTER_LINKS = [
 ];
 
 export const SOCIAL_ICONS = [faInstagram, faFacebook, faXTwitter, faTiktok];
+
+export const TOP_HEADER_TEXT = [
+  { id: 1, title: "200 off on first order" },
+  { id: 2, title: "100 off on first order" },
+  { id: 3, title: "50 off on first order" },
+];
+
+export const sliderImage = [
+  {
+    image: sliderImage1,
+  },
+  {
+    image: sliderImage2,
+  },
+  {
+    image: sliderImage3,
+  },
+  {
+    image: sliderImage4,
+  },
+  {
+    image: sliderImage5,
+  },
+];
