@@ -1,3 +1,4 @@
+import Dufflebag from "../components/Dufflebag";
 import Leatherbag from "../components/Leatherbag";
 import Officebag from "../components/Officebag";
 import Schoolbag from "../components/Schoolbag";
@@ -9,5 +10,6 @@ export const ROUTE_PATH = [
     {path:'/leather-bag',component:Leatherbag},
     {path:'/tracking-bag',component:Trackingbag},
     {path:'/office-bag',component:Officebag},
-    {path:'/school-bag',component:Schoolbag}
+    {path:'/school-bag',component:Schoolbag},
+    {path:'/duffle-bag',component:Dufflebag},
 ]
