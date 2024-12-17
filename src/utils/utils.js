@@ -1,5 +1,6 @@
 export const logo = require("../assets/image/logo.png");
 export const logonobg = require("../assets/image/logo-nobg.png");
+export const slider1 = require("../assets/image/slider 1.png");
 export const bagimage1 = require("../assets/image/bagimage1.png");
 export const bagimage2 = require("../assets/image/bagimage2.png");
 export const bagimage3 = require("../assets/image/bagimage3.png");
@@ -39,6 +40,15 @@ export const officebag5 = require("../assets/image/officebag5.png");
 export const officebag6 = require("../assets/image/officebag6.png");
 export const officebag7 = require("../assets/image/officebag7.png");
 export const officebag8 = require("../assets/image/officebag8.png");
+export const dufflebag1 = require("../assets/image/dufflebag1.png");
+export const dufflebag2 = require("../assets/image/dufflebag2.png");
+export const dufflebag3 = require("../assets/image/dufflebag3.png");
+export const dufflebag4 = require("../assets/image/dufflebag4.png");
+export const dufflebag5 = require("../assets/image/dufflebag5.png");
+export const dufflebag6 = require("../assets/image/dufflebag6.png");
+export const dufflebag7 = require("../assets/image/dufflebag7.png");
+export const dufflebag8 = require("../assets/image/dufflebag8.png");
+
 export const sliderImage1 = require("../assets/image/slider 1.jpg");
 export const sliderImage2 = require("../assets/image/slider 2.jpg");
 export const sliderImage3 = require("../assets/image/slider 3.jpg");
