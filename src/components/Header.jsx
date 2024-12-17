@@ -22,7 +22,7 @@ export const TopHeader = () => {
 
   return (
     <div
-      className="bg-primarycolor relative py-2 text-white font-medium text-center"
+      className="bg-primarycolor  py-2 text-white font-medium text-center"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
@@ -46,16 +46,18 @@ export const TopHeader = () => {
 };
 
 const Header = () => {
-  const [spread, setSpread] = useState(false);
+  const [show, setShow] = useState(false);
+  const [url, setUrl] = useState("");
 
-  const onSearchClick = () => {
-    setSpread(true);
+  const handleMouseEnter = (value) => {
+    console.log(value);
+    if (value.innerLinks.length) setShow(true);
   };
 
   return (
     <>
       <TopHeader />
-      <div className="w-100 h-fit flex flex-wrap px-20 justify-between items-center bg-white shadow-lg border-b anim py-3 sticky top-0 z-50">
+      <div className="w-100 h-fit flex flex-wrap px-20 justify-between items-center bg-white shadow-lg py-3 sticky top-0 z-50">
         <div className="w-6/12 md:w-4/12 lg:w-2/12 flex items-center overflow-hidden">
           <motion.img
             initial={{ opacity: 0 }}
@@ -99,36 +101,46 @@ const Header = () => {
           </motion.span>
         </div>
         <div className="w-5/12 cursor-pointer hidden lg:block">
-          <ul className="list-none flex justify-around overflow-hidden ">
+          <ul className="list-none flex justify-around overflow-">
             {NAV_LINKS.map((val) => (
               <>
                 <motion.li
                   key={val.id}
-                  initial={{ y: -200, opacity: 1 }}
-                  animate={{
-                    y: 0,
-                    opacity: 1,
-                    transition: {
-                      duration: 0.5 + val.id * 0.2,
-                      delay: val.id * 0.2,
-                    },
-                  }}
-                  whileHover={{
-                    scale: 1.1,
-                    color: "#af601a",
-                    transition: { duration: 0.1 }, // Optional: Customize hover transition
-                  }}
-                  className="text-lg flex text-[#0b0f12a3] hover:text-[] font-medium relative after:absolute hover:after:absolute hover:after:content-[''] after:w-0 after:rounded-lg after:h-[2.5px] after:bg-[#af601a] after:top-7 hover:after:w-full hover:translate-y-[-8%] transition-all"
+                  // whileHover={{
+                  //   scale: 1.1,
+                  //   transition: { duration: 0.1 }, // Optional: Customize hover transition
+                  // }}
+                  className="relative group text-lg text-[#0b0f12a3] font-medium hover:text-primarycolor"
+                  // onMouseEnter={() => handleMouseEnter(val)}
+                  // onMouseLeave={() => setShow(false)}
                 >
                   {val.link}
+                  <div className="text-black hidden pt-8 bg-white p-5 group-hover:block w-max top-full absolute">
+                    {val?.innerLinks?.length ? (
+                      val?.innerLinks?.map((value) => (
+                        <div className="h-fit">{value.title}</div>
+                      ))
+                    ) : (
+                      <></>
+                    )}
+                  </div>
                 </motion.li>
-                {/* <div>abshh</div> */}
+
+                {/* {show && val?.innerLinks?.length ? (
+                  <div className="absolute inset-0 top-full  w-full h-fit bg-opacity-65 bg-white text-black border-2">
+                    {val?.innerLinks?.map((value) => (
+                      <div className="">{value.title}</div>
+                    ))}
+                  </div>
+                ) : (
+                  <></>
+                )} */}
               </>
             ))}
           </ul>
         </div>
         <div className="flex items-center justify-end w-6/12 md:w-8/12 lg:w-3/12">
-          <div className="relative flex items-center border border-primarycolor pe-2 rounded-3xl me-5 w-full">
+          {/* <div className="relative flex items-center border border-primarycolor pe-2 rounded-3xl me-5 w-full">
             <input
               type="text"
               name="search"
@@ -141,15 +153,22 @@ const Header = () => {
               style={{ color: "#af601a" }}
               size="lg"
               className=""
-              onClick={onSearchClick}
             />
-          </div>
+          </div> */}
           <GenericButton
             text={"Sign In"}
             mainClass={
               "py-3 text-sm w-full sm:w-4/5 md:w-1/5 lg:w-[50%] xl:w-[35%] "
             }
             primary={true}
+          />
+          <GenericButton
+            text={"Order in Bulk"}
+            mainClass={
+              "py-3 ms-3 text-sm w-full sm:w-4/5 md:w-1/5 lg:w-[50%] xl:w-[35%] "
+            }
+            childClass={'text-black'}
+            // primary={true}
           />
         </div>
       </div>

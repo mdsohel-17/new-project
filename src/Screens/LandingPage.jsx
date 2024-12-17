@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import Banner from "../components/Banner";
 import Promotion from "../components/Promotion";
 import MainSlider from "../components/MainSlider";
+import VideoGallery from "../components/VideoGallery";
 
 const LandingPage = () => {
   return (
@@ -15,7 +16,8 @@ const LandingPage = () => {
       {/* <Slider /> */}
       {/* <Banner/> */}
       <Product />
-      <Promotion />
+      {/* <Promotion /> */}
+      <VideoGallery/>
       <Footer />
     </>
   );

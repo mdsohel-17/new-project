@@ -5,7 +5,7 @@ import { FOOTER_LINKS, SOCIAL_ICONS } from "./common.const";
 import { motion } from "framer-motion";
 const Footer = () => {
   return (
-    <div className="bg-slate-950 px-20 pt-20 pb-10">
+    <div className="bg-slate-950 px-20 pt-20 pb-16">
       <div className="flex flex-wrap -my-3">
         <div className="w-full sm:w-6/12 py-3 lg:ps-0 md:ps-3 md:w-3/12 items-end cursor-pointer">
           <img src={logonobg} alt="" className="w-2/12" />
@@ -77,7 +77,7 @@ const Footer = () => {
           </div>
         </motion.div>
       </div>
-      <div className="flex flex-wrap justify-around border-t border-[#ffffff56] mt-8 ">
+      <div className="flex flex-wrap justify-around border-t border-[#ffffff56] mt-24 ">
         <span className="text-white w-fit text-sm mt-2 text-opacity-75 cursor-pointer hover:text-primarycolor">
           © 2024 iLaczen Technology. All rights reserved.
         </span>

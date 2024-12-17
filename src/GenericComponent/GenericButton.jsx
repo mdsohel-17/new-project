@@ -20,7 +20,7 @@ const GenericButton = (props) => {
         } border  cursor-pointer text-center border-primarycolor`}
       >
         <p
-          className={`${childClass} text-textColor ${
+          className={`${childClass} ${
             animate || primary ? "group-hover:text-white" : ""
           } z-10 relative font-medium `}
         >

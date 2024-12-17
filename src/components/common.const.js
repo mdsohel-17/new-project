@@ -116,8 +116,11 @@ export const collections = [
     decription: "Versatile design that transforms from backpack to tote.",
     productImage: bagimage3,
   },
+];
+
+export const BEST_SELLERS = [
   {
-    id: 9,
+    id: 1,
     title: "Minimalist Sling Bag",
     price: "$39.99",
     decription: "Compact and modern, ideal for essentials on the go.",
@@ -125,14 +128,14 @@ export const collections = [
   },
 
   {
-    id: 10,
+    id: 2,
     title: "Kids' Fun Backpack",
     price: "$99.99",
     decription: "Colorful and lightweight, perfect for school or play.",
     productImage: bagimage2,
   },
   {
-    id: 11,
+    id: 3,
     title: "TrailBliss Luxe Leather Satchel",
     price: "$25.00",
     decription: "Elegant and functional, crafted from premium leather.",
@@ -140,13 +143,13 @@ export const collections = [
   },
 
   {
-    id: 12,
+    id: 4,
     title: "TrailBliss City Crossbody",
     price: "$26.00",
     decription: "Compact and stylish, perfect for on-the-go convenience.",
     productImage: bagimage4,
   },
-];
+]; 
 
 export const leatherbag = [
   {
@@ -394,7 +397,15 @@ export const NAV_LINKS = [
   {
     id: 2,
     link: "Product",
-    innerLinks: "",
+    innerLinks: [
+      { id: 1, title: "Leather Bags" },
+      { id: 3, title: "Office Bags" },
+      { id: 2, title: "Tracking Bags" },
+      { id: 2, title: "Tracking Bags" },
+      { id: 2, title: "Tracking Bags" },
+      { id: 2, title: "Tracking Bags" },
+      { id: 2, title: "Tracking Bags" },
+    ],
   },
   {
     id: 3,
