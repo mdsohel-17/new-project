@@ -15,3 +15,13 @@
   transform-origin: top left;
   transform: rotateX(-25deg) rotateY(-15deg) rotateZ(-15deg);
 }
+
+.video-gallery .swiper-slide-prev {
+  scale: 1.1;
+}
+.video-gallery .swiper-slide-next {
+  scale: 1.1;
+}
+.video-gallery .swiper-slide-active {
+  scale: 1.2;
+}

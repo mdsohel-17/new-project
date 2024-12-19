@@ -44,6 +44,11 @@ import {
   schoolbag6,
   schoolbag7,
   schoolbag8,
+  sliderImage1,
+  sliderImage2,
+  sliderImage3,
+  sliderImage4,
+  sliderImage5,
   trackingbag1,
   trackingbag2,
   trackingbag3,
@@ -53,7 +58,13 @@ import {
   trackingbag7,
   trackingbag8,
 } from "../utils/utils";
-import { faFacebook, faInstagram, faPagelines, faTiktok, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebook,
+  faInstagram,
+  faPagelines,
+  faLinkedin,
+  faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 export const collections = [
   {
@@ -113,8 +124,11 @@ export const collections = [
     decription: "Versatile design that transforms from backpack to tote.",
     productImage: bagimage3,
   },
+];
+
+export const BEST_SELLERS = [
   {
-    id: 9,
+    id: 1,
     title: "Minimalist Sling Bag",
     price: "$39.99",
     decription: "Compact and modern, ideal for essentials on the go.",
@@ -122,14 +136,14 @@ export const collections = [
   },
 
   {
-    id: 10,
+    id: 2,
     title: "Kids' Fun Backpack",
     price: "$99.99",
     decription: "Colorful and lightweight, perfect for school or play.",
     productImage: bagimage2,
   },
   {
-    id: 11,
+    id: 3,
     title: "TrailBliss Luxe Leather Satchel",
     price: "$25.00",
     decription: "Elegant and functional, crafted from premium leather.",
@@ -137,7 +151,7 @@ export const collections = [
   },
 
   {
-    id: 12,
+    id: 4,
     title: "TrailBliss City Crossbody",
     price: "$26.00",
     decription: "Compact and stylish, perfect for on-the-go convenience.",
@@ -387,11 +401,16 @@ export const NAV_LINKS = [
     id: 1,
     link: "Home",
     innerLinks: "",
+    url:'/'
   },
   {
     id: 2,
     link: "Product",
-    innerLinks: "",
+    innerLinks: [
+      { id: 1, title: "Laptop Bags" , link:'/laptop-bag' },
+      { id: 3, title: "Office Bags" },
+      { id: 2, title: "Tracking Bags" },
+    ],
   },
   {
     id: 3,
@@ -455,6 +474,31 @@ export const FOOTER_LINKS = [
   },
 ];
 
+export const SOCIAL_ICONS = [faInstagram, faFacebook, faXTwitter, faLinkedin];
+
+export const TOP_HEADER_TEXT = [
+  { id: 1, title: "200 off on first order" },
+  { id: 2, title: "100 off on first order" },
+  { id: 3, title: "50 off on first order" },
+];
+
+export const sliderImage = [
+  {
+    image: sliderImage1,
+  },
+  {
+    image: sliderImage2,
+  },
+  {
+    image: sliderImage3,
+  },
+  {
+    image: sliderImage4,
+  },
+  {
+    image: sliderImage5,
+  },
+];
 export const dufflebag = [
   {
     title: "TrailBliss Everyday Tote",
@@ -506,4 +550,16 @@ export const dufflebag = [
   },
 ];
 
-export const SOCIAL_ICONS = [faInstagram, faFacebook, faXTwitter, faTiktok];
+export const PRODUCT_JSON_FORMATE = [
+  {
+    productTitle: "",
+    productShortDescription: "",
+    productImages: [],
+    productPrice: "",
+    productColors: [],
+    productDetailDescription: "",
+    productAdditionalDescription: "",
+    productReview: [],
+    similarProducts: [],
+  },
+];

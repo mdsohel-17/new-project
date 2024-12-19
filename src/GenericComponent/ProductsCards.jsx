@@ -7,46 +7,54 @@ import {
   leatherbag5,
 } from "../utils/utils";
 import GenericButton from "./GenericButton";
+import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const ProductsCards = (props) => {
-  const { heading, cardJson } = props;
+  const { heading, cardJson, headingClass, mainClass } = props;
+  const navigate = useNavigate();
+
+  const handleClick = (cardData) => {
+    console.log("clicked");
+    navigate(`/product-laptop-bag?${cardData.productTitle}`, {
+      state: { productDetails: cardData },
+    });
+  };
   return (
-    <div className="bg-white px-20 py-10 ">
-      <h1 className=" text-center text-3xl md:text-5xl font-medium  text-textColor">
+    <div className={`bg-[white] ${mainClass}`}>
+      <h1 className={`font-medium  text-textColor ${headingClass}`}>
         {heading}
       </h1>
-      <div class="flex flex-wrap -mx-3 mt-16 ">
+      <div class="flex flex-wrap -mx-3 mt-16 cursor-pointer ">
         {cardJson.map((val) => (
-          <div className="xl:w-3/12 lg:w-5/12 md:w-6/12 sm:w-6/12 w-full px-3 py-3">
-            <div
-              className={` group overflow-hidden bg-white flex  flex-col items-center justify-center rounded-2xl relative shadow-lg h-full shadow-[#1c150f4a]`}
+          <div
+            className="xl:w-3/12 lg:w-5/12 md:w-6/12 sm:w-6/12 w-full px-3 py-3"
+            onClick={() => handleClick(val)}
+          >
+            <motion.div
+              key={val.id}
+              initial={{ y: 100, opacity: 0 }}
+              whileInView={{
+                y: 0,
+                opacity: 1,
+                transition: { duration: 1.3 },
+              }}
+              viewport={{ once: true }}
+              className={`overflow-hidden  bg-cover rounded-2xl relative shadow-lg h-full shadow-[#1c150f4a] pb-4`}
             >
               <img
-                src={val.productImage}
+                src={val?.productImages[0]?.image}
                 alt=""
-                className=" h-4/5 object-cover"
+                className="h-4/5  w-full "
               />
-              {/* <div className="absolute flex flex-col justify-between  border translate-y-[-140%]  transition-transform duration-[.8s] p-4 ease-in-out bg-primaryTransparent bg-opacity-45 w-full h-full rounded-2xl">
-             <div>
-                  <div className="text-textColor md:text-2xl font-medium">
-                    {val.title}
-                  </div>
-                  <div className="text-textColor md:text-xl font-medium mt-3">
-                    {val.decription}
-                  </div>
-                </div>
-                <div className="hover:border py-2 hover:border-primarycolor hover:bg-transparent bg-primarycolor hover:text-black text-center cursor-pointer text-textColor font-medium">
-                  Buy at : {val.price}
-                </div> 
-             
-            </div> */}
-              <div class="bg-yellow-400 text-cente flex flex-col items-center">
-                <p>{val.title}</p>
-                <p>{val.decription}</p>
-                <p>{val.Price}</p>
-              <GenericButton text={"Buy Now"} mainClass={"w-6/12 p-3"} animate={true} rounded={true}/> 
+              <div class="text-start p-4">
+                <p className="text-textColor text-xl mb-2">{val.productTitle}</p>
+                <p className="text-textColor text-base ">
+                  {val.productShortDescription}
+                </p>
+                <p className="text-textColor text-base font-medium ">{val.productPrice}</p>
               </div>
-            </div>
+            </motion.div>
           </div>
         ))}
       </div>
