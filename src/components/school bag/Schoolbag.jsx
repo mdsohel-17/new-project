@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
-import ProductsCards from '../GenericComponent/ProductsCards'
-import { schoolbag } from './common.const'
+import Header from '../Header'
+import Footer from '../Footer'
+import ProductsCards from '../../GenericComponent/ProductsCards'
+import { schoolbag } from '../common.const'
 
 const Schoolbag = () => {
   return (

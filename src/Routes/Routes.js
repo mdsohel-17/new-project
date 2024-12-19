@@ -1,9 +1,9 @@
-import Dufflebag from "../components/Dufflebag";
+import Dufflebag from "../components/duffle bag/Dufflebag";
 import LaptopBag from "../components/laptop bag/LaptopBag";
-import Leatherbag from "../components/Leatherbag";
-import Officebag from "../components/Officebag";
-import Schoolbag from "../components/Schoolbag";
-import Trackingbag from "../components/Trackingbag";
+import Leatherbag from "../components/leather bag/Leatherbag";
+import Officebag from "../components/office bag/Officebag";
+import Schoolbag from "../components/school bag/Schoolbag";
+import Trackingbag from "../components/tracking bag/Trackingbag";
 import GenericProductPage from "../GenericComponent/GenericProductPage";
 import LandingPage from "../Screens/LandingPage";
 

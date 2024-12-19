@@ -584,8 +584,8 @@ export const PRODUCT_LAPTOP_BAG = [
   },
   {
     id: 2,
-    productTitle: "",
-    productShortDescription: "",
+    productTitle: "Laptop Bag (title)",
+    productShortDescription: "A short Description will be here",
     productImages: [
       {
         id: 1,
@@ -604,17 +604,437 @@ export const PRODUCT_LAPTOP_BAG = [
         image: item2BagImage4,
       },
     ],
-    productPrice: "",
-    productColors: [],
-    productDetailDescription: "",
+    productPrice: "₹ 899.00",
+    productColors: [
+      {
+        id: 1,
+        color: "#090401",
+        attribute: "color",
+      },
+      {
+        id: 2,
+        color: "#e74c3c",
+        attribute: "color",
+      },
+    ],
+    productDetailDescription: [
+      {
+        id: 1,
+        title: "High-Quality Materials",
+        keypoints: [
+          "Made from premium, durable materials such as polyester, nylon, or leather.",
+          "Water-resistant exterior to protect your belongings from rain or spills.",
+          "Scratch-proof interiors to prevent damage to your laptop.",
+        ],
+      },
+      {
+        id: 2,
+        title: "Enhanced Laptop Protection",
+        keypoints: [
+          "Padded compartments with shock-absorbing foam.",
+          "Dedicated laptop sleeve to securely hold devices of various sizes.",
+          "Reinforced base to provide extra stability and safety.",
+        ],
+      },
+      {
+        id: 3,
+        title: "Organized Storage",
+        keypoints: [
+          "Multiple compartments for laptops, tablets, chargers, and cables.",
+          "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+          "Expandable sections for added storage space when needed.",
+        ],
+      },
+      {
+        id: 4,
+        title: "Comfortable Design",
+        keypoints: [
+          "Adjustable, padded shoulder straps for all-day comfort.",
+          "Ergonomic handles with reinforced stitching for easy carrying.",
+          "Lightweight yet sturdy design suitable for commuting or traveling.",
+        ],
+      },
+      {
+        id: 5,
+        title: "Stylish and Versatile",
+        keypoints: [
+          "Available in a range of sleek, modern designs and colors.",
+          "Suitable for professionals, students, and frequent travelers.",
+          "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+        ],
+      },
+    ],
     productAdditionalDescription: "",
-    productReview: [],
-    similarProducts: [],
+    productReview: [
+      {
+        name: "Sneh Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+      {
+        name: "Himansu Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+    ],
+    similarProducts: [
+      {
+        id: 1,
+        productTitle: "Laptop Bag",
+        productShortDescription: "the laptop bag with quality",
+        productImages: [
+          {
+            id: 1,
+            image: item1BagImage1,
+          },
+          {
+            id: 2,
+            image: item1BagImage2,
+          },
+          {
+            id: 3,
+            image: item1BagImage3,
+          },
+          {
+            id: 4,
+            image: item1BagImage4,
+          },
+        ],
+        productPrice: "899.00",
+        productColors: [
+          {
+            id: 1,
+            color: "#090401",
+            attribute: "color",
+          },
+          {
+            id: 2,
+            color: "#e74c3c",
+            attribute: "color",
+          },
+        ],
+        productAdditionalButtons: [
+          {
+            id: 1,
+            btnTitle: "Specifications",
+          },
+          {
+            id: 1,
+            btnTitle: "Additional Details",
+          },
+          {
+            id: 1,
+            btnTitle: "Product Review",
+          },
+        ],
+        productDescription: [
+          {
+            title: "General",
+            data: [
+              { id: 1, spec: "Colour", specData: "Black" },
+              { id: 2, spec: "Width", specData: "12 inch" },
+              { id: 3, spec: "Height", specData: "20 Inch" },
+              { id: 3, spec: "Weight", specData: "340 g" },
+              { id: 4, spec: "No of Space", specData: "3" },
+              { id: 5, spec: "Fabric Used", specData: "Polyster" },
+              { id: 6, spec: "Water Proof", specData: "Yes" },
+            ],
+          },
+          {
+            title: "Warranty",
+            data: [
+              {
+                id: 1,
+                spec: "Warranty Summary",
+                specData: "1 Year Onsite Warranty",
+              },
+              {
+                id: 2,
+                spec: "Warranty Service Type",
+                specData:
+                  "For any warranty related issues, please call:[1800-2090365]",
+              },
+              {
+                id: 3,
+                spec: "Covered in Warranty",
+                specData: "Manufacturing Defects",
+              },
+              {
+                id: 4,
+                spec: "Not Covered in Warranty",
+                specData: "Physical Damage",
+              },
+              { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+            ],
+          },
+        ],
+        productDetailDescription: [
+          {
+            id: 1,
+            title: "High-Quality Materials",
+            keypoints: [
+              "Made from premium, durable materials such as polyester, nylon, or leather.",
+              "Water-resistant exterior to protect your belongings from rain or spills.",
+              "Scratch-proof interiors to prevent damage to your laptop.",
+            ],
+          },
+          {
+            id: 2,
+            title: "Enhanced Laptop Protection",
+            keypoints: [
+              "Padded compartments with shock-absorbing foam.",
+              "Dedicated laptop sleeve to securely hold devices of various sizes.",
+              "Reinforced base to provide extra stability and safety.",
+            ],
+          },
+          {
+            id: 3,
+            title: "Organized Storage",
+            keypoints: [
+              "Multiple compartments for laptops, tablets, chargers, and cables.",
+              "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+              "Expandable sections for added storage space when needed.",
+            ],
+          },
+          {
+            id: 4,
+            title: "Comfortable Design",
+            keypoints: [
+              "Adjustable, padded shoulder straps for all-day comfort.",
+              "Ergonomic handles with reinforced stitching for easy carrying.",
+              "Lightweight yet sturdy design suitable for commuting or traveling.",
+            ],
+          },
+          {
+            id: 5,
+            title: "Stylish and Versatile",
+            keypoints: [
+              "Available in a range of sleek, modern designs and colors.",
+              "Suitable for professionals, students, and frequent travelers.",
+              "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+            ],
+          },
+        ],
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 2,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item2BagImage1,
+          },
+          {
+            id: 2,
+            image: item2BagImage2,
+          },
+          {
+            id: 3,
+            image: item2BagImage3,
+          },
+          {
+            id: 4,
+            image: item2BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 3,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item3BagImage1,
+          },
+          {
+            id: 2,
+            image: item3BagImage2,
+          },
+          {
+            id: 3,
+            image: item3BagImage3,
+          },
+          {
+            id: 4,
+            image: item3BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 4,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item4BagImage1,
+          },
+          {
+            id: 2,
+            image: item4BagImage2,
+          },
+          {
+            id: 3,
+            image: item4BagImage3,
+          },
+          {
+            id: 4,
+            image: item4BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 5,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item5BagImage1,
+          },
+          {
+            id: 2,
+            image: item5BagImage2,
+          },
+          {
+            id: 3,
+            image: item5BagImage3,
+          },
+          {
+            id: 4,
+            image: item5BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 6,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item6BagImage1,
+          },
+          {
+            id: 2,
+            image: item6BagImage2,
+          },
+          {
+            id: 3,
+            image: item6BagImage3,
+          },
+          {
+            id: 4,
+            image: item6BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 7,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item7BagImage1,
+          },
+          {
+            id: 2,
+            image: item7BagImage2,
+          },
+          {
+            id: 3,
+            image: item7BagImage3,
+          },
+          {
+            id: 4,
+            image: item7BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 8,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item8BagImage1,
+          },
+          {
+            id: 2,
+            image: item8BagImage2,
+          },
+          {
+            id: 3,
+            image: item8BagImage3,
+          },
+          {
+            id: 4,
+            image: item8BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+    ],
   },
   {
     id: 3,
-    productTitle: "",
-    productShortDescription: "",
+    productTitle: "Laptop Bag (title)",
+    productShortDescription: "A short Description will be here",
     productImages: [
       {
         id: 1,
@@ -633,17 +1053,437 @@ export const PRODUCT_LAPTOP_BAG = [
         image: item3BagImage4,
       },
     ],
-    productPrice: "",
-    productColors: [],
-    productDetailDescription: "",
+    productPrice: "₹ 899.00",
+    productColors: [
+      {
+        id: 1,
+        color: "#090401",
+        attribute: "color",
+      },
+      {
+        id: 2,
+        color: "#e74c3c",
+        attribute: "color",
+      },
+    ],
+    productDetailDescription: [
+      {
+        id: 1,
+        title: "High-Quality Materials",
+        keypoints: [
+          "Made from premium, durable materials such as polyester, nylon, or leather.",
+          "Water-resistant exterior to protect your belongings from rain or spills.",
+          "Scratch-proof interiors to prevent damage to your laptop.",
+        ],
+      },
+      {
+        id: 2,
+        title: "Enhanced Laptop Protection",
+        keypoints: [
+          "Padded compartments with shock-absorbing foam.",
+          "Dedicated laptop sleeve to securely hold devices of various sizes.",
+          "Reinforced base to provide extra stability and safety.",
+        ],
+      },
+      {
+        id: 3,
+        title: "Organized Storage",
+        keypoints: [
+          "Multiple compartments for laptops, tablets, chargers, and cables.",
+          "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+          "Expandable sections for added storage space when needed.",
+        ],
+      },
+      {
+        id: 4,
+        title: "Comfortable Design",
+        keypoints: [
+          "Adjustable, padded shoulder straps for all-day comfort.",
+          "Ergonomic handles with reinforced stitching for easy carrying.",
+          "Lightweight yet sturdy design suitable for commuting or traveling.",
+        ],
+      },
+      {
+        id: 5,
+        title: "Stylish and Versatile",
+        keypoints: [
+          "Available in a range of sleek, modern designs and colors.",
+          "Suitable for professionals, students, and frequent travelers.",
+          "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+        ],
+      },
+    ],
     productAdditionalDescription: "",
-    productReview: [],
-    similarProducts: [],
+    productReview: [
+      {
+        name: "Sneh Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+      {
+        name: "Himansu Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+    ],
+    similarProducts: [
+      {
+        id: 1,
+        productTitle: "Laptop Bag",
+        productShortDescription: "the laptop bag with quality",
+        productImages: [
+          {
+            id: 1,
+            image: item1BagImage1,
+          },
+          {
+            id: 2,
+            image: item1BagImage2,
+          },
+          {
+            id: 3,
+            image: item1BagImage3,
+          },
+          {
+            id: 4,
+            image: item1BagImage4,
+          },
+        ],
+        productPrice: "899.00",
+        productColors: [
+          {
+            id: 1,
+            color: "#090401",
+            attribute: "color",
+          },
+          {
+            id: 2,
+            color: "#e74c3c",
+            attribute: "color",
+          },
+        ],
+        productAdditionalButtons: [
+          {
+            id: 1,
+            btnTitle: "Specifications",
+          },
+          {
+            id: 1,
+            btnTitle: "Additional Details",
+          },
+          {
+            id: 1,
+            btnTitle: "Product Review",
+          },
+        ],
+        productDescription: [
+          {
+            title: "General",
+            data: [
+              { id: 1, spec: "Colour", specData: "Black" },
+              { id: 2, spec: "Width", specData: "12 inch" },
+              { id: 3, spec: "Height", specData: "20 Inch" },
+              { id: 3, spec: "Weight", specData: "340 g" },
+              { id: 4, spec: "No of Space", specData: "3" },
+              { id: 5, spec: "Fabric Used", specData: "Polyster" },
+              { id: 6, spec: "Water Proof", specData: "Yes" },
+            ],
+          },
+          {
+            title: "Warranty",
+            data: [
+              {
+                id: 1,
+                spec: "Warranty Summary",
+                specData: "1 Year Onsite Warranty",
+              },
+              {
+                id: 2,
+                spec: "Warranty Service Type",
+                specData:
+                  "For any warranty related issues, please call:[1800-2090365]",
+              },
+              {
+                id: 3,
+                spec: "Covered in Warranty",
+                specData: "Manufacturing Defects",
+              },
+              {
+                id: 4,
+                spec: "Not Covered in Warranty",
+                specData: "Physical Damage",
+              },
+              { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+            ],
+          },
+        ],
+        productDetailDescription: [
+          {
+            id: 1,
+            title: "High-Quality Materials",
+            keypoints: [
+              "Made from premium, durable materials such as polyester, nylon, or leather.",
+              "Water-resistant exterior to protect your belongings from rain or spills.",
+              "Scratch-proof interiors to prevent damage to your laptop.",
+            ],
+          },
+          {
+            id: 2,
+            title: "Enhanced Laptop Protection",
+            keypoints: [
+              "Padded compartments with shock-absorbing foam.",
+              "Dedicated laptop sleeve to securely hold devices of various sizes.",
+              "Reinforced base to provide extra stability and safety.",
+            ],
+          },
+          {
+            id: 3,
+            title: "Organized Storage",
+            keypoints: [
+              "Multiple compartments for laptops, tablets, chargers, and cables.",
+              "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+              "Expandable sections for added storage space when needed.",
+            ],
+          },
+          {
+            id: 4,
+            title: "Comfortable Design",
+            keypoints: [
+              "Adjustable, padded shoulder straps for all-day comfort.",
+              "Ergonomic handles with reinforced stitching for easy carrying.",
+              "Lightweight yet sturdy design suitable for commuting or traveling.",
+            ],
+          },
+          {
+            id: 5,
+            title: "Stylish and Versatile",
+            keypoints: [
+              "Available in a range of sleek, modern designs and colors.",
+              "Suitable for professionals, students, and frequent travelers.",
+              "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+            ],
+          },
+        ],
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 2,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item2BagImage1,
+          },
+          {
+            id: 2,
+            image: item2BagImage2,
+          },
+          {
+            id: 3,
+            image: item2BagImage3,
+          },
+          {
+            id: 4,
+            image: item2BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 3,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item3BagImage1,
+          },
+          {
+            id: 2,
+            image: item3BagImage2,
+          },
+          {
+            id: 3,
+            image: item3BagImage3,
+          },
+          {
+            id: 4,
+            image: item3BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 4,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item4BagImage1,
+          },
+          {
+            id: 2,
+            image: item4BagImage2,
+          },
+          {
+            id: 3,
+            image: item4BagImage3,
+          },
+          {
+            id: 4,
+            image: item4BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 5,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item5BagImage1,
+          },
+          {
+            id: 2,
+            image: item5BagImage2,
+          },
+          {
+            id: 3,
+            image: item5BagImage3,
+          },
+          {
+            id: 4,
+            image: item5BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 6,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item6BagImage1,
+          },
+          {
+            id: 2,
+            image: item6BagImage2,
+          },
+          {
+            id: 3,
+            image: item6BagImage3,
+          },
+          {
+            id: 4,
+            image: item6BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 7,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item7BagImage1,
+          },
+          {
+            id: 2,
+            image: item7BagImage2,
+          },
+          {
+            id: 3,
+            image: item7BagImage3,
+          },
+          {
+            id: 4,
+            image: item7BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 8,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item8BagImage1,
+          },
+          {
+            id: 2,
+            image: item8BagImage2,
+          },
+          {
+            id: 3,
+            image: item8BagImage3,
+          },
+          {
+            id: 4,
+            image: item8BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+    ],
   },
   {
     id: 4,
-    productTitle: "",
-    productShortDescription: "",
+    productTitle: "Laptop Bag (title)",
+    productShortDescription: "A short Description will be here",
     productImages: [
       {
         id: 1,
@@ -662,17 +1502,437 @@ export const PRODUCT_LAPTOP_BAG = [
         image: item4BagImage4,
       },
     ],
-    productPrice: "",
-    productColors: [],
-    productDetailDescription: "",
+    productPrice: "₹ 899.00",
+    productColors: [
+      {
+        id: 1,
+        color: "#090401",
+        attribute: "color",
+      },
+      {
+        id: 2,
+        color: "#e74c3c",
+        attribute: "color",
+      },
+    ],
+    productDetailDescription: [
+      {
+        id: 1,
+        title: "High-Quality Materials",
+        keypoints: [
+          "Made from premium, durable materials such as polyester, nylon, or leather.",
+          "Water-resistant exterior to protect your belongings from rain or spills.",
+          "Scratch-proof interiors to prevent damage to your laptop.",
+        ],
+      },
+      {
+        id: 2,
+        title: "Enhanced Laptop Protection",
+        keypoints: [
+          "Padded compartments with shock-absorbing foam.",
+          "Dedicated laptop sleeve to securely hold devices of various sizes.",
+          "Reinforced base to provide extra stability and safety.",
+        ],
+      },
+      {
+        id: 3,
+        title: "Organized Storage",
+        keypoints: [
+          "Multiple compartments for laptops, tablets, chargers, and cables.",
+          "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+          "Expandable sections for added storage space when needed.",
+        ],
+      },
+      {
+        id: 4,
+        title: "Comfortable Design",
+        keypoints: [
+          "Adjustable, padded shoulder straps for all-day comfort.",
+          "Ergonomic handles with reinforced stitching for easy carrying.",
+          "Lightweight yet sturdy design suitable for commuting or traveling.",
+        ],
+      },
+      {
+        id: 5,
+        title: "Stylish and Versatile",
+        keypoints: [
+          "Available in a range of sleek, modern designs and colors.",
+          "Suitable for professionals, students, and frequent travelers.",
+          "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+        ],
+      },
+    ],
     productAdditionalDescription: "",
-    productReview: [],
-    similarProducts: [],
+    productReview: [
+      {
+        name: "Sneh Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+      {
+        name: "Himansu Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+    ],
+    similarProducts: [
+      {
+        id: 1,
+        productTitle: "Laptop Bag",
+        productShortDescription: "the laptop bag with quality",
+        productImages: [
+          {
+            id: 1,
+            image: item1BagImage1,
+          },
+          {
+            id: 2,
+            image: item1BagImage2,
+          },
+          {
+            id: 3,
+            image: item1BagImage3,
+          },
+          {
+            id: 4,
+            image: item1BagImage4,
+          },
+        ],
+        productPrice: "899.00",
+        productColors: [
+          {
+            id: 1,
+            color: "#090401",
+            attribute: "color",
+          },
+          {
+            id: 2,
+            color: "#e74c3c",
+            attribute: "color",
+          },
+        ],
+        productAdditionalButtons: [
+          {
+            id: 1,
+            btnTitle: "Specifications",
+          },
+          {
+            id: 1,
+            btnTitle: "Additional Details",
+          },
+          {
+            id: 1,
+            btnTitle: "Product Review",
+          },
+        ],
+        productDescription: [
+          {
+            title: "General",
+            data: [
+              { id: 1, spec: "Colour", specData: "Black" },
+              { id: 2, spec: "Width", specData: "12 inch" },
+              { id: 3, spec: "Height", specData: "20 Inch" },
+              { id: 3, spec: "Weight", specData: "340 g" },
+              { id: 4, spec: "No of Space", specData: "3" },
+              { id: 5, spec: "Fabric Used", specData: "Polyster" },
+              { id: 6, spec: "Water Proof", specData: "Yes" },
+            ],
+          },
+          {
+            title: "Warranty",
+            data: [
+              {
+                id: 1,
+                spec: "Warranty Summary",
+                specData: "1 Year Onsite Warranty",
+              },
+              {
+                id: 2,
+                spec: "Warranty Service Type",
+                specData:
+                  "For any warranty related issues, please call:[1800-2090365]",
+              },
+              {
+                id: 3,
+                spec: "Covered in Warranty",
+                specData: "Manufacturing Defects",
+              },
+              {
+                id: 4,
+                spec: "Not Covered in Warranty",
+                specData: "Physical Damage",
+              },
+              { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+            ],
+          },
+        ],
+        productDetailDescription: [
+          {
+            id: 1,
+            title: "High-Quality Materials",
+            keypoints: [
+              "Made from premium, durable materials such as polyester, nylon, or leather.",
+              "Water-resistant exterior to protect your belongings from rain or spills.",
+              "Scratch-proof interiors to prevent damage to your laptop.",
+            ],
+          },
+          {
+            id: 2,
+            title: "Enhanced Laptop Protection",
+            keypoints: [
+              "Padded compartments with shock-absorbing foam.",
+              "Dedicated laptop sleeve to securely hold devices of various sizes.",
+              "Reinforced base to provide extra stability and safety.",
+            ],
+          },
+          {
+            id: 3,
+            title: "Organized Storage",
+            keypoints: [
+              "Multiple compartments for laptops, tablets, chargers, and cables.",
+              "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+              "Expandable sections for added storage space when needed.",
+            ],
+          },
+          {
+            id: 4,
+            title: "Comfortable Design",
+            keypoints: [
+              "Adjustable, padded shoulder straps for all-day comfort.",
+              "Ergonomic handles with reinforced stitching for easy carrying.",
+              "Lightweight yet sturdy design suitable for commuting or traveling.",
+            ],
+          },
+          {
+            id: 5,
+            title: "Stylish and Versatile",
+            keypoints: [
+              "Available in a range of sleek, modern designs and colors.",
+              "Suitable for professionals, students, and frequent travelers.",
+              "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+            ],
+          },
+        ],
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 2,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item2BagImage1,
+          },
+          {
+            id: 2,
+            image: item2BagImage2,
+          },
+          {
+            id: 3,
+            image: item2BagImage3,
+          },
+          {
+            id: 4,
+            image: item2BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 3,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item3BagImage1,
+          },
+          {
+            id: 2,
+            image: item3BagImage2,
+          },
+          {
+            id: 3,
+            image: item3BagImage3,
+          },
+          {
+            id: 4,
+            image: item3BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 4,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item4BagImage1,
+          },
+          {
+            id: 2,
+            image: item4BagImage2,
+          },
+          {
+            id: 3,
+            image: item4BagImage3,
+          },
+          {
+            id: 4,
+            image: item4BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 5,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item5BagImage1,
+          },
+          {
+            id: 2,
+            image: item5BagImage2,
+          },
+          {
+            id: 3,
+            image: item5BagImage3,
+          },
+          {
+            id: 4,
+            image: item5BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 6,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item6BagImage1,
+          },
+          {
+            id: 2,
+            image: item6BagImage2,
+          },
+          {
+            id: 3,
+            image: item6BagImage3,
+          },
+          {
+            id: 4,
+            image: item6BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 7,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item7BagImage1,
+          },
+          {
+            id: 2,
+            image: item7BagImage2,
+          },
+          {
+            id: 3,
+            image: item7BagImage3,
+          },
+          {
+            id: 4,
+            image: item7BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 8,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item8BagImage1,
+          },
+          {
+            id: 2,
+            image: item8BagImage2,
+          },
+          {
+            id: 3,
+            image: item8BagImage3,
+          },
+          {
+            id: 4,
+            image: item8BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+    ],
   },
   {
     id: 5,
-    productTitle: "",
-    productShortDescription: "",
+    productTitle: "Laptop Bag (title)",
+    productShortDescription: "A short Description will be here",
     productImages: [
       {
         id: 1,
@@ -691,17 +1951,437 @@ export const PRODUCT_LAPTOP_BAG = [
         image: item5BagImage4,
       },
     ],
-    productPrice: "",
-    productColors: [],
-    productDetailDescription: "",
+    productPrice: "₹ 899.00",
+    productColors: [
+      {
+        id: 1,
+        color: "#090401",
+        attribute: "color",
+      },
+      {
+        id: 2,
+        color: "#e74c3c",
+        attribute: "color",
+      },
+    ],
+    productDetailDescription: [
+      {
+        id: 1,
+        title: "High-Quality Materials",
+        keypoints: [
+          "Made from premium, durable materials such as polyester, nylon, or leather.",
+          "Water-resistant exterior to protect your belongings from rain or spills.",
+          "Scratch-proof interiors to prevent damage to your laptop.",
+        ],
+      },
+      {
+        id: 2,
+        title: "Enhanced Laptop Protection",
+        keypoints: [
+          "Padded compartments with shock-absorbing foam.",
+          "Dedicated laptop sleeve to securely hold devices of various sizes.",
+          "Reinforced base to provide extra stability and safety.",
+        ],
+      },
+      {
+        id: 3,
+        title: "Organized Storage",
+        keypoints: [
+          "Multiple compartments for laptops, tablets, chargers, and cables.",
+          "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+          "Expandable sections for added storage space when needed.",
+        ],
+      },
+      {
+        id: 4,
+        title: "Comfortable Design",
+        keypoints: [
+          "Adjustable, padded shoulder straps for all-day comfort.",
+          "Ergonomic handles with reinforced stitching for easy carrying.",
+          "Lightweight yet sturdy design suitable for commuting or traveling.",
+        ],
+      },
+      {
+        id: 5,
+        title: "Stylish and Versatile",
+        keypoints: [
+          "Available in a range of sleek, modern designs and colors.",
+          "Suitable for professionals, students, and frequent travelers.",
+          "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+        ],
+      },
+    ],
     productAdditionalDescription: "",
-    productReview: [],
-    similarProducts: [],
+    productReview: [
+      {
+        name: "Sneh Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+      {
+        name: "Himansu Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+    ],
+    similarProducts: [
+      {
+        id: 1,
+        productTitle: "Laptop Bag",
+        productShortDescription: "the laptop bag with quality",
+        productImages: [
+          {
+            id: 1,
+            image: item1BagImage1,
+          },
+          {
+            id: 2,
+            image: item1BagImage2,
+          },
+          {
+            id: 3,
+            image: item1BagImage3,
+          },
+          {
+            id: 4,
+            image: item1BagImage4,
+          },
+        ],
+        productPrice: "899.00",
+        productColors: [
+          {
+            id: 1,
+            color: "#090401",
+            attribute: "color",
+          },
+          {
+            id: 2,
+            color: "#e74c3c",
+            attribute: "color",
+          },
+        ],
+        productAdditionalButtons: [
+          {
+            id: 1,
+            btnTitle: "Specifications",
+          },
+          {
+            id: 1,
+            btnTitle: "Additional Details",
+          },
+          {
+            id: 1,
+            btnTitle: "Product Review",
+          },
+        ],
+        productDescription: [
+          {
+            title: "General",
+            data: [
+              { id: 1, spec: "Colour", specData: "Black" },
+              { id: 2, spec: "Width", specData: "12 inch" },
+              { id: 3, spec: "Height", specData: "20 Inch" },
+              { id: 3, spec: "Weight", specData: "340 g" },
+              { id: 4, spec: "No of Space", specData: "3" },
+              { id: 5, spec: "Fabric Used", specData: "Polyster" },
+              { id: 6, spec: "Water Proof", specData: "Yes" },
+            ],
+          },
+          {
+            title: "Warranty",
+            data: [
+              {
+                id: 1,
+                spec: "Warranty Summary",
+                specData: "1 Year Onsite Warranty",
+              },
+              {
+                id: 2,
+                spec: "Warranty Service Type",
+                specData:
+                  "For any warranty related issues, please call:[1800-2090365]",
+              },
+              {
+                id: 3,
+                spec: "Covered in Warranty",
+                specData: "Manufacturing Defects",
+              },
+              {
+                id: 4,
+                spec: "Not Covered in Warranty",
+                specData: "Physical Damage",
+              },
+              { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+            ],
+          },
+        ],
+        productDetailDescription: [
+          {
+            id: 1,
+            title: "High-Quality Materials",
+            keypoints: [
+              "Made from premium, durable materials such as polyester, nylon, or leather.",
+              "Water-resistant exterior to protect your belongings from rain or spills.",
+              "Scratch-proof interiors to prevent damage to your laptop.",
+            ],
+          },
+          {
+            id: 2,
+            title: "Enhanced Laptop Protection",
+            keypoints: [
+              "Padded compartments with shock-absorbing foam.",
+              "Dedicated laptop sleeve to securely hold devices of various sizes.",
+              "Reinforced base to provide extra stability and safety.",
+            ],
+          },
+          {
+            id: 3,
+            title: "Organized Storage",
+            keypoints: [
+              "Multiple compartments for laptops, tablets, chargers, and cables.",
+              "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+              "Expandable sections for added storage space when needed.",
+            ],
+          },
+          {
+            id: 4,
+            title: "Comfortable Design",
+            keypoints: [
+              "Adjustable, padded shoulder straps for all-day comfort.",
+              "Ergonomic handles with reinforced stitching for easy carrying.",
+              "Lightweight yet sturdy design suitable for commuting or traveling.",
+            ],
+          },
+          {
+            id: 5,
+            title: "Stylish and Versatile",
+            keypoints: [
+              "Available in a range of sleek, modern designs and colors.",
+              "Suitable for professionals, students, and frequent travelers.",
+              "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+            ],
+          },
+        ],
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 2,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item2BagImage1,
+          },
+          {
+            id: 2,
+            image: item2BagImage2,
+          },
+          {
+            id: 3,
+            image: item2BagImage3,
+          },
+          {
+            id: 4,
+            image: item2BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 3,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item3BagImage1,
+          },
+          {
+            id: 2,
+            image: item3BagImage2,
+          },
+          {
+            id: 3,
+            image: item3BagImage3,
+          },
+          {
+            id: 4,
+            image: item3BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 4,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item4BagImage1,
+          },
+          {
+            id: 2,
+            image: item4BagImage2,
+          },
+          {
+            id: 3,
+            image: item4BagImage3,
+          },
+          {
+            id: 4,
+            image: item4BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 5,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item5BagImage1,
+          },
+          {
+            id: 2,
+            image: item5BagImage2,
+          },
+          {
+            id: 3,
+            image: item5BagImage3,
+          },
+          {
+            id: 4,
+            image: item5BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 6,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item6BagImage1,
+          },
+          {
+            id: 2,
+            image: item6BagImage2,
+          },
+          {
+            id: 3,
+            image: item6BagImage3,
+          },
+          {
+            id: 4,
+            image: item6BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 7,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item7BagImage1,
+          },
+          {
+            id: 2,
+            image: item7BagImage2,
+          },
+          {
+            id: 3,
+            image: item7BagImage3,
+          },
+          {
+            id: 4,
+            image: item7BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 8,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item8BagImage1,
+          },
+          {
+            id: 2,
+            image: item8BagImage2,
+          },
+          {
+            id: 3,
+            image: item8BagImage3,
+          },
+          {
+            id: 4,
+            image: item8BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+    ],
   },
   {
     id: 6,
-    productTitle: "",
-    productShortDescription: "",
+    productTitle: "Laptop Bag (title)",
+    productShortDescription: "A short Description will be here",
     productImages: [
       {
         id: 1,
@@ -720,17 +2400,437 @@ export const PRODUCT_LAPTOP_BAG = [
         image: item6BagImage4,
       },
     ],
-    productPrice: "",
-    productColors: [],
-    productDetailDescription: "",
+    productPrice: "₹ 899.00",
+    productColors: [
+      {
+        id: 1,
+        color: "#090401",
+        attribute: "color",
+      },
+      {
+        id: 2,
+        color: "#e74c3c",
+        attribute: "color",
+      },
+    ],
+    productDetailDescription: [
+      {
+        id: 1,
+        title: "High-Quality Materials",
+        keypoints: [
+          "Made from premium, durable materials such as polyester, nylon, or leather.",
+          "Water-resistant exterior to protect your belongings from rain or spills.",
+          "Scratch-proof interiors to prevent damage to your laptop.",
+        ],
+      },
+      {
+        id: 2,
+        title: "Enhanced Laptop Protection",
+        keypoints: [
+          "Padded compartments with shock-absorbing foam.",
+          "Dedicated laptop sleeve to securely hold devices of various sizes.",
+          "Reinforced base to provide extra stability and safety.",
+        ],
+      },
+      {
+        id: 3,
+        title: "Organized Storage",
+        keypoints: [
+          "Multiple compartments for laptops, tablets, chargers, and cables.",
+          "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+          "Expandable sections for added storage space when needed.",
+        ],
+      },
+      {
+        id: 4,
+        title: "Comfortable Design",
+        keypoints: [
+          "Adjustable, padded shoulder straps for all-day comfort.",
+          "Ergonomic handles with reinforced stitching for easy carrying.",
+          "Lightweight yet sturdy design suitable for commuting or traveling.",
+        ],
+      },
+      {
+        id: 5,
+        title: "Stylish and Versatile",
+        keypoints: [
+          "Available in a range of sleek, modern designs and colors.",
+          "Suitable for professionals, students, and frequent travelers.",
+          "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+        ],
+      },
+    ],
     productAdditionalDescription: "",
-    productReview: [],
-    similarProducts: [],
+    productReview: [
+      {
+        name: "Sneh Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+      {
+        name: "Himansu Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+    ],
+    similarProducts: [
+      {
+        id: 1,
+        productTitle: "Laptop Bag",
+        productShortDescription: "the laptop bag with quality",
+        productImages: [
+          {
+            id: 1,
+            image: item1BagImage1,
+          },
+          {
+            id: 2,
+            image: item1BagImage2,
+          },
+          {
+            id: 3,
+            image: item1BagImage3,
+          },
+          {
+            id: 4,
+            image: item1BagImage4,
+          },
+        ],
+        productPrice: "899.00",
+        productColors: [
+          {
+            id: 1,
+            color: "#090401",
+            attribute: "color",
+          },
+          {
+            id: 2,
+            color: "#e74c3c",
+            attribute: "color",
+          },
+        ],
+        productAdditionalButtons: [
+          {
+            id: 1,
+            btnTitle: "Specifications",
+          },
+          {
+            id: 1,
+            btnTitle: "Additional Details",
+          },
+          {
+            id: 1,
+            btnTitle: "Product Review",
+          },
+        ],
+        productDescription: [
+          {
+            title: "General",
+            data: [
+              { id: 1, spec: "Colour", specData: "Black" },
+              { id: 2, spec: "Width", specData: "12 inch" },
+              { id: 3, spec: "Height", specData: "20 Inch" },
+              { id: 3, spec: "Weight", specData: "340 g" },
+              { id: 4, spec: "No of Space", specData: "3" },
+              { id: 5, spec: "Fabric Used", specData: "Polyster" },
+              { id: 6, spec: "Water Proof", specData: "Yes" },
+            ],
+          },
+          {
+            title: "Warranty",
+            data: [
+              {
+                id: 1,
+                spec: "Warranty Summary",
+                specData: "1 Year Onsite Warranty",
+              },
+              {
+                id: 2,
+                spec: "Warranty Service Type",
+                specData:
+                  "For any warranty related issues, please call:[1800-2090365]",
+              },
+              {
+                id: 3,
+                spec: "Covered in Warranty",
+                specData: "Manufacturing Defects",
+              },
+              {
+                id: 4,
+                spec: "Not Covered in Warranty",
+                specData: "Physical Damage",
+              },
+              { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+            ],
+          },
+        ],
+        productDetailDescription: [
+          {
+            id: 1,
+            title: "High-Quality Materials",
+            keypoints: [
+              "Made from premium, durable materials such as polyester, nylon, or leather.",
+              "Water-resistant exterior to protect your belongings from rain or spills.",
+              "Scratch-proof interiors to prevent damage to your laptop.",
+            ],
+          },
+          {
+            id: 2,
+            title: "Enhanced Laptop Protection",
+            keypoints: [
+              "Padded compartments with shock-absorbing foam.",
+              "Dedicated laptop sleeve to securely hold devices of various sizes.",
+              "Reinforced base to provide extra stability and safety.",
+            ],
+          },
+          {
+            id: 3,
+            title: "Organized Storage",
+            keypoints: [
+              "Multiple compartments for laptops, tablets, chargers, and cables.",
+              "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+              "Expandable sections for added storage space when needed.",
+            ],
+          },
+          {
+            id: 4,
+            title: "Comfortable Design",
+            keypoints: [
+              "Adjustable, padded shoulder straps for all-day comfort.",
+              "Ergonomic handles with reinforced stitching for easy carrying.",
+              "Lightweight yet sturdy design suitable for commuting or traveling.",
+            ],
+          },
+          {
+            id: 5,
+            title: "Stylish and Versatile",
+            keypoints: [
+              "Available in a range of sleek, modern designs and colors.",
+              "Suitable for professionals, students, and frequent travelers.",
+              "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+            ],
+          },
+        ],
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 2,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item2BagImage1,
+          },
+          {
+            id: 2,
+            image: item2BagImage2,
+          },
+          {
+            id: 3,
+            image: item2BagImage3,
+          },
+          {
+            id: 4,
+            image: item2BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 3,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item3BagImage1,
+          },
+          {
+            id: 2,
+            image: item3BagImage2,
+          },
+          {
+            id: 3,
+            image: item3BagImage3,
+          },
+          {
+            id: 4,
+            image: item3BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 4,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item4BagImage1,
+          },
+          {
+            id: 2,
+            image: item4BagImage2,
+          },
+          {
+            id: 3,
+            image: item4BagImage3,
+          },
+          {
+            id: 4,
+            image: item4BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 5,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item5BagImage1,
+          },
+          {
+            id: 2,
+            image: item5BagImage2,
+          },
+          {
+            id: 3,
+            image: item5BagImage3,
+          },
+          {
+            id: 4,
+            image: item5BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 6,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item6BagImage1,
+          },
+          {
+            id: 2,
+            image: item6BagImage2,
+          },
+          {
+            id: 3,
+            image: item6BagImage3,
+          },
+          {
+            id: 4,
+            image: item6BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 7,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item7BagImage1,
+          },
+          {
+            id: 2,
+            image: item7BagImage2,
+          },
+          {
+            id: 3,
+            image: item7BagImage3,
+          },
+          {
+            id: 4,
+            image: item7BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 8,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item8BagImage1,
+          },
+          {
+            id: 2,
+            image: item8BagImage2,
+          },
+          {
+            id: 3,
+            image: item8BagImage3,
+          },
+          {
+            id: 4,
+            image: item8BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+    ],
   },
   {
     id: 7,
-    productTitle: "",
-    productShortDescription: "",
+    productTitle: "Laptop Bag (title)",
+    productShortDescription: "A short Description will be here",
     productImages: [
       {
         id: 1,
@@ -749,17 +2849,437 @@ export const PRODUCT_LAPTOP_BAG = [
         image: item7BagImage4,
       },
     ],
-    productPrice: "",
-    productColors: [],
-    productDetailDescription: "",
+    productPrice: "₹ 899.00",
+    productColors: [
+      {
+        id: 1,
+        color: "#090401",
+        attribute: "color",
+      },
+      {
+        id: 2,
+        color: "#e74c3c",
+        attribute: "color",
+      },
+    ],
+    productDetailDescription: [
+      {
+        id: 1,
+        title: "High-Quality Materials",
+        keypoints: [
+          "Made from premium, durable materials such as polyester, nylon, or leather.",
+          "Water-resistant exterior to protect your belongings from rain or spills.",
+          "Scratch-proof interiors to prevent damage to your laptop.",
+        ],
+      },
+      {
+        id: 2,
+        title: "Enhanced Laptop Protection",
+        keypoints: [
+          "Padded compartments with shock-absorbing foam.",
+          "Dedicated laptop sleeve to securely hold devices of various sizes.",
+          "Reinforced base to provide extra stability and safety.",
+        ],
+      },
+      {
+        id: 3,
+        title: "Organized Storage",
+        keypoints: [
+          "Multiple compartments for laptops, tablets, chargers, and cables.",
+          "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+          "Expandable sections for added storage space when needed.",
+        ],
+      },
+      {
+        id: 4,
+        title: "Comfortable Design",
+        keypoints: [
+          "Adjustable, padded shoulder straps for all-day comfort.",
+          "Ergonomic handles with reinforced stitching for easy carrying.",
+          "Lightweight yet sturdy design suitable for commuting or traveling.",
+        ],
+      },
+      {
+        id: 5,
+        title: "Stylish and Versatile",
+        keypoints: [
+          "Available in a range of sleek, modern designs and colors.",
+          "Suitable for professionals, students, and frequent travelers.",
+          "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+        ],
+      },
+    ],
     productAdditionalDescription: "",
-    productReview: [],
-    similarProducts: [],
+    productReview: [
+      {
+        name: "Sneh Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+      {
+        name: "Himansu Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+    ],
+    similarProducts: [
+      {
+        id: 1,
+        productTitle: "Laptop Bag",
+        productShortDescription: "the laptop bag with quality",
+        productImages: [
+          {
+            id: 1,
+            image: item1BagImage1,
+          },
+          {
+            id: 2,
+            image: item1BagImage2,
+          },
+          {
+            id: 3,
+            image: item1BagImage3,
+          },
+          {
+            id: 4,
+            image: item1BagImage4,
+          },
+        ],
+        productPrice: "899.00",
+        productColors: [
+          {
+            id: 1,
+            color: "#090401",
+            attribute: "color",
+          },
+          {
+            id: 2,
+            color: "#e74c3c",
+            attribute: "color",
+          },
+        ],
+        productAdditionalButtons: [
+          {
+            id: 1,
+            btnTitle: "Specifications",
+          },
+          {
+            id: 1,
+            btnTitle: "Additional Details",
+          },
+          {
+            id: 1,
+            btnTitle: "Product Review",
+          },
+        ],
+        productDescription: [
+          {
+            title: "General",
+            data: [
+              { id: 1, spec: "Colour", specData: "Black" },
+              { id: 2, spec: "Width", specData: "12 inch" },
+              { id: 3, spec: "Height", specData: "20 Inch" },
+              { id: 3, spec: "Weight", specData: "340 g" },
+              { id: 4, spec: "No of Space", specData: "3" },
+              { id: 5, spec: "Fabric Used", specData: "Polyster" },
+              { id: 6, spec: "Water Proof", specData: "Yes" },
+            ],
+          },
+          {
+            title: "Warranty",
+            data: [
+              {
+                id: 1,
+                spec: "Warranty Summary",
+                specData: "1 Year Onsite Warranty",
+              },
+              {
+                id: 2,
+                spec: "Warranty Service Type",
+                specData:
+                  "For any warranty related issues, please call:[1800-2090365]",
+              },
+              {
+                id: 3,
+                spec: "Covered in Warranty",
+                specData: "Manufacturing Defects",
+              },
+              {
+                id: 4,
+                spec: "Not Covered in Warranty",
+                specData: "Physical Damage",
+              },
+              { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+            ],
+          },
+        ],
+        productDetailDescription: [
+          {
+            id: 1,
+            title: "High-Quality Materials",
+            keypoints: [
+              "Made from premium, durable materials such as polyester, nylon, or leather.",
+              "Water-resistant exterior to protect your belongings from rain or spills.",
+              "Scratch-proof interiors to prevent damage to your laptop.",
+            ],
+          },
+          {
+            id: 2,
+            title: "Enhanced Laptop Protection",
+            keypoints: [
+              "Padded compartments with shock-absorbing foam.",
+              "Dedicated laptop sleeve to securely hold devices of various sizes.",
+              "Reinforced base to provide extra stability and safety.",
+            ],
+          },
+          {
+            id: 3,
+            title: "Organized Storage",
+            keypoints: [
+              "Multiple compartments for laptops, tablets, chargers, and cables.",
+              "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+              "Expandable sections for added storage space when needed.",
+            ],
+          },
+          {
+            id: 4,
+            title: "Comfortable Design",
+            keypoints: [
+              "Adjustable, padded shoulder straps for all-day comfort.",
+              "Ergonomic handles with reinforced stitching for easy carrying.",
+              "Lightweight yet sturdy design suitable for commuting or traveling.",
+            ],
+          },
+          {
+            id: 5,
+            title: "Stylish and Versatile",
+            keypoints: [
+              "Available in a range of sleek, modern designs and colors.",
+              "Suitable for professionals, students, and frequent travelers.",
+              "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+            ],
+          },
+        ],
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 2,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item2BagImage1,
+          },
+          {
+            id: 2,
+            image: item2BagImage2,
+          },
+          {
+            id: 3,
+            image: item2BagImage3,
+          },
+          {
+            id: 4,
+            image: item2BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 3,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item3BagImage1,
+          },
+          {
+            id: 2,
+            image: item3BagImage2,
+          },
+          {
+            id: 3,
+            image: item3BagImage3,
+          },
+          {
+            id: 4,
+            image: item3BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 4,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item4BagImage1,
+          },
+          {
+            id: 2,
+            image: item4BagImage2,
+          },
+          {
+            id: 3,
+            image: item4BagImage3,
+          },
+          {
+            id: 4,
+            image: item4BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 5,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item5BagImage1,
+          },
+          {
+            id: 2,
+            image: item5BagImage2,
+          },
+          {
+            id: 3,
+            image: item5BagImage3,
+          },
+          {
+            id: 4,
+            image: item5BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 6,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item6BagImage1,
+          },
+          {
+            id: 2,
+            image: item6BagImage2,
+          },
+          {
+            id: 3,
+            image: item6BagImage3,
+          },
+          {
+            id: 4,
+            image: item6BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 7,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item7BagImage1,
+          },
+          {
+            id: 2,
+            image: item7BagImage2,
+          },
+          {
+            id: 3,
+            image: item7BagImage3,
+          },
+          {
+            id: 4,
+            image: item7BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 8,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item8BagImage1,
+          },
+          {
+            id: 2,
+            image: item8BagImage2,
+          },
+          {
+            id: 3,
+            image: item8BagImage3,
+          },
+          {
+            id: 4,
+            image: item8BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+    ],
   },
   {
     id: 8,
-    productTitle: "",
-    productShortDescription: "",
+    productTitle: "Laptop Bag (title)",
+    productShortDescription: "A short Description will be here",
     productImages: [
       {
         id: 1,
@@ -778,17 +3298,437 @@ export const PRODUCT_LAPTOP_BAG = [
         image: item8BagImage4,
       },
     ],
-    productPrice: "",
-    productColors: [],
-    productDetailDescription: "",
+    productPrice: "₹ 899.00",
+    productColors: [
+      {
+        id: 1,
+        color: "#090401",
+        attribute: "color",
+      },
+      {
+        id: 2,
+        color: "#e74c3c",
+        attribute: "color",
+      },
+    ],
+    productDetailDescription: [
+      {
+        id: 1,
+        title: "High-Quality Materials",
+        keypoints: [
+          "Made from premium, durable materials such as polyester, nylon, or leather.",
+          "Water-resistant exterior to protect your belongings from rain or spills.",
+          "Scratch-proof interiors to prevent damage to your laptop.",
+        ],
+      },
+      {
+        id: 2,
+        title: "Enhanced Laptop Protection",
+        keypoints: [
+          "Padded compartments with shock-absorbing foam.",
+          "Dedicated laptop sleeve to securely hold devices of various sizes.",
+          "Reinforced base to provide extra stability and safety.",
+        ],
+      },
+      {
+        id: 3,
+        title: "Organized Storage",
+        keypoints: [
+          "Multiple compartments for laptops, tablets, chargers, and cables.",
+          "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+          "Expandable sections for added storage space when needed.",
+        ],
+      },
+      {
+        id: 4,
+        title: "Comfortable Design",
+        keypoints: [
+          "Adjustable, padded shoulder straps for all-day comfort.",
+          "Ergonomic handles with reinforced stitching for easy carrying.",
+          "Lightweight yet sturdy design suitable for commuting or traveling.",
+        ],
+      },
+      {
+        id: 5,
+        title: "Stylish and Versatile",
+        keypoints: [
+          "Available in a range of sleek, modern designs and colors.",
+          "Suitable for professionals, students, and frequent travelers.",
+          "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+        ],
+      },
+    ],
     productAdditionalDescription: "",
-    productReview: [],
-    similarProducts: [],
+    productReview: [
+      {
+        name: "Sneh Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+      {
+        name: "Himansu Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+    ],
+    similarProducts: [
+      {
+        id: 1,
+        productTitle: "Laptop Bag",
+        productShortDescription: "the laptop bag with quality",
+        productImages: [
+          {
+            id: 1,
+            image: item1BagImage1,
+          },
+          {
+            id: 2,
+            image: item1BagImage2,
+          },
+          {
+            id: 3,
+            image: item1BagImage3,
+          },
+          {
+            id: 4,
+            image: item1BagImage4,
+          },
+        ],
+        productPrice: "899.00",
+        productColors: [
+          {
+            id: 1,
+            color: "#090401",
+            attribute: "color",
+          },
+          {
+            id: 2,
+            color: "#e74c3c",
+            attribute: "color",
+          },
+        ],
+        productAdditionalButtons: [
+          {
+            id: 1,
+            btnTitle: "Specifications",
+          },
+          {
+            id: 1,
+            btnTitle: "Additional Details",
+          },
+          {
+            id: 1,
+            btnTitle: "Product Review",
+          },
+        ],
+        productDescription: [
+          {
+            title: "General",
+            data: [
+              { id: 1, spec: "Colour", specData: "Black" },
+              { id: 2, spec: "Width", specData: "12 inch" },
+              { id: 3, spec: "Height", specData: "20 Inch" },
+              { id: 3, spec: "Weight", specData: "340 g" },
+              { id: 4, spec: "No of Space", specData: "3" },
+              { id: 5, spec: "Fabric Used", specData: "Polyster" },
+              { id: 6, spec: "Water Proof", specData: "Yes" },
+            ],
+          },
+          {
+            title: "Warranty",
+            data: [
+              {
+                id: 1,
+                spec: "Warranty Summary",
+                specData: "1 Year Onsite Warranty",
+              },
+              {
+                id: 2,
+                spec: "Warranty Service Type",
+                specData:
+                  "For any warranty related issues, please call:[1800-2090365]",
+              },
+              {
+                id: 3,
+                spec: "Covered in Warranty",
+                specData: "Manufacturing Defects",
+              },
+              {
+                id: 4,
+                spec: "Not Covered in Warranty",
+                specData: "Physical Damage",
+              },
+              { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+            ],
+          },
+        ],
+        productDetailDescription: [
+          {
+            id: 1,
+            title: "High-Quality Materials",
+            keypoints: [
+              "Made from premium, durable materials such as polyester, nylon, or leather.",
+              "Water-resistant exterior to protect your belongings from rain or spills.",
+              "Scratch-proof interiors to prevent damage to your laptop.",
+            ],
+          },
+          {
+            id: 2,
+            title: "Enhanced Laptop Protection",
+            keypoints: [
+              "Padded compartments with shock-absorbing foam.",
+              "Dedicated laptop sleeve to securely hold devices of various sizes.",
+              "Reinforced base to provide extra stability and safety.",
+            ],
+          },
+          {
+            id: 3,
+            title: "Organized Storage",
+            keypoints: [
+              "Multiple compartments for laptops, tablets, chargers, and cables.",
+              "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+              "Expandable sections for added storage space when needed.",
+            ],
+          },
+          {
+            id: 4,
+            title: "Comfortable Design",
+            keypoints: [
+              "Adjustable, padded shoulder straps for all-day comfort.",
+              "Ergonomic handles with reinforced stitching for easy carrying.",
+              "Lightweight yet sturdy design suitable for commuting or traveling.",
+            ],
+          },
+          {
+            id: 5,
+            title: "Stylish and Versatile",
+            keypoints: [
+              "Available in a range of sleek, modern designs and colors.",
+              "Suitable for professionals, students, and frequent travelers.",
+              "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+            ],
+          },
+        ],
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 2,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item2BagImage1,
+          },
+          {
+            id: 2,
+            image: item2BagImage2,
+          },
+          {
+            id: 3,
+            image: item2BagImage3,
+          },
+          {
+            id: 4,
+            image: item2BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 3,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item3BagImage1,
+          },
+          {
+            id: 2,
+            image: item3BagImage2,
+          },
+          {
+            id: 3,
+            image: item3BagImage3,
+          },
+          {
+            id: 4,
+            image: item3BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 4,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item4BagImage1,
+          },
+          {
+            id: 2,
+            image: item4BagImage2,
+          },
+          {
+            id: 3,
+            image: item4BagImage3,
+          },
+          {
+            id: 4,
+            image: item4BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 5,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item5BagImage1,
+          },
+          {
+            id: 2,
+            image: item5BagImage2,
+          },
+          {
+            id: 3,
+            image: item5BagImage3,
+          },
+          {
+            id: 4,
+            image: item5BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 6,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item6BagImage1,
+          },
+          {
+            id: 2,
+            image: item6BagImage2,
+          },
+          {
+            id: 3,
+            image: item6BagImage3,
+          },
+          {
+            id: 4,
+            image: item6BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 7,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item7BagImage1,
+          },
+          {
+            id: 2,
+            image: item7BagImage2,
+          },
+          {
+            id: 3,
+            image: item7BagImage3,
+          },
+          {
+            id: 4,
+            image: item7BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 8,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item8BagImage1,
+          },
+          {
+            id: 2,
+            image: item8BagImage2,
+          },
+          {
+            id: 3,
+            image: item8BagImage3,
+          },
+          {
+            id: 4,
+            image: item8BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+    ],
   },
   {
     id: 9,
-    productTitle: "",
-    productShortDescription: "",
+    productTitle: "Laptop Bag (title)",
+    productShortDescription: "A short Description will be here",
     productImages: [
       {
         id: 1,
@@ -807,17 +3747,438 @@ export const PRODUCT_LAPTOP_BAG = [
         image: item9BagImage4,
       },
     ],
-    productPrice: "",
-    productColors: [],
-    productDetailDescription: "",
+    productPrice: "₹ 899.00",
+    productColors: [
+      {
+        id: 1,
+        color: "#090401",
+        attribute: "color",
+      },
+      {
+        id: 2,
+        color: "#e74c3c",
+        attribute: "color",
+      },
+    ],
+    productDetailDescription: [
+      {
+        id: 1,
+        title: "High-Quality Materials",
+        keypoints: [
+          "Made from premium, durable materials such as polyester, nylon, or leather.",
+          "Water-resistant exterior to protect your belongings from rain or spills.",
+          "Scratch-proof interiors to prevent damage to your laptop.",
+        ],
+      },
+      {
+        id: 2,
+        title: "Enhanced Laptop Protection",
+        keypoints: [
+          "Padded compartments with shock-absorbing foam.",
+          "Dedicated laptop sleeve to securely hold devices of various sizes.",
+          "Reinforced base to provide extra stability and safety.",
+        ],
+      },
+      {
+        id: 3,
+        title: "Organized Storage",
+        keypoints: [
+          "Multiple compartments for laptops, tablets, chargers, and cables.",
+          "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+          "Expandable sections for added storage space when needed.",
+        ],
+      },
+      {
+        id: 4,
+        title: "Comfortable Design",
+        keypoints: [
+          "Adjustable, padded shoulder straps for all-day comfort.",
+          "Ergonomic handles with reinforced stitching for easy carrying.",
+          "Lightweight yet sturdy design suitable for commuting or traveling.",
+        ],
+      },
+      {
+        id: 5,
+        title: "Stylish and Versatile",
+        keypoints: [
+          "Available in a range of sleek, modern designs and colors.",
+          "Suitable for professionals, students, and frequent travelers.",
+          "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+        ],
+      },
+    ],
     productAdditionalDescription: "",
-    productReview: [],
-    similarProducts: [],
+    productReview: [
+      {
+        name: "Sneh Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+      {
+        name: "Himansu Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+    ],
+    similarProducts: [
+      {
+        id: 1,
+        productTitle: "Laptop Bag",
+        productShortDescription: "the laptop bag with quality",
+        productImages: [
+          {
+            id: 1,
+            image: item1BagImage1,
+          },
+          {
+            id: 2,
+            image: item1BagImage2,
+          },
+          {
+            id: 3,
+            image: item1BagImage3,
+          },
+          {
+            id: 4,
+            image: item1BagImage4,
+          },
+        ],
+        productPrice: "899.00",
+        productColors: [
+          {
+            id: 1,
+            color: "#090401",
+            attribute: "color",
+          },
+          {
+            id: 2,
+            color: "#e74c3c",
+            attribute: "color",
+          },
+        ],
+        productAdditionalButtons: [
+          {
+            id: 1,
+            btnTitle: "Specifications",
+          },
+          {
+            id: 1,
+            btnTitle: "Additional Details",
+          },
+          {
+            id: 1,
+            btnTitle: "Product Review",
+          },
+        ],
+        productDescription: [
+          {
+            title: "General",
+            data: [
+              { id: 1, spec: "Colour", specData: "Black" },
+              { id: 2, spec: "Width", specData: "12 inch" },
+              { id: 3, spec: "Height", specData: "20 Inch" },
+              { id: 3, spec: "Weight", specData: "340 g" },
+              { id: 4, spec: "No of Space", specData: "3" },
+              { id: 5, spec: "Fabric Used", specData: "Polyster" },
+              { id: 6, spec: "Water Proof", specData: "Yes" },
+            ],
+          },
+          {
+            title: "Warranty",
+            data: [
+              {
+                id: 1,
+                spec: "Warranty Summary",
+                specData: "1 Year Onsite Warranty",
+              },
+              {
+                id: 2,
+                spec: "Warranty Service Type",
+                specData:
+                  "For any warranty related issues, please call:[1800-2090365]",
+              },
+              {
+                id: 3,
+                spec: "Covered in Warranty",
+                specData: "Manufacturing Defects",
+              },
+              {
+                id: 4,
+                spec: "Not Covered in Warranty",
+                specData: "Physical Damage",
+              },
+              { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+            ],
+          },
+        ],
+        productDetailDescription: [
+          {
+            id: 1,
+            title: "High-Quality Materials",
+            keypoints: [
+              "Made from premium, durable materials such as polyester, nylon, or leather.",
+              "Water-resistant exterior to protect your belongings from rain or spills.",
+              "Scratch-proof interiors to prevent damage to your laptop.",
+            ],
+          },
+          {
+            id: 2,
+            title: "Enhanced Laptop Protection",
+            keypoints: [
+              "Padded compartments with shock-absorbing foam.",
+              "Dedicated laptop sleeve to securely hold devices of various sizes.",
+              "Reinforced base to provide extra stability and safety.",
+            ],
+          },
+          {
+            id: 3,
+            title: "Organized Storage",
+            keypoints: [
+              "Multiple compartments for laptops, tablets, chargers, and cables.",
+              "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+              "Expandable sections for added storage space when needed.",
+            ],
+          },
+          {
+            id: 4,
+            title: "Comfortable Design",
+            keypoints: [
+              "Adjustable, padded shoulder straps for all-day comfort.",
+              "Ergonomic handles with reinforced stitching for easy carrying.",
+              "Lightweight yet sturdy design suitable for commuting or traveling.",
+            ],
+          },
+          {
+            id: 5,
+            title: "Stylish and Versatile",
+            keypoints: [
+              "Available in a range of sleek, modern designs and colors.",
+              "Suitable for professionals, students, and frequent travelers.",
+              "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+            ],
+          },
+        ],
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 2,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item2BagImage1,
+          },
+          {
+            id: 2,
+            image: item2BagImage2,
+          },
+          {
+            id: 3,
+            image: item2BagImage3,
+          },
+          {
+            id: 4,
+            image: item2BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 3,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item3BagImage1,
+          },
+          {
+            id: 2,
+            image: item3BagImage2,
+          },
+          {
+            id: 3,
+            image: item3BagImage3,
+          },
+          {
+            id: 4,
+            image: item3BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 4,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item4BagImage1,
+          },
+          {
+            id: 2,
+            image: item4BagImage2,
+          },
+          {
+            id: 3,
+            image: item4BagImage3,
+          },
+          {
+            id: 4,
+            image: item4BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 5,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item5BagImage1,
+          },
+          {
+            id: 2,
+            image: item5BagImage2,
+          },
+          {
+            id: 3,
+            image: item5BagImage3,
+          },
+          {
+            id: 4,
+            image: item5BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 6,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item6BagImage1,
+          },
+          {
+            id: 2,
+            image: item6BagImage2,
+          },
+          {
+            id: 3,
+            image: item6BagImage3,
+          },
+          {
+            id: 4,
+            image: item6BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 7,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item7BagImage1,
+          },
+          {
+            id: 2,
+            image: item7BagImage2,
+          },
+          {
+            id: 3,
+            image: item7BagImage3,
+          },
+          {
+            id: 4,
+            image: item7BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 8,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item8BagImage1,
+          },
+          {
+            id: 2,
+            image: item8BagImage2,
+          },
+          {
+            id: 3,
+            image: item8BagImage3,
+          },
+          {
+            id: 4,
+            image: item8BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+    ],
   },
+  
   {
     id: 10,
-    productTitle: "",
-    productShortDescription: "",
+    productTitle: "Laptop Bag (title)",
+    productShortDescription: "A short Description will be here",
     productImages: [
       {
         id: 1,
@@ -836,17 +4197,438 @@ export const PRODUCT_LAPTOP_BAG = [
         image: item10BagImage4,
       },
     ],
-    productPrice: "",
-    productColors: [],
-    productDetailDescription: "",
+    productPrice: "₹ 899.00",
+    productColors: [
+      {
+        id: 1,
+        color: "#090401",
+        attribute: "color",
+      },
+      {
+        id: 2,
+        color: "#e74c3c",
+        attribute: "color",
+      },
+    ],
+    productDetailDescription: [
+      {
+        id: 1,
+        title: "High-Quality Materials",
+        keypoints: [
+          "Made from premium, durable materials such as polyester, nylon, or leather.",
+          "Water-resistant exterior to protect your belongings from rain or spills.",
+          "Scratch-proof interiors to prevent damage to your laptop.",
+        ],
+      },
+      {
+        id: 2,
+        title: "Enhanced Laptop Protection",
+        keypoints: [
+          "Padded compartments with shock-absorbing foam.",
+          "Dedicated laptop sleeve to securely hold devices of various sizes.",
+          "Reinforced base to provide extra stability and safety.",
+        ],
+      },
+      {
+        id: 3,
+        title: "Organized Storage",
+        keypoints: [
+          "Multiple compartments for laptops, tablets, chargers, and cables.",
+          "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+          "Expandable sections for added storage space when needed.",
+        ],
+      },
+      {
+        id: 4,
+        title: "Comfortable Design",
+        keypoints: [
+          "Adjustable, padded shoulder straps for all-day comfort.",
+          "Ergonomic handles with reinforced stitching for easy carrying.",
+          "Lightweight yet sturdy design suitable for commuting or traveling.",
+        ],
+      },
+      {
+        id: 5,
+        title: "Stylish and Versatile",
+        keypoints: [
+          "Available in a range of sleek, modern designs and colors.",
+          "Suitable for professionals, students, and frequent travelers.",
+          "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+        ],
+      },
+    ],
     productAdditionalDescription: "",
-    productReview: [],
-    similarProducts: [],
+    productReview: [
+      {
+        name: "Sneh Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+      {
+        name: "Himansu Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+    ],
+    similarProducts: [
+      {
+        id: 1,
+        productTitle: "Laptop Bag",
+        productShortDescription: "the laptop bag with quality",
+        productImages: [
+          {
+            id: 1,
+            image: item1BagImage1,
+          },
+          {
+            id: 2,
+            image: item1BagImage2,
+          },
+          {
+            id: 3,
+            image: item1BagImage3,
+          },
+          {
+            id: 4,
+            image: item1BagImage4,
+          },
+        ],
+        productPrice: "899.00",
+        productColors: [
+          {
+            id: 1,
+            color: "#090401",
+            attribute: "color",
+          },
+          {
+            id: 2,
+            color: "#e74c3c",
+            attribute: "color",
+          },
+        ],
+        productAdditionalButtons: [
+          {
+            id: 1,
+            btnTitle: "Specifications",
+          },
+          {
+            id: 1,
+            btnTitle: "Additional Details",
+          },
+          {
+            id: 1,
+            btnTitle: "Product Review",
+          },
+        ],
+        productDescription: [
+          {
+            title: "General",
+            data: [
+              { id: 1, spec: "Colour", specData: "Black" },
+              { id: 2, spec: "Width", specData: "12 inch" },
+              { id: 3, spec: "Height", specData: "20 Inch" },
+              { id: 3, spec: "Weight", specData: "340 g" },
+              { id: 4, spec: "No of Space", specData: "3" },
+              { id: 5, spec: "Fabric Used", specData: "Polyster" },
+              { id: 6, spec: "Water Proof", specData: "Yes" },
+            ],
+          },
+          {
+            title: "Warranty",
+            data: [
+              {
+                id: 1,
+                spec: "Warranty Summary",
+                specData: "1 Year Onsite Warranty",
+              },
+              {
+                id: 2,
+                spec: "Warranty Service Type",
+                specData:
+                  "For any warranty related issues, please call:[1800-2090365]",
+              },
+              {
+                id: 3,
+                spec: "Covered in Warranty",
+                specData: "Manufacturing Defects",
+              },
+              {
+                id: 4,
+                spec: "Not Covered in Warranty",
+                specData: "Physical Damage",
+              },
+              { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+            ],
+          },
+        ],
+        productDetailDescription: [
+          {
+            id: 1,
+            title: "High-Quality Materials",
+            keypoints: [
+              "Made from premium, durable materials such as polyester, nylon, or leather.",
+              "Water-resistant exterior to protect your belongings from rain or spills.",
+              "Scratch-proof interiors to prevent damage to your laptop.",
+            ],
+          },
+          {
+            id: 2,
+            title: "Enhanced Laptop Protection",
+            keypoints: [
+              "Padded compartments with shock-absorbing foam.",
+              "Dedicated laptop sleeve to securely hold devices of various sizes.",
+              "Reinforced base to provide extra stability and safety.",
+            ],
+          },
+          {
+            id: 3,
+            title: "Organized Storage",
+            keypoints: [
+              "Multiple compartments for laptops, tablets, chargers, and cables.",
+              "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+              "Expandable sections for added storage space when needed.",
+            ],
+          },
+          {
+            id: 4,
+            title: "Comfortable Design",
+            keypoints: [
+              "Adjustable, padded shoulder straps for all-day comfort.",
+              "Ergonomic handles with reinforced stitching for easy carrying.",
+              "Lightweight yet sturdy design suitable for commuting or traveling.",
+            ],
+          },
+          {
+            id: 5,
+            title: "Stylish and Versatile",
+            keypoints: [
+              "Available in a range of sleek, modern designs and colors.",
+              "Suitable for professionals, students, and frequent travelers.",
+              "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+            ],
+          },
+        ],
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 2,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item2BagImage1,
+          },
+          {
+            id: 2,
+            image: item2BagImage2,
+          },
+          {
+            id: 3,
+            image: item2BagImage3,
+          },
+          {
+            id: 4,
+            image: item2BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 3,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item3BagImage1,
+          },
+          {
+            id: 2,
+            image: item3BagImage2,
+          },
+          {
+            id: 3,
+            image: item3BagImage3,
+          },
+          {
+            id: 4,
+            image: item3BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 4,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item4BagImage1,
+          },
+          {
+            id: 2,
+            image: item4BagImage2,
+          },
+          {
+            id: 3,
+            image: item4BagImage3,
+          },
+          {
+            id: 4,
+            image: item4BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 5,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item5BagImage1,
+          },
+          {
+            id: 2,
+            image: item5BagImage2,
+          },
+          {
+            id: 3,
+            image: item5BagImage3,
+          },
+          {
+            id: 4,
+            image: item5BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 6,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item6BagImage1,
+          },
+          {
+            id: 2,
+            image: item6BagImage2,
+          },
+          {
+            id: 3,
+            image: item6BagImage3,
+          },
+          {
+            id: 4,
+            image: item6BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 7,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item7BagImage1,
+          },
+          {
+            id: 2,
+            image: item7BagImage2,
+          },
+          {
+            id: 3,
+            image: item7BagImage3,
+          },
+          {
+            id: 4,
+            image: item7BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 8,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item8BagImage1,
+          },
+          {
+            id: 2,
+            image: item8BagImage2,
+          },
+          {
+            id: 3,
+            image: item8BagImage3,
+          },
+          {
+            id: 4,
+            image: item8BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+    ],
   },
+  
   {
     id: 11,
-    productTitle: "",
-    productShortDescription: "",
+    productTitle: "Laptop Bag (title)",
+    productShortDescription: "A short Description will be here",
     productImages: [
       {
         id: 1,
@@ -865,17 +4647,438 @@ export const PRODUCT_LAPTOP_BAG = [
         image: item11BagImage4,
       },
     ],
-    productPrice: "",
-    productColors: [],
-    productDetailDescription: "",
+    productPrice: "₹ 899.00",
+    productColors: [
+      {
+        id: 1,
+        color: "#090401",
+        attribute: "color",
+      },
+      {
+        id: 2,
+        color: "#e74c3c",
+        attribute: "color",
+      },
+    ],
+    productDetailDescription: [
+      {
+        id: 1,
+        title: "High-Quality Materials",
+        keypoints: [
+          "Made from premium, durable materials such as polyester, nylon, or leather.",
+          "Water-resistant exterior to protect your belongings from rain or spills.",
+          "Scratch-proof interiors to prevent damage to your laptop.",
+        ],
+      },
+      {
+        id: 2,
+        title: "Enhanced Laptop Protection",
+        keypoints: [
+          "Padded compartments with shock-absorbing foam.",
+          "Dedicated laptop sleeve to securely hold devices of various sizes.",
+          "Reinforced base to provide extra stability and safety.",
+        ],
+      },
+      {
+        id: 3,
+        title: "Organized Storage",
+        keypoints: [
+          "Multiple compartments for laptops, tablets, chargers, and cables.",
+          "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+          "Expandable sections for added storage space when needed.",
+        ],
+      },
+      {
+        id: 4,
+        title: "Comfortable Design",
+        keypoints: [
+          "Adjustable, padded shoulder straps for all-day comfort.",
+          "Ergonomic handles with reinforced stitching for easy carrying.",
+          "Lightweight yet sturdy design suitable for commuting or traveling.",
+        ],
+      },
+      {
+        id: 5,
+        title: "Stylish and Versatile",
+        keypoints: [
+          "Available in a range of sleek, modern designs and colors.",
+          "Suitable for professionals, students, and frequent travelers.",
+          "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+        ],
+      },
+    ],
     productAdditionalDescription: "",
-    productReview: [],
-    similarProducts: [],
+    productReview: [
+      {
+        name: "Sneh Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+      {
+        name: "Himansu Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+    ],
+    similarProducts: [
+      {
+        id: 1,
+        productTitle: "Laptop Bag",
+        productShortDescription: "the laptop bag with quality",
+        productImages: [
+          {
+            id: 1,
+            image: item1BagImage1,
+          },
+          {
+            id: 2,
+            image: item1BagImage2,
+          },
+          {
+            id: 3,
+            image: item1BagImage3,
+          },
+          {
+            id: 4,
+            image: item1BagImage4,
+          },
+        ],
+        productPrice: "899.00",
+        productColors: [
+          {
+            id: 1,
+            color: "#090401",
+            attribute: "color",
+          },
+          {
+            id: 2,
+            color: "#e74c3c",
+            attribute: "color",
+          },
+        ],
+        productAdditionalButtons: [
+          {
+            id: 1,
+            btnTitle: "Specifications",
+          },
+          {
+            id: 1,
+            btnTitle: "Additional Details",
+          },
+          {
+            id: 1,
+            btnTitle: "Product Review",
+          },
+        ],
+        productDescription: [
+          {
+            title: "General",
+            data: [
+              { id: 1, spec: "Colour", specData: "Black" },
+              { id: 2, spec: "Width", specData: "12 inch" },
+              { id: 3, spec: "Height", specData: "20 Inch" },
+              { id: 3, spec: "Weight", specData: "340 g" },
+              { id: 4, spec: "No of Space", specData: "3" },
+              { id: 5, spec: "Fabric Used", specData: "Polyster" },
+              { id: 6, spec: "Water Proof", specData: "Yes" },
+            ],
+          },
+          {
+            title: "Warranty",
+            data: [
+              {
+                id: 1,
+                spec: "Warranty Summary",
+                specData: "1 Year Onsite Warranty",
+              },
+              {
+                id: 2,
+                spec: "Warranty Service Type",
+                specData:
+                  "For any warranty related issues, please call:[1800-2090365]",
+              },
+              {
+                id: 3,
+                spec: "Covered in Warranty",
+                specData: "Manufacturing Defects",
+              },
+              {
+                id: 4,
+                spec: "Not Covered in Warranty",
+                specData: "Physical Damage",
+              },
+              { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+            ],
+          },
+        ],
+        productDetailDescription: [
+          {
+            id: 1,
+            title: "High-Quality Materials",
+            keypoints: [
+              "Made from premium, durable materials such as polyester, nylon, or leather.",
+              "Water-resistant exterior to protect your belongings from rain or spills.",
+              "Scratch-proof interiors to prevent damage to your laptop.",
+            ],
+          },
+          {
+            id: 2,
+            title: "Enhanced Laptop Protection",
+            keypoints: [
+              "Padded compartments with shock-absorbing foam.",
+              "Dedicated laptop sleeve to securely hold devices of various sizes.",
+              "Reinforced base to provide extra stability and safety.",
+            ],
+          },
+          {
+            id: 3,
+            title: "Organized Storage",
+            keypoints: [
+              "Multiple compartments for laptops, tablets, chargers, and cables.",
+              "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+              "Expandable sections for added storage space when needed.",
+            ],
+          },
+          {
+            id: 4,
+            title: "Comfortable Design",
+            keypoints: [
+              "Adjustable, padded shoulder straps for all-day comfort.",
+              "Ergonomic handles with reinforced stitching for easy carrying.",
+              "Lightweight yet sturdy design suitable for commuting or traveling.",
+            ],
+          },
+          {
+            id: 5,
+            title: "Stylish and Versatile",
+            keypoints: [
+              "Available in a range of sleek, modern designs and colors.",
+              "Suitable for professionals, students, and frequent travelers.",
+              "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+            ],
+          },
+        ],
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 2,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item2BagImage1,
+          },
+          {
+            id: 2,
+            image: item2BagImage2,
+          },
+          {
+            id: 3,
+            image: item2BagImage3,
+          },
+          {
+            id: 4,
+            image: item2BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 3,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item3BagImage1,
+          },
+          {
+            id: 2,
+            image: item3BagImage2,
+          },
+          {
+            id: 3,
+            image: item3BagImage3,
+          },
+          {
+            id: 4,
+            image: item3BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 4,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item4BagImage1,
+          },
+          {
+            id: 2,
+            image: item4BagImage2,
+          },
+          {
+            id: 3,
+            image: item4BagImage3,
+          },
+          {
+            id: 4,
+            image: item4BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 5,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item5BagImage1,
+          },
+          {
+            id: 2,
+            image: item5BagImage2,
+          },
+          {
+            id: 3,
+            image: item5BagImage3,
+          },
+          {
+            id: 4,
+            image: item5BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 6,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item6BagImage1,
+          },
+          {
+            id: 2,
+            image: item6BagImage2,
+          },
+          {
+            id: 3,
+            image: item6BagImage3,
+          },
+          {
+            id: 4,
+            image: item6BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 7,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item7BagImage1,
+          },
+          {
+            id: 2,
+            image: item7BagImage2,
+          },
+          {
+            id: 3,
+            image: item7BagImage3,
+          },
+          {
+            id: 4,
+            image: item7BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 8,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item8BagImage1,
+          },
+          {
+            id: 2,
+            image: item8BagImage2,
+          },
+          {
+            id: 3,
+            image: item8BagImage3,
+          },
+          {
+            id: 4,
+            image: item8BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+    ],
   },
+  
   {
     id: 12,
-    productTitle: "",
-    productShortDescription: "",
+    productTitle: "Laptop Bag (title)",
+    productShortDescription: "A short Description will be here",
     productImages: [
       {
         id: 1,
@@ -894,17 +5097,438 @@ export const PRODUCT_LAPTOP_BAG = [
         image: item12BagImage4,
       },
     ],
-    productPrice: "",
-    productColors: [],
-    productDetailDescription: "",
+    productPrice: "₹ 899.00",
+    productColors: [
+      {
+        id: 1,
+        color: "#090401",
+        attribute: "color",
+      },
+      {
+        id: 2,
+        color: "#e74c3c",
+        attribute: "color",
+      },
+    ],
+    productDetailDescription: [
+      {
+        id: 1,
+        title: "High-Quality Materials",
+        keypoints: [
+          "Made from premium, durable materials such as polyester, nylon, or leather.",
+          "Water-resistant exterior to protect your belongings from rain or spills.",
+          "Scratch-proof interiors to prevent damage to your laptop.",
+        ],
+      },
+      {
+        id: 2,
+        title: "Enhanced Laptop Protection",
+        keypoints: [
+          "Padded compartments with shock-absorbing foam.",
+          "Dedicated laptop sleeve to securely hold devices of various sizes.",
+          "Reinforced base to provide extra stability and safety.",
+        ],
+      },
+      {
+        id: 3,
+        title: "Organized Storage",
+        keypoints: [
+          "Multiple compartments for laptops, tablets, chargers, and cables.",
+          "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+          "Expandable sections for added storage space when needed.",
+        ],
+      },
+      {
+        id: 4,
+        title: "Comfortable Design",
+        keypoints: [
+          "Adjustable, padded shoulder straps for all-day comfort.",
+          "Ergonomic handles with reinforced stitching for easy carrying.",
+          "Lightweight yet sturdy design suitable for commuting or traveling.",
+        ],
+      },
+      {
+        id: 5,
+        title: "Stylish and Versatile",
+        keypoints: [
+          "Available in a range of sleek, modern designs and colors.",
+          "Suitable for professionals, students, and frequent travelers.",
+          "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+        ],
+      },
+    ],
     productAdditionalDescription: "",
-    productReview: [],
-    similarProducts: [],
-  },
+    productReview: [ 
+      {
+      name: "Sneh Kumar",
+      reviewDetail:
+        "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+      rating: "4",
+      date: "20/12/2024",
+      address:'Chaibasa, Jharkhand',
+      image: [],
+    },
+    {
+      name: "Himansu Kumar",
+      reviewDetail:
+        "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+      rating: "4",
+      date: "20/12/2024",
+      address:'Chaibasa, Jharkhand',
+      image: [],
+    },
+  ],
+  similarProducts: [
+    {
+      id: 1,
+      productTitle: "Laptop Bag",
+      productShortDescription: "the laptop bag with quality",
+      productImages: [
+        {
+          id: 1,
+          image: item1BagImage1,
+        },
+        {
+          id: 2,
+          image: item1BagImage2,
+        },
+        {
+          id: 3,
+          image: item1BagImage3,
+        },
+        {
+          id: 4,
+          image: item1BagImage4,
+        },
+      ],
+      productPrice: "899.00",
+      productColors: [
+        {
+          id: 1,
+          color: "#090401",
+          attribute: "color",
+        },
+        {
+          id: 2,
+          color: "#e74c3c",
+          attribute: "color",
+        },
+      ],
+      productAdditionalButtons: [
+        {
+          id: 1,
+          btnTitle: "Specifications",
+        },
+        {
+          id: 1,
+          btnTitle: "Additional Details",
+        },
+        {
+          id: 1,
+          btnTitle: "Product Review",
+        },
+      ],
+      productDescription: [
+        {
+          title: "General",
+          data: [
+            { id: 1, spec: "Colour", specData: "Black" },
+            { id: 2, spec: "Width", specData: "12 inch" },
+            { id: 3, spec: "Height", specData: "20 Inch" },
+            { id: 3, spec: "Weight", specData: "340 g" },
+            { id: 4, spec: "No of Space", specData: "3" },
+            { id: 5, spec: "Fabric Used", specData: "Polyster" },
+            { id: 6, spec: "Water Proof", specData: "Yes" },
+          ],
+        },
+        {
+          title: "Warranty",
+          data: [
+            {
+              id: 1,
+              spec: "Warranty Summary",
+              specData: "1 Year Onsite Warranty",
+            },
+            {
+              id: 2,
+              spec: "Warranty Service Type",
+              specData:
+                "For any warranty related issues, please call:[1800-2090365]",
+            },
+            {
+              id: 3,
+              spec: "Covered in Warranty",
+              specData: "Manufacturing Defects",
+            },
+            {
+              id: 4,
+              spec: "Not Covered in Warranty",
+              specData: "Physical Damage",
+            },
+            { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+          ],
+        },
+      ],
+      productDetailDescription: [
+        {
+          id: 1,
+          title: "High-Quality Materials",
+          keypoints: [
+            "Made from premium, durable materials such as polyester, nylon, or leather.",
+            "Water-resistant exterior to protect your belongings from rain or spills.",
+            "Scratch-proof interiors to prevent damage to your laptop.",
+          ],
+        },
+        {
+          id: 2,
+          title: "Enhanced Laptop Protection",
+          keypoints: [
+            "Padded compartments with shock-absorbing foam.",
+            "Dedicated laptop sleeve to securely hold devices of various sizes.",
+            "Reinforced base to provide extra stability and safety.",
+          ],
+        },
+        {
+          id: 3,
+          title: "Organized Storage",
+          keypoints: [
+            "Multiple compartments for laptops, tablets, chargers, and cables.",
+            "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+            "Expandable sections for added storage space when needed.",
+          ],
+        },
+        {
+          id: 4,
+          title: "Comfortable Design",
+          keypoints: [
+            "Adjustable, padded shoulder straps for all-day comfort.",
+            "Ergonomic handles with reinforced stitching for easy carrying.",
+            "Lightweight yet sturdy design suitable for commuting or traveling.",
+          ],
+        },
+        {
+          id: 5,
+          title: "Stylish and Versatile",
+          keypoints: [
+            "Available in a range of sleek, modern designs and colors.",
+            "Suitable for professionals, students, and frequent travelers.",
+            "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+          ],
+        },
+      ],
+      productReview: [],
+      similarProducts: [],
+    },
+    {
+      id: 2,
+      productTitle: "",
+      productShortDescription: "",
+      productImages: [
+        {
+          id: 1,
+          image: item2BagImage1,
+        },
+        {
+          id: 2,
+          image: item2BagImage2,
+        },
+        {
+          id: 3,
+          image: item2BagImage3,
+        },
+        {
+          id: 4,
+          image: item2BagImage4,
+        },
+      ],
+      productPrice: "",
+      productColors: [],
+      productDetailDescription: "",
+      productAdditionalDescription: "",
+      productReview: [],
+      similarProducts: [],
+    },
+    {
+      id: 3,
+      productTitle: "",
+      productShortDescription: "",
+      productImages: [
+        {
+          id: 1,
+          image: item3BagImage1,
+        },
+        {
+          id: 2,
+          image: item3BagImage2,
+        },
+        {
+          id: 3,
+          image: item3BagImage3,
+        },
+        {
+          id: 4,
+          image: item3BagImage4,
+        },
+      ],
+      productPrice: "",
+      productColors: [],
+      productDetailDescription: "",
+      productAdditionalDescription: "",
+      productReview: [],
+      similarProducts: [],
+    },
+    {
+      id: 4,
+      productTitle: "",
+      productShortDescription: "",
+      productImages: [
+        {
+          id: 1,
+          image: item4BagImage1,
+        },
+        {
+          id: 2,
+          image: item4BagImage2,
+        },
+        {
+          id: 3,
+          image: item4BagImage3,
+        },
+        {
+          id: 4,
+          image: item4BagImage4,
+        },
+      ],
+      productPrice: "",
+      productColors: [],
+      productDetailDescription: "",
+      productAdditionalDescription: "",
+      productReview: [],
+      similarProducts: [],
+    },
+    {
+      id: 5,
+      productTitle: "",
+      productShortDescription: "",
+      productImages: [
+        {
+          id: 1,
+          image: item5BagImage1,
+        },
+        {
+          id: 2,
+          image: item5BagImage2,
+        },
+        {
+          id: 3,
+          image: item5BagImage3,
+        },
+        {
+          id: 4,
+          image: item5BagImage4,
+        },
+      ],
+      productPrice: "",
+      productColors: [],
+      productDetailDescription: "",
+      productAdditionalDescription: "",
+      productReview: [],
+      similarProducts: [],
+    },
+    {
+      id: 6,
+      productTitle: "",
+      productShortDescription: "",
+      productImages: [
+        {
+          id: 1,
+          image: item6BagImage1,
+        },
+        {
+          id: 2,
+          image: item6BagImage2,
+        },
+        {
+          id: 3,
+          image: item6BagImage3,
+        },
+        {
+          id: 4,
+          image: item6BagImage4,
+        },
+      ],
+      productPrice: "",
+      productColors: [],
+      productDetailDescription: "",
+      productAdditionalDescription: "",
+      productReview: [],
+      similarProducts: [],
+    },
+    {
+      id: 7,
+      productTitle: "",
+      productShortDescription: "",
+      productImages: [
+        {
+          id: 1,
+          image: item7BagImage1,
+        },
+        {
+          id: 2,
+          image: item7BagImage2,
+        },
+        {
+          id: 3,
+          image: item7BagImage3,
+        },
+        {
+          id: 4,
+          image: item7BagImage4,
+        },
+      ],
+      productPrice: "",
+      productColors: [],
+      productDetailDescription: "",
+      productAdditionalDescription: "",
+      productReview: [],
+      similarProducts: [],
+    },
+    {
+      id: 8,
+      productTitle: "",
+      productShortDescription: "",
+      productImages: [
+        {
+          id: 1,
+          image: item8BagImage1,
+        },
+        {
+          id: 2,
+          image: item8BagImage2,
+        },
+        {
+          id: 3,
+          image: item8BagImage3,
+        },
+        {
+          id: 4,
+          image: item8BagImage4,
+        },
+      ],
+      productPrice: "",
+      productColors: [],
+      productDetailDescription: "",
+      productAdditionalDescription: "",
+      productReview: [],
+      similarProducts: [],
+    },
+  ],
+},
+  
   {
     id: 13,
-    productTitle: "",
-    productShortDescription: "",
+    productTitle: "Laptop Bag (title)",
+    productShortDescription: "A short Description will be here",
     productImages: [
       {
         id: 1,
@@ -923,17 +5547,438 @@ export const PRODUCT_LAPTOP_BAG = [
         image: item13BagImage4,
       },
     ],
-    productPrice: "",
-    productColors: [],
-    productDetailDescription: "",
+    productPrice: "₹ 899.00",
+    productColors: [
+      {
+        id: 1,
+        color: "#090401",
+        attribute: "color",
+      },
+      {
+        id: 2,
+        color: "#e74c3c",
+        attribute: "color",
+      },
+    ],
+    productDetailDescription: [
+      {
+        id: 1,
+        title: "High-Quality Materials",
+        keypoints: [
+          "Made from premium, durable materials such as polyester, nylon, or leather.",
+          "Water-resistant exterior to protect your belongings from rain or spills.",
+          "Scratch-proof interiors to prevent damage to your laptop.",
+        ],
+      },
+      {
+        id: 2,
+        title: "Enhanced Laptop Protection",
+        keypoints: [
+          "Padded compartments with shock-absorbing foam.",
+          "Dedicated laptop sleeve to securely hold devices of various sizes.",
+          "Reinforced base to provide extra stability and safety.",
+        ],
+      },
+      {
+        id: 3,
+        title: "Organized Storage",
+        keypoints: [
+          "Multiple compartments for laptops, tablets, chargers, and cables.",
+          "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+          "Expandable sections for added storage space when needed.",
+        ],
+      },
+      {
+        id: 4,
+        title: "Comfortable Design",
+        keypoints: [
+          "Adjustable, padded shoulder straps for all-day comfort.",
+          "Ergonomic handles with reinforced stitching for easy carrying.",
+          "Lightweight yet sturdy design suitable for commuting or traveling.",
+        ],
+      },
+      {
+        id: 5,
+        title: "Stylish and Versatile",
+        keypoints: [
+          "Available in a range of sleek, modern designs and colors.",
+          "Suitable for professionals, students, and frequent travelers.",
+          "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+        ],
+      },
+    ],
     productAdditionalDescription: "",
-    productReview: [],
-    similarProducts: [],
+    productReview: [
+      {
+        name: "Sneh Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+      {
+        name: "Himansu Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+    ],
+    similarProducts: [
+      {
+        id: 1,
+        productTitle: "Laptop Bag",
+        productShortDescription: "the laptop bag with quality",
+        productImages: [
+          {
+            id: 1,
+            image: item1BagImage1,
+          },
+          {
+            id: 2,
+            image: item1BagImage2,
+          },
+          {
+            id: 3,
+            image: item1BagImage3,
+          },
+          {
+            id: 4,
+            image: item1BagImage4,
+          },
+        ],
+        productPrice: "899.00",
+        productColors: [
+          {
+            id: 1,
+            color: "#090401",
+            attribute: "color",
+          },
+          {
+            id: 2,
+            color: "#e74c3c",
+            attribute: "color",
+          },
+        ],
+        productAdditionalButtons: [
+          {
+            id: 1,
+            btnTitle: "Specifications",
+          },
+          {
+            id: 1,
+            btnTitle: "Additional Details",
+          },
+          {
+            id: 1,
+            btnTitle: "Product Review",
+          },
+        ],
+        productDescription: [
+          {
+            title: "General",
+            data: [
+              { id: 1, spec: "Colour", specData: "Black" },
+              { id: 2, spec: "Width", specData: "12 inch" },
+              { id: 3, spec: "Height", specData: "20 Inch" },
+              { id: 3, spec: "Weight", specData: "340 g" },
+              { id: 4, spec: "No of Space", specData: "3" },
+              { id: 5, spec: "Fabric Used", specData: "Polyster" },
+              { id: 6, spec: "Water Proof", specData: "Yes" },
+            ],
+          },
+          {
+            title: "Warranty",
+            data: [
+              {
+                id: 1,
+                spec: "Warranty Summary",
+                specData: "1 Year Onsite Warranty",
+              },
+              {
+                id: 2,
+                spec: "Warranty Service Type",
+                specData:
+                  "For any warranty related issues, please call:[1800-2090365]",
+              },
+              {
+                id: 3,
+                spec: "Covered in Warranty",
+                specData: "Manufacturing Defects",
+              },
+              {
+                id: 4,
+                spec: "Not Covered in Warranty",
+                specData: "Physical Damage",
+              },
+              { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+            ],
+          },
+        ],
+        productDetailDescription: [
+          {
+            id: 1,
+            title: "High-Quality Materials",
+            keypoints: [
+              "Made from premium, durable materials such as polyester, nylon, or leather.",
+              "Water-resistant exterior to protect your belongings from rain or spills.",
+              "Scratch-proof interiors to prevent damage to your laptop.",
+            ],
+          },
+          {
+            id: 2,
+            title: "Enhanced Laptop Protection",
+            keypoints: [
+              "Padded compartments with shock-absorbing foam.",
+              "Dedicated laptop sleeve to securely hold devices of various sizes.",
+              "Reinforced base to provide extra stability and safety.",
+            ],
+          },
+          {
+            id: 3,
+            title: "Organized Storage",
+            keypoints: [
+              "Multiple compartments for laptops, tablets, chargers, and cables.",
+              "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+              "Expandable sections for added storage space when needed.",
+            ],
+          },
+          {
+            id: 4,
+            title: "Comfortable Design",
+            keypoints: [
+              "Adjustable, padded shoulder straps for all-day comfort.",
+              "Ergonomic handles with reinforced stitching for easy carrying.",
+              "Lightweight yet sturdy design suitable for commuting or traveling.",
+            ],
+          },
+          {
+            id: 5,
+            title: "Stylish and Versatile",
+            keypoints: [
+              "Available in a range of sleek, modern designs and colors.",
+              "Suitable for professionals, students, and frequent travelers.",
+              "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+            ],
+          },
+        ],
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 2,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item2BagImage1,
+          },
+          {
+            id: 2,
+            image: item2BagImage2,
+          },
+          {
+            id: 3,
+            image: item2BagImage3,
+          },
+          {
+            id: 4,
+            image: item2BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 3,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item3BagImage1,
+          },
+          {
+            id: 2,
+            image: item3BagImage2,
+          },
+          {
+            id: 3,
+            image: item3BagImage3,
+          },
+          {
+            id: 4,
+            image: item3BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 4,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item4BagImage1,
+          },
+          {
+            id: 2,
+            image: item4BagImage2,
+          },
+          {
+            id: 3,
+            image: item4BagImage3,
+          },
+          {
+            id: 4,
+            image: item4BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 5,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item5BagImage1,
+          },
+          {
+            id: 2,
+            image: item5BagImage2,
+          },
+          {
+            id: 3,
+            image: item5BagImage3,
+          },
+          {
+            id: 4,
+            image: item5BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 6,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item6BagImage1,
+          },
+          {
+            id: 2,
+            image: item6BagImage2,
+          },
+          {
+            id: 3,
+            image: item6BagImage3,
+          },
+          {
+            id: 4,
+            image: item6BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 7,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item7BagImage1,
+          },
+          {
+            id: 2,
+            image: item7BagImage2,
+          },
+          {
+            id: 3,
+            image: item7BagImage3,
+          },
+          {
+            id: 4,
+            image: item7BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 8,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item8BagImage1,
+          },
+          {
+            id: 2,
+            image: item8BagImage2,
+          },
+          {
+            id: 3,
+            image: item8BagImage3,
+          },
+          {
+            id: 4,
+            image: item8BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+    ],
   },
+  
   {
     id: 14,
-    productTitle: "",
-    productShortDescription: "",
+    productTitle: "Laptop Bag (title)",
+    productShortDescription: "A short Description will be here",
     productImages: [
       {
         id: 1,
@@ -952,17 +5997,438 @@ export const PRODUCT_LAPTOP_BAG = [
         image: item14BagImage4,
       },
     ],
-    productPrice: "",
-    productColors: [],
-    productDetailDescription: "",
+    productPrice: "₹ 899.00",
+    productColors: [
+      {
+        id: 1,
+        color: "#090401",
+        attribute: "color",
+      },
+      {
+        id: 2,
+        color: "#e74c3c",
+        attribute: "color",
+      },
+    ],
+    productDetailDescription: [
+      {
+        id: 1,
+        title: "High-Quality Materials",
+        keypoints: [
+          "Made from premium, durable materials such as polyester, nylon, or leather.",
+          "Water-resistant exterior to protect your belongings from rain or spills.",
+          "Scratch-proof interiors to prevent damage to your laptop.",
+        ],
+      },
+      {
+        id: 2,
+        title: "Enhanced Laptop Protection",
+        keypoints: [
+          "Padded compartments with shock-absorbing foam.",
+          "Dedicated laptop sleeve to securely hold devices of various sizes.",
+          "Reinforced base to provide extra stability and safety.",
+        ],
+      },
+      {
+        id: 3,
+        title: "Organized Storage",
+        keypoints: [
+          "Multiple compartments for laptops, tablets, chargers, and cables.",
+          "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+          "Expandable sections for added storage space when needed.",
+        ],
+      },
+      {
+        id: 4,
+        title: "Comfortable Design",
+        keypoints: [
+          "Adjustable, padded shoulder straps for all-day comfort.",
+          "Ergonomic handles with reinforced stitching for easy carrying.",
+          "Lightweight yet sturdy design suitable for commuting or traveling.",
+        ],
+      },
+      {
+        id: 5,
+        title: "Stylish and Versatile",
+        keypoints: [
+          "Available in a range of sleek, modern designs and colors.",
+          "Suitable for professionals, students, and frequent travelers.",
+          "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+        ],
+      },
+    ],
     productAdditionalDescription: "",
-    productReview: [],
-    similarProducts: [],
+    productReview: [
+      {
+        name: "Sneh Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+      {
+        name: "Himansu Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+    ],
+    similarProducts: [
+      {
+        id: 1,
+        productTitle: "Laptop Bag",
+        productShortDescription: "the laptop bag with quality",
+        productImages: [
+          {
+            id: 1,
+            image: item1BagImage1,
+          },
+          {
+            id: 2,
+            image: item1BagImage2,
+          },
+          {
+            id: 3,
+            image: item1BagImage3,
+          },
+          {
+            id: 4,
+            image: item1BagImage4,
+          },
+        ],
+        productPrice: "899.00",
+        productColors: [
+          {
+            id: 1,
+            color: "#090401",
+            attribute: "color",
+          },
+          {
+            id: 2,
+            color: "#e74c3c",
+            attribute: "color",
+          },
+        ],
+        productAdditionalButtons: [
+          {
+            id: 1,
+            btnTitle: "Specifications",
+          },
+          {
+            id: 1,
+            btnTitle: "Additional Details",
+          },
+          {
+            id: 1,
+            btnTitle: "Product Review",
+          },
+        ],
+        productDescription: [
+          {
+            title: "General",
+            data: [
+              { id: 1, spec: "Colour", specData: "Black" },
+              { id: 2, spec: "Width", specData: "12 inch" },
+              { id: 3, spec: "Height", specData: "20 Inch" },
+              { id: 3, spec: "Weight", specData: "340 g" },
+              { id: 4, spec: "No of Space", specData: "3" },
+              { id: 5, spec: "Fabric Used", specData: "Polyster" },
+              { id: 6, spec: "Water Proof", specData: "Yes" },
+            ],
+          },
+          {
+            title: "Warranty",
+            data: [
+              {
+                id: 1,
+                spec: "Warranty Summary",
+                specData: "1 Year Onsite Warranty",
+              },
+              {
+                id: 2,
+                spec: "Warranty Service Type",
+                specData:
+                  "For any warranty related issues, please call:[1800-2090365]",
+              },
+              {
+                id: 3,
+                spec: "Covered in Warranty",
+                specData: "Manufacturing Defects",
+              },
+              {
+                id: 4,
+                spec: "Not Covered in Warranty",
+                specData: "Physical Damage",
+              },
+              { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+            ],
+          },
+        ],
+        productDetailDescription: [
+          {
+            id: 1,
+            title: "High-Quality Materials",
+            keypoints: [
+              "Made from premium, durable materials such as polyester, nylon, or leather.",
+              "Water-resistant exterior to protect your belongings from rain or spills.",
+              "Scratch-proof interiors to prevent damage to your laptop.",
+            ],
+          },
+          {
+            id: 2,
+            title: "Enhanced Laptop Protection",
+            keypoints: [
+              "Padded compartments with shock-absorbing foam.",
+              "Dedicated laptop sleeve to securely hold devices of various sizes.",
+              "Reinforced base to provide extra stability and safety.",
+            ],
+          },
+          {
+            id: 3,
+            title: "Organized Storage",
+            keypoints: [
+              "Multiple compartments for laptops, tablets, chargers, and cables.",
+              "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+              "Expandable sections for added storage space when needed.",
+            ],
+          },
+          {
+            id: 4,
+            title: "Comfortable Design",
+            keypoints: [
+              "Adjustable, padded shoulder straps for all-day comfort.",
+              "Ergonomic handles with reinforced stitching for easy carrying.",
+              "Lightweight yet sturdy design suitable for commuting or traveling.",
+            ],
+          },
+          {
+            id: 5,
+            title: "Stylish and Versatile",
+            keypoints: [
+              "Available in a range of sleek, modern designs and colors.",
+              "Suitable for professionals, students, and frequent travelers.",
+              "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+            ],
+          },
+        ],
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 2,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item2BagImage1,
+          },
+          {
+            id: 2,
+            image: item2BagImage2,
+          },
+          {
+            id: 3,
+            image: item2BagImage3,
+          },
+          {
+            id: 4,
+            image: item2BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 3,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item3BagImage1,
+          },
+          {
+            id: 2,
+            image: item3BagImage2,
+          },
+          {
+            id: 3,
+            image: item3BagImage3,
+          },
+          {
+            id: 4,
+            image: item3BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 4,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item4BagImage1,
+          },
+          {
+            id: 2,
+            image: item4BagImage2,
+          },
+          {
+            id: 3,
+            image: item4BagImage3,
+          },
+          {
+            id: 4,
+            image: item4BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 5,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item5BagImage1,
+          },
+          {
+            id: 2,
+            image: item5BagImage2,
+          },
+          {
+            id: 3,
+            image: item5BagImage3,
+          },
+          {
+            id: 4,
+            image: item5BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 6,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item6BagImage1,
+          },
+          {
+            id: 2,
+            image: item6BagImage2,
+          },
+          {
+            id: 3,
+            image: item6BagImage3,
+          },
+          {
+            id: 4,
+            image: item6BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 7,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item7BagImage1,
+          },
+          {
+            id: 2,
+            image: item7BagImage2,
+          },
+          {
+            id: 3,
+            image: item7BagImage3,
+          },
+          {
+            id: 4,
+            image: item7BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 8,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item8BagImage1,
+          },
+          {
+            id: 2,
+            image: item8BagImage2,
+          },
+          {
+            id: 3,
+            image: item8BagImage3,
+          },
+          {
+            id: 4,
+            image: item8BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+    ],
   },
+  
   {
     id: 15,
-    productTitle: "",
-    productShortDescription: "",
+    productTitle: "Laptop Bag (title)",
+    productShortDescription: "A short Description will be here",
     productImages: [
       {
         id: 1,
@@ -981,17 +6447,438 @@ export const PRODUCT_LAPTOP_BAG = [
         image: item15BagImage4,
       },
     ],
-    productPrice: "",
-    productColors: [],
-    productDetailDescription: "",
+    productPrice: "₹ 899.00",
+    productColors: [
+      {
+        id: 1,
+        color: "#090401",
+        attribute: "color",
+      },
+      {
+        id: 2,
+        color: "#e74c3c",
+        attribute: "color",
+      },
+    ],
+    productDetailDescription: [
+      {
+        id: 1,
+        title: "High-Quality Materials",
+        keypoints: [
+          "Made from premium, durable materials such as polyester, nylon, or leather.",
+          "Water-resistant exterior to protect your belongings from rain or spills.",
+          "Scratch-proof interiors to prevent damage to your laptop.",
+        ],
+      },
+      {
+        id: 2,
+        title: "Enhanced Laptop Protection",
+        keypoints: [
+          "Padded compartments with shock-absorbing foam.",
+          "Dedicated laptop sleeve to securely hold devices of various sizes.",
+          "Reinforced base to provide extra stability and safety.",
+        ],
+      },
+      {
+        id: 3,
+        title: "Organized Storage",
+        keypoints: [
+          "Multiple compartments for laptops, tablets, chargers, and cables.",
+          "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+          "Expandable sections for added storage space when needed.",
+        ],
+      },
+      {
+        id: 4,
+        title: "Comfortable Design",
+        keypoints: [
+          "Adjustable, padded shoulder straps for all-day comfort.",
+          "Ergonomic handles with reinforced stitching for easy carrying.",
+          "Lightweight yet sturdy design suitable for commuting or traveling.",
+        ],
+      },
+      {
+        id: 5,
+        title: "Stylish and Versatile",
+        keypoints: [
+          "Available in a range of sleek, modern designs and colors.",
+          "Suitable for professionals, students, and frequent travelers.",
+          "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+        ],
+      },
+    ],
     productAdditionalDescription: "",
-    productReview: [],
-    similarProducts: [],
+    productReview: [
+      {
+        name: "Sneh Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+      {
+        name: "Himansu Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+    ],
+    similarProducts: [
+      {
+        id: 1,
+        productTitle: "Laptop Bag",
+        productShortDescription: "the laptop bag with quality",
+        productImages: [
+          {
+            id: 1,
+            image: item1BagImage1,
+          },
+          {
+            id: 2,
+            image: item1BagImage2,
+          },
+          {
+            id: 3,
+            image: item1BagImage3,
+          },
+          {
+            id: 4,
+            image: item1BagImage4,
+          },
+        ],
+        productPrice: "899.00",
+        productColors: [
+          {
+            id: 1,
+            color: "#090401",
+            attribute: "color",
+          },
+          {
+            id: 2,
+            color: "#e74c3c",
+            attribute: "color",
+          },
+        ],
+        productAdditionalButtons: [
+          {
+            id: 1,
+            btnTitle: "Specifications",
+          },
+          {
+            id: 1,
+            btnTitle: "Additional Details",
+          },
+          {
+            id: 1,
+            btnTitle: "Product Review",
+          },
+        ],
+        productDescription: [
+          {
+            title: "General",
+            data: [
+              { id: 1, spec: "Colour", specData: "Black" },
+              { id: 2, spec: "Width", specData: "12 inch" },
+              { id: 3, spec: "Height", specData: "20 Inch" },
+              { id: 3, spec: "Weight", specData: "340 g" },
+              { id: 4, spec: "No of Space", specData: "3" },
+              { id: 5, spec: "Fabric Used", specData: "Polyster" },
+              { id: 6, spec: "Water Proof", specData: "Yes" },
+            ],
+          },
+          {
+            title: "Warranty",
+            data: [
+              {
+                id: 1,
+                spec: "Warranty Summary",
+                specData: "1 Year Onsite Warranty",
+              },
+              {
+                id: 2,
+                spec: "Warranty Service Type",
+                specData:
+                  "For any warranty related issues, please call:[1800-2090365]",
+              },
+              {
+                id: 3,
+                spec: "Covered in Warranty",
+                specData: "Manufacturing Defects",
+              },
+              {
+                id: 4,
+                spec: "Not Covered in Warranty",
+                specData: "Physical Damage",
+              },
+              { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+            ],
+          },
+        ],
+        productDetailDescription: [
+          {
+            id: 1,
+            title: "High-Quality Materials",
+            keypoints: [
+              "Made from premium, durable materials such as polyester, nylon, or leather.",
+              "Water-resistant exterior to protect your belongings from rain or spills.",
+              "Scratch-proof interiors to prevent damage to your laptop.",
+            ],
+          },
+          {
+            id: 2,
+            title: "Enhanced Laptop Protection",
+            keypoints: [
+              "Padded compartments with shock-absorbing foam.",
+              "Dedicated laptop sleeve to securely hold devices of various sizes.",
+              "Reinforced base to provide extra stability and safety.",
+            ],
+          },
+          {
+            id: 3,
+            title: "Organized Storage",
+            keypoints: [
+              "Multiple compartments for laptops, tablets, chargers, and cables.",
+              "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+              "Expandable sections for added storage space when needed.",
+            ],
+          },
+          {
+            id: 4,
+            title: "Comfortable Design",
+            keypoints: [
+              "Adjustable, padded shoulder straps for all-day comfort.",
+              "Ergonomic handles with reinforced stitching for easy carrying.",
+              "Lightweight yet sturdy design suitable for commuting or traveling.",
+            ],
+          },
+          {
+            id: 5,
+            title: "Stylish and Versatile",
+            keypoints: [
+              "Available in a range of sleek, modern designs and colors.",
+              "Suitable for professionals, students, and frequent travelers.",
+              "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+            ],
+          },
+        ],
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 2,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item2BagImage1,
+          },
+          {
+            id: 2,
+            image: item2BagImage2,
+          },
+          {
+            id: 3,
+            image: item2BagImage3,
+          },
+          {
+            id: 4,
+            image: item2BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 3,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item3BagImage1,
+          },
+          {
+            id: 2,
+            image: item3BagImage2,
+          },
+          {
+            id: 3,
+            image: item3BagImage3,
+          },
+          {
+            id: 4,
+            image: item3BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 4,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item4BagImage1,
+          },
+          {
+            id: 2,
+            image: item4BagImage2,
+          },
+          {
+            id: 3,
+            image: item4BagImage3,
+          },
+          {
+            id: 4,
+            image: item4BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 5,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item5BagImage1,
+          },
+          {
+            id: 2,
+            image: item5BagImage2,
+          },
+          {
+            id: 3,
+            image: item5BagImage3,
+          },
+          {
+            id: 4,
+            image: item5BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 6,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item6BagImage1,
+          },
+          {
+            id: 2,
+            image: item6BagImage2,
+          },
+          {
+            id: 3,
+            image: item6BagImage3,
+          },
+          {
+            id: 4,
+            image: item6BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 7,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item7BagImage1,
+          },
+          {
+            id: 2,
+            image: item7BagImage2,
+          },
+          {
+            id: 3,
+            image: item7BagImage3,
+          },
+          {
+            id: 4,
+            image: item7BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 8,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item8BagImage1,
+          },
+          {
+            id: 2,
+            image: item8BagImage2,
+          },
+          {
+            id: 3,
+            image: item8BagImage3,
+          },
+          {
+            id: 4,
+            image: item8BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+    ],
   },
+  
   {
     id: 16,
-    productTitle: "",
-    productShortDescription: "",
+    productTitle: "Laptop Bag (title)",
+    productShortDescription: "A short Description will be here",
     productImages: [
       {
         id: 1,
@@ -1010,11 +6897,432 @@ export const PRODUCT_LAPTOP_BAG = [
         image: item16BagImage4,
       },
     ],
-    productPrice: "",
-    productColors: [],
-    productDetailDescription: "",
+    productPrice: "₹ 899.00",
+    productColors: [
+      {
+        id: 1,
+        color: "#090401",
+        attribute: "color",
+      },
+      {
+        id: 2,
+        color: "#e74c3c",
+        attribute: "color",
+      },
+    ],
+    productDetailDescription: [
+      {
+        id: 1,
+        title: "High-Quality Materials",
+        keypoints: [
+          "Made from premium, durable materials such as polyester, nylon, or leather.",
+          "Water-resistant exterior to protect your belongings from rain or spills.",
+          "Scratch-proof interiors to prevent damage to your laptop.",
+        ],
+      },
+      {
+        id: 2,
+        title: "Enhanced Laptop Protection",
+        keypoints: [
+          "Padded compartments with shock-absorbing foam.",
+          "Dedicated laptop sleeve to securely hold devices of various sizes.",
+          "Reinforced base to provide extra stability and safety.",
+        ],
+      },
+      {
+        id: 3,
+        title: "Organized Storage",
+        keypoints: [
+          "Multiple compartments for laptops, tablets, chargers, and cables.",
+          "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+          "Expandable sections for added storage space when needed.",
+        ],
+      },
+      {
+        id: 4,
+        title: "Comfortable Design",
+        keypoints: [
+          "Adjustable, padded shoulder straps for all-day comfort.",
+          "Ergonomic handles with reinforced stitching for easy carrying.",
+          "Lightweight yet sturdy design suitable for commuting or traveling.",
+        ],
+      },
+      {
+        id: 5,
+        title: "Stylish and Versatile",
+        keypoints: [
+          "Available in a range of sleek, modern designs and colors.",
+          "Suitable for professionals, students, and frequent travelers.",
+          "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+        ],
+      },
+    ],
     productAdditionalDescription: "",
-    productReview: [],
-    similarProducts: [],
+    productReview: [
+      {
+        name: "Sneh Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+      {
+        name: "Himansu Kumar",
+        reviewDetail:
+          "Value for money.it is best suitable for 15.6 inch laptop and it comes with 1 year of warranty so in this price range best product.",
+        rating: "4",
+        date: "20/12/2024",
+        address:'Chaibasa, Jharkhand',
+        image: [],
+      },
+    ],
+    similarProducts: [
+      {
+        id: 1,
+        productTitle: "Laptop Bag",
+        productShortDescription: "the laptop bag with quality",
+        productImages: [
+          {
+            id: 1,
+            image: item1BagImage1,
+          },
+          {
+            id: 2,
+            image: item1BagImage2,
+          },
+          {
+            id: 3,
+            image: item1BagImage3,
+          },
+          {
+            id: 4,
+            image: item1BagImage4,
+          },
+        ],
+        productPrice: "899.00",
+        productColors: [
+          {
+            id: 1,
+            color: "#090401",
+            attribute: "color",
+          },
+          {
+            id: 2,
+            color: "#e74c3c",
+            attribute: "color",
+          },
+        ],
+        productAdditionalButtons: [
+          {
+            id: 1,
+            btnTitle: "Specifications",
+          },
+          {
+            id: 1,
+            btnTitle: "Additional Details",
+          },
+          {
+            id: 1,
+            btnTitle: "Product Review",
+          },
+        ],
+        productDescription: [
+          {
+            title: "General",
+            data: [
+              { id: 1, spec: "Colour", specData: "Black" },
+              { id: 2, spec: "Width", specData: "12 inch" },
+              { id: 3, spec: "Height", specData: "20 Inch" },
+              { id: 3, spec: "Weight", specData: "340 g" },
+              { id: 4, spec: "No of Space", specData: "3" },
+              { id: 5, spec: "Fabric Used", specData: "Polyster" },
+              { id: 6, spec: "Water Proof", specData: "Yes" },
+            ],
+          },
+          {
+            title: "Warranty",
+            data: [
+              {
+                id: 1,
+                spec: "Warranty Summary",
+                specData: "1 Year Onsite Warranty",
+              },
+              {
+                id: 2,
+                spec: "Warranty Service Type",
+                specData:
+                  "For any warranty related issues, please call:[1800-2090365]",
+              },
+              {
+                id: 3,
+                spec: "Covered in Warranty",
+                specData: "Manufacturing Defects",
+              },
+              {
+                id: 4,
+                spec: "Not Covered in Warranty",
+                specData: "Physical Damage",
+              },
+              { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+            ],
+          },
+        ],
+        productDetailDescription: [
+          {
+            id: 1,
+            title: "High-Quality Materials",
+            keypoints: [
+              "Made from premium, durable materials such as polyester, nylon, or leather.",
+              "Water-resistant exterior to protect your belongings from rain or spills.",
+              "Scratch-proof interiors to prevent damage to your laptop.",
+            ],
+          },
+          {
+            id: 2,
+            title: "Enhanced Laptop Protection",
+            keypoints: [
+              "Padded compartments with shock-absorbing foam.",
+              "Dedicated laptop sleeve to securely hold devices of various sizes.",
+              "Reinforced base to provide extra stability and safety.",
+            ],
+          },
+          {
+            id: 3,
+            title: "Organized Storage",
+            keypoints: [
+              "Multiple compartments for laptops, tablets, chargers, and cables.",
+              "Zippered pockets for smaller essentials like keys, pens, and USB drives.",
+              "Expandable sections for added storage space when needed.",
+            ],
+          },
+          {
+            id: 4,
+            title: "Comfortable Design",
+            keypoints: [
+              "Adjustable, padded shoulder straps for all-day comfort.",
+              "Ergonomic handles with reinforced stitching for easy carrying.",
+              "Lightweight yet sturdy design suitable for commuting or traveling.",
+            ],
+          },
+          {
+            id: 5,
+            title: "Stylish and Versatile",
+            keypoints: [
+              "Available in a range of sleek, modern designs and colors.",
+              "Suitable for professionals, students, and frequent travelers.",
+              "Minimalist styles for work and casual use, with options for business or outdoor activities.",
+            ],
+          },
+        ],
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 2,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item2BagImage1,
+          },
+          {
+            id: 2,
+            image: item2BagImage2,
+          },
+          {
+            id: 3,
+            image: item2BagImage3,
+          },
+          {
+            id: 4,
+            image: item2BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 3,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item3BagImage1,
+          },
+          {
+            id: 2,
+            image: item3BagImage2,
+          },
+          {
+            id: 3,
+            image: item3BagImage3,
+          },
+          {
+            id: 4,
+            image: item3BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 4,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item4BagImage1,
+          },
+          {
+            id: 2,
+            image: item4BagImage2,
+          },
+          {
+            id: 3,
+            image: item4BagImage3,
+          },
+          {
+            id: 4,
+            image: item4BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 5,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item5BagImage1,
+          },
+          {
+            id: 2,
+            image: item5BagImage2,
+          },
+          {
+            id: 3,
+            image: item5BagImage3,
+          },
+          {
+            id: 4,
+            image: item5BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 6,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item6BagImage1,
+          },
+          {
+            id: 2,
+            image: item6BagImage2,
+          },
+          {
+            id: 3,
+            image: item6BagImage3,
+          },
+          {
+            id: 4,
+            image: item6BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 7,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item7BagImage1,
+          },
+          {
+            id: 2,
+            image: item7BagImage2,
+          },
+          {
+            id: 3,
+            image: item7BagImage3,
+          },
+          {
+            id: 4,
+            image: item7BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+      {
+        id: 8,
+        productTitle: "",
+        productShortDescription: "",
+        productImages: [
+          {
+            id: 1,
+            image: item8BagImage1,
+          },
+          {
+            id: 2,
+            image: item8BagImage2,
+          },
+          {
+            id: 3,
+            image: item8BagImage3,
+          },
+          {
+            id: 4,
+            image: item8BagImage4,
+          },
+        ],
+        productPrice: "",
+        productColors: [],
+        productDetailDescription: "",
+        productAdditionalDescription: "",
+        productReview: [],
+        similarProducts: [],
+      },
+    ],
   },
+  
 ];
