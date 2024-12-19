@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NAV_LINKS, TOP_HEADER_TEXT } from "./common.const";
 import { animate, motion } from "framer-motion";
 import GenericButton from "../GenericComponent/GenericButton";
+import { Link } from "react-router-dom";
 
 export const TopHeader = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -114,11 +115,20 @@ const Header = () => {
                   // onMouseEnter={() => handleMouseEnter(val)}
                   // onMouseLeave={() => setShow(false)}
                 >
-                  {val.link}
-                  <div className="text-black hidden pt-8 bg-white p-5 group-hover:block w-max top-full absolute">
+                  <Link to={val.url}>{val.link}</Link>
+                  <div
+                    className={`text-black hidden h-max pt-8 bg-white group-hover:block w-max top-full absolute ${
+                      val?.innerLinks?.length ? "p-5" : ""
+                    }`}
+                  >
                     {val?.innerLinks?.length ? (
                       val?.innerLinks?.map((value) => (
-                        <div className="h-fit">{value.title}</div>
+                        <Link
+                          to={value.link}
+                          className="h-max block mb-2 last-of-type:mb-0 text-base hover:text-primarycolor text-textColor"
+                        >
+                          {value.title}
+                        </Link>
                       ))
                     ) : (
                       <></>
@@ -167,7 +177,7 @@ const Header = () => {
             mainClass={
               "py-3 ms-3 text-sm w-full sm:w-4/5 md:w-1/5 lg:w-[50%] xl:w-[35%] "
             }
-            childClass={'text-black'}
+            childClass={"text-black"}
             // primary={true}
           />
         </div>

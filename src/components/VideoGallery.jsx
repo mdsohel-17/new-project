@@ -29,7 +29,7 @@ const VideoGallery = () => {
           disableOnInteraction: false,
         }}
         modules={[Autoplay, FreeMode, Pagination]}
-        className="mySwiper py-20"
+        className="mySwiper video-gallery py-20"
         style={{ padding: "80px 0px" }}
       >
         {[...Array(10).keys()].map((val) => (

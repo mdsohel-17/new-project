@@ -16,12 +16,12 @@
   transform: rotateX(-25deg) rotateY(-15deg) rotateZ(-15deg);
 }
 
-.swiper-slide-prev {
+.video-gallery .swiper-slide-prev {
   scale: 1.1;
 }
-.swiper-slide-next {
+.video-gallery .swiper-slide-next {
   scale: 1.1;
 }
-.swiper-slide-active {
+.video-gallery .swiper-slide-active {
   scale: 1.2;
 }

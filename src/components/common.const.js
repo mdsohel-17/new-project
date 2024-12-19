@@ -62,7 +62,7 @@ import {
   faFacebook,
   faInstagram,
   faPagelines,
-  faTiktok,
+  faLinkedin,
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -157,7 +157,7 @@ export const BEST_SELLERS = [
     decription: "Compact and stylish, perfect for on-the-go convenience.",
     productImage: bagimage4,
   },
-]; 
+];
 
 export const leatherbag = [
   {
@@ -401,17 +401,14 @@ export const NAV_LINKS = [
     id: 1,
     link: "Home",
     innerLinks: "",
+    url:'/'
   },
   {
     id: 2,
     link: "Product",
     innerLinks: [
-      { id: 1, title: "Leather Bags" },
+      { id: 1, title: "Laptop Bags" , link:'/laptop-bag' },
       { id: 3, title: "Office Bags" },
-      { id: 2, title: "Tracking Bags" },
-      { id: 2, title: "Tracking Bags" },
-      { id: 2, title: "Tracking Bags" },
-      { id: 2, title: "Tracking Bags" },
       { id: 2, title: "Tracking Bags" },
     ],
   },
@@ -477,7 +474,7 @@ export const FOOTER_LINKS = [
   },
 ];
 
-export const SOCIAL_ICONS = [faInstagram, faFacebook, faXTwitter, faTiktok];
+export const SOCIAL_ICONS = [faInstagram, faFacebook, faXTwitter, faLinkedin];
 
 export const TOP_HEADER_TEXT = [
   { id: 1, title: "200 off on first order" },
@@ -550,5 +547,19 @@ export const dufflebag = [
     price: "$39.99",
     decription: "Lightweight and spacious, perfect for your daily needs.",
     productImage: dufflebag8,
+  },
+];
+
+export const PRODUCT_JSON_FORMATE = [
+  {
+    productTitle: "",
+    productShortDescription: "",
+    productImages: [],
+    productPrice: "",
+    productColors: [],
+    productDetailDescription: "",
+    productAdditionalDescription: "",
+    productReview: [],
+    similarProducts: [],
   },
 ];

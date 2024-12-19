@@ -9,6 +9,7 @@ const GenericButton = (props) => {
     rounded,
     childClass,
     animate,
+    handleClick,
   } = props;
   return (
     <>
@@ -18,6 +19,7 @@ const GenericButton = (props) => {
         } ${
           primary ? "bg-primarycolor" : ""
         } border  cursor-pointer text-center border-primarycolor`}
+        onClick={handleClick}
       >
         <p
           className={`${childClass} ${
