@@ -7,17 +7,20 @@ import Banner from "../components/Banner";
 import Promotion from "../components/Promotion";
 import MainSlider from "../components/MainSlider";
 import VideoGallery from "../components/VideoGallery";
+import Navbar from "../components/Navbar";
 
 const LandingPage = () => {
   return (
     <>
+      {/* <Navbar /> */}
       <Header />
       <MainSlider />
       {/* <Slider /> */}
       {/* <Banner/> */}
       <Product />
       {/* <Promotion /> */}
-      <VideoGallery/>
+      <VideoGallery />
+
       <Footer />
     </>
   );

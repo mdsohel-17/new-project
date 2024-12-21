@@ -104,9 +104,7 @@ const GenericProductPage = () => {
               <p className="text-textColor text-xl my-3">
                 {prodDetails?.productShortDescription}
               </p>
-              <p className="font-medium text-xl">
-                {prodDetails?.productPrice}
-              </p>
+              <p className="font-medium text-xl">{prodDetails?.productPrice}</p>
               <div className=" flex items-center mt-8">
                 {prodDetails?.productColors.map((val) => {
                   return (

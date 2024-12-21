@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { logo, logonobg } from "../utils/utils";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import {
+  faAngleDown,
+  faMagnifyingGlass,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NAV_LINKS, TOP_HEADER_TEXT } from "./common.const";
 import { animate, motion } from "framer-motion";
 import GenericButton from "../GenericComponent/GenericButton";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export const TopHeader = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -47,19 +50,27 @@ export const TopHeader = () => {
 };
 
 const Header = () => {
-  const [show, setShow] = useState(false);
-  const [url, setUrl] = useState("");
+  const [hoveredItem, setHoveredItem] = useState(null); // Track which item is hovered
 
-  const handleMouseEnter = (value) => {
-    console.log(value);
-    if (value.innerLinks.length) setShow(true);
+  const handleMouseEnter = (val) => {
+    setHoveredItem(val.id); // Set hovered item ID
   };
 
+  const handleMouseLeave = () => {
+    setHoveredItem(null); // Reset hovered item when mouse leaves
+  };
+  const navigate = useNavigate();
+  const onClickBulkOrder = () => {
+    navigate("/bulk-order");
+  };
+  const onNavButtonClick = (title) => {
+    if (title === "Laptop Bags") navigate("/laptop-bag");
+  };
   return (
     <>
       <TopHeader />
-      <div className="w-100 h-fit flex flex-wrap px-20 justify-between items-center bg-white shadow-lg py-3 sticky top-0 z-50">
-        <div className="w-6/12 md:w-4/12 lg:w-2/12 flex items-center overflow-hidden">
+      <div className=" w-100 h-fit flex flex-wrap px-20 justify-between items-center bg-white shadow-lg sticky top-0 z-50">
+        <div className="w-6/12 md:w-4/12 lg:w-2/12 flex items-center overflow-hidden h-full ">
           <motion.img
             initial={{ opacity: 0 }}
             animate={{
@@ -101,70 +112,70 @@ const Header = () => {
             </motion.div>
           </motion.span>
         </div>
-        <div className="w-5/12 cursor-pointer hidden lg:block">
-          <ul className="list-none flex justify-around overflow-">
+        <div className="w-5/12 cursor-pointer hidden lg:block h-full ">
+          <ul className="  list-none flex justify-around overflow-hidden ">
             {NAV_LINKS.map((val) => (
               <>
                 <motion.li
                   key={val.id}
-                  // whileHover={{
-                  //   scale: 1.1,
-                  //   transition: { duration: 0.1 }, // Optional: Customize hover transition
-                  // }}
-                  className="relative group text-lg text-[#0b0f12a3] font-medium hover:text-primarycolor"
-                  // onMouseEnter={() => handleMouseEnter(val)}
-                  // onMouseLeave={() => setShow(false)}
+                  className="relative z-50 group text-lg text-[#0b0f12a3] flex items-center py-5 font-medium h-full hover:text-primarycolor"
+                  onMouseEnter={() => handleMouseEnter(val)}
+                  onMouseLeave={handleMouseLeave}
                 >
-                  <Link to={val.url}>{val.link}</Link>
-                  <div
-                    className={`text-black hidden h-max pt-8 bg-white group-hover:block w-max top-full absolute ${
-                      val?.innerLinks?.length ? "p-5" : ""
-                    }`}
-                  >
-                    {val?.innerLinks?.length ? (
-                      val?.innerLinks?.map((value) => (
-                        <Link
-                          to={value.link}
-                          className="h-max block mb-2 last-of-type:mb-0 text-base hover:text-primarycolor text-textColor"
-                        >
-                          {value.title}
-                        </Link>
-                      ))
-                    ) : (
-                      <></>
-                    )}
-                  </div>
+                  <Link to={val.url} key={val.id}>
+                    {val.link}
+                  </Link>
+                  {val.innerLinks.length > 0 && (
+                    <FontAwesomeIcon
+                      icon={faAngleDown}
+                      className={`${
+                        hoveredItem && hoveredItem === val.id
+                          ? `rotate-180`
+                          : ""
+                      } transition-all duration-1000 ms-2 `}
+                    />
+                  )}
                 </motion.li>
 
-                {/* {show && val?.innerLinks?.length ? (
-                  <div className="absolute inset-0 top-full  w-full h-fit bg-opacity-65 bg-white text-black border-2">
-                    {val?.innerLinks?.map((value) => (
-                      <div className="">{value.title}</div>
+                {hoveredItem === val.id && val.innerLinks.length > 0 && (
+                  <div
+                    className="absolute flex top-full left-0 bg-white border-t pt-8  w-full h-[50vh] px-20 justify-center"
+                    onMouseEnter={() => setHoveredItem(val.id)}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    {val.innerLinks.map((innerVal) => (
+                      <motion.div
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{
+                          opacity: 1,
+                          y: 0,
+                          transition: {
+                            duration: 0.5,
+                          },
+                        }}
+                        key={innerVal.title}
+                        className="w-2/12 "
+                      >
+                        <div
+                          className="text-black font-medium text-lg"
+                          onClick={() => onNavButtonClick(innerVal.title)}
+                        >
+                          {innerVal.title}
+                        </div>
+                        {innerVal.items.map((item) => (
+                          <p className="text-textColor font-normal mt-2 hover:text-primarycolor">
+                            {item}
+                          </p>
+                        ))}
+                      </motion.div>
                     ))}
                   </div>
-                ) : (
-                  <></>
-                )} */}
+                )}
               </>
             ))}
           </ul>
         </div>
         <div className="flex items-center justify-end w-6/12 md:w-8/12 lg:w-3/12">
-          {/* <div className="relative flex items-center border border-primarycolor pe-2 rounded-3xl me-5 w-full">
-            <input
-              type="text"
-              name="search"
-              id="search"
-              placeholder="Search"
-              className="h-full py-2 px-3 me-3 rounded-full focus:outline-none w-full"
-            />
-            <FontAwesomeIcon
-              icon={faMagnifyingGlass}
-              style={{ color: "#af601a" }}
-              size="lg"
-              className=""
-            />
-          </div> */}
           <GenericButton
             text={"Sign In"}
             mainClass={
@@ -178,6 +189,7 @@ const Header = () => {
               "py-3 ms-3 text-sm w-full sm:w-4/5 md:w-1/5 lg:w-[50%] xl:w-[35%] "
             }
             childClass={"text-black"}
+            handleClick={onClickBulkOrder}
             // primary={true}
           />
         </div>

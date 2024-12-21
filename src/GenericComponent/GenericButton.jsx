@@ -9,25 +9,27 @@ const GenericButton = (props) => {
     rounded,
     childClass,
     animate,
+    type,
     handleClick,
   } = props;
   return (
     <>
       <div
-        className={`${mainClass} relative group overflow-hidden ${
-          rounded ? "rounded-full" : ""
-        } ${
+        className={`${
+          mainClass ? mainClass : ""
+        }relative group overflow-hidden ${rounded ? "rounded-full" : ""} ${
           primary ? "bg-primarycolor" : ""
         } border  cursor-pointer text-center border-primarycolor`}
         onClick={handleClick}
       >
-        <p
-          className={`${childClass} ${
+        <button
+          type={type}
+          className={`${childClass ? childClass : ""} ${
             animate || primary ? "group-hover:text-white" : ""
-          } z-10 relative font-medium `}
+          } z-10 relative font-medium w-full h-full`}
         >
           {text}
-        </p>
+        </button>
         {animate ? (
           <div
             className={`absolute w-full h-full ${

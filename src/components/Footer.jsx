@@ -66,7 +66,7 @@ const Footer = () => {
           <h1 className="text-white font-medium">Follow Us</h1>
           <div className="flex mt-2 w-7/12 sm:w-9/12 md:w-full lg:w-9/12 xl:w-7/12 justify-between">
             {SOCIAL_ICONS.map((val) => (
-              <span className="border group rounded-full w-10 cursor-pointer hover:border-primarycolor  p-2 h-10">
+              <span className="border group text-center rounded-full w-10 cursor-pointer hover:border-primarycolor  p-2 h-10">
                 <FontAwesomeIcon
                   icon={val}
                   className="text-white group-hover:text-primarycolor"
