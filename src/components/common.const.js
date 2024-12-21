@@ -64,6 +64,7 @@ import {
   faPagelines,
   faLinkedin,
   faXTwitter,
+  faPinterestP,
 } from "@fortawesome/free-brands-svg-icons";
 
 export const collections = [
@@ -401,15 +402,28 @@ export const NAV_LINKS = [
     id: 1,
     link: "Home",
     innerLinks: "",
-    url:'/'
+    url: "/",
   },
   {
     id: 2,
     link: "Product",
     innerLinks: [
-      { id: 1, title: "Laptop Bags" , link:'/laptop-bag' },
-      { id: 3, title: "Office Bags" },
-      { id: 2, title: "Tracking Bags" },
+      {
+        id: 1,
+        title: "Laptop Bags",
+        link: "/laptop-bag",
+        items: ["Pygmy", "Arctic Tern", "Tapanuli", "Pangolin"],
+      },
+      {
+        id: 3,
+        title: "Office Bags",
+        items: ["Dodo", "Kangaroo", "Trex", "Kakapo"],
+      },
+      {
+        id: 2,
+        title: "Kids Bags",
+        items: ["Hello Kitty", "Unicorn", "Teddy", "Bunny", "Kawai"],
+      },
     ],
   },
   {
@@ -474,7 +488,13 @@ export const FOOTER_LINKS = [
   },
 ];
 
-export const SOCIAL_ICONS = [faInstagram, faFacebook, faXTwitter, faLinkedin];
+export const SOCIAL_ICONS = [
+  faInstagram,
+  faFacebook,
+  faXTwitter,
+  faLinkedin,
+  faPinterestP,
+];
 
 export const TOP_HEADER_TEXT = [
   { id: 1, title: "200 off on first order" },
