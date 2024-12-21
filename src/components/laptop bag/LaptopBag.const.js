@@ -82,7 +82,7 @@ export const PRODUCT_LAPTOP_BAG = [
   {
     id: 1,
     productTitle: "Laptop Bag (title)",
-    productShortDescription: "A short Description will be here",
+    productShortDescription: "Stylish, spacious, and effortlessly functional",
     productImages: [
       {
         id: 1,
@@ -585,7 +585,7 @@ export const PRODUCT_LAPTOP_BAG = [
   {
     id: 2,
     productTitle: "Laptop Bag (title)",
-    productShortDescription: "A short Description will be here",
+    productShortDescription: "Durable design for everyday use",
     productImages: [
       {
         id: 1,
@@ -613,8 +613,63 @@ export const PRODUCT_LAPTOP_BAG = [
       },
       {
         id: 2,
-        color: "#e74c3c",
+        color: "#33FF57",
         attribute: "color",
+      },
+    ],
+    productAdditionalButtons: [
+      {
+        id: 1,
+        btnTitle: "Specifications",
+      },
+      {
+        id: 1,
+        btnTitle: "Additional Details",
+      },
+      {
+        id: 1,
+        btnTitle: "Product Review",
+      },
+    ],
+    productDescription: [
+      {
+        title: "General",
+        data: [
+          { id: 1, spec: "Colour", specData: "Black" },
+          { id: 2, spec: "Width", specData: "12 inch" },
+          { id: 3, spec: "Height", specData: "20 Inch" },
+          { id: 3, spec: "Weight", specData: "340 g" },
+          { id: 4, spec: "No of Space", specData: "3" },
+          { id: 5, spec: "Fabric Used", specData: "Polyster" },
+          { id: 6, spec: "Water Proof", specData: "Yes" },
+        ],
+      },
+      {
+        title: "Warranty",
+        data: [
+          {
+            id: 1,
+            spec: "Warranty Summary",
+            specData: "1 Year Onsite Warranty",
+          },
+          {
+            id: 2,
+            spec: "Warranty Service Type",
+            specData:
+              "For any warranty related issues, please call:[1800-2090365]",
+          },
+          {
+            id: 3,
+            spec: "Covered in Warranty",
+            specData: "Manufacturing Defects",
+          },
+          {
+            id: 4,
+            spec: "Not Covered in Warranty",
+            specData: "Physical Damage",
+          },
+          { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+        ],
       },
     ],
     productDetailDescription: [
@@ -1034,7 +1089,7 @@ export const PRODUCT_LAPTOP_BAG = [
   {
     id: 3,
     productTitle: "Laptop Bag (title)",
-    productShortDescription: "A short Description will be here",
+    productShortDescription: "Elegant, modern, and highly practical",
     productImages: [
       {
         id: 1,
@@ -1062,8 +1117,63 @@ export const PRODUCT_LAPTOP_BAG = [
       },
       {
         id: 2,
-        color: "#e74c3c",
+        color: "#3357FF",
         attribute: "color",
+      },
+    ],
+    productAdditionalButtons: [
+      {
+        id: 1,
+        btnTitle: "Specifications",
+      },
+      {
+        id: 1,
+        btnTitle: "Additional Details",
+      },
+      {
+        id: 1,
+        btnTitle: "Product Review",
+      },
+    ],
+    productDescription: [
+      {
+        title: "General",
+        data: [
+          { id: 1, spec: "Colour", specData: "Black" },
+          { id: 2, spec: "Width", specData: "12 inch" },
+          { id: 3, spec: "Height", specData: "20 Inch" },
+          { id: 3, spec: "Weight", specData: "340 g" },
+          { id: 4, spec: "No of Space", specData: "3" },
+          { id: 5, spec: "Fabric Used", specData: "Polyster" },
+          { id: 6, spec: "Water Proof", specData: "Yes" },
+        ],
+      },
+      {
+        title: "Warranty",
+        data: [
+          {
+            id: 1,
+            spec: "Warranty Summary",
+            specData: "1 Year Onsite Warranty",
+          },
+          {
+            id: 2,
+            spec: "Warranty Service Type",
+            specData:
+              "For any warranty related issues, please call:[1800-2090365]",
+          },
+          {
+            id: 3,
+            spec: "Covered in Warranty",
+            specData: "Manufacturing Defects",
+          },
+          {
+            id: 4,
+            spec: "Not Covered in Warranty",
+            specData: "Physical Damage",
+          },
+          { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+        ],
       },
     ],
     productDetailDescription: [
@@ -1483,7 +1593,7 @@ export const PRODUCT_LAPTOP_BAG = [
   {
     id: 4,
     productTitle: "Laptop Bag (title)",
-    productShortDescription: "A short Description will be here",
+    productShortDescription: "Lightweight, versatile, and travel-friendly",
     productImages: [
       {
         id: 1,
@@ -1511,8 +1621,63 @@ export const PRODUCT_LAPTOP_BAG = [
       },
       {
         id: 2,
-        color: "#e74c3c",
+        color: "#FF33A1 ",
         attribute: "color",
+      },
+    ],
+    productAdditionalButtons: [
+      {
+        id: 1,
+        btnTitle: "Specifications",
+      },
+      {
+        id: 1,
+        btnTitle: "Additional Details",
+      },
+      {
+        id: 1,
+        btnTitle: "Product Review",
+      },
+    ],
+    productDescription: [
+      {
+        title: "General",
+        data: [
+          { id: 1, spec: "Colour", specData: "Black" },
+          { id: 2, spec: "Width", specData: "12 inch" },
+          { id: 3, spec: "Height", specData: "20 Inch" },
+          { id: 3, spec: "Weight", specData: "340 g" },
+          { id: 4, spec: "No of Space", specData: "3" },
+          { id: 5, spec: "Fabric Used", specData: "Polyster" },
+          { id: 6, spec: "Water Proof", specData: "Yes" },
+        ],
+      },
+      {
+        title: "Warranty",
+        data: [
+          {
+            id: 1,
+            spec: "Warranty Summary",
+            specData: "1 Year Onsite Warranty",
+          },
+          {
+            id: 2,
+            spec: "Warranty Service Type",
+            specData:
+              "For any warranty related issues, please call:[1800-2090365]",
+          },
+          {
+            id: 3,
+            spec: "Covered in Warranty",
+            specData: "Manufacturing Defects",
+          },
+          {
+            id: 4,
+            spec: "Not Covered in Warranty",
+            specData: "Physical Damage",
+          },
+          { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+        ],
       },
     ],
     productDetailDescription: [
@@ -1932,7 +2097,7 @@ export const PRODUCT_LAPTOP_BAG = [
   {
     id: 5,
     productTitle: "Laptop Bag (title)",
-    productShortDescription: "A short Description will be here",
+    productShortDescription: "Chic design with ample storage",
     productImages: [
       {
         id: 1,
@@ -1960,8 +2125,63 @@ export const PRODUCT_LAPTOP_BAG = [
       },
       {
         id: 2,
-        color: "#e74c3c",
+        color: "#FFD700",
         attribute: "color",
+      },
+    ],
+    productAdditionalButtons: [
+      {
+        id: 1,
+        btnTitle: "Specifications",
+      },
+      {
+        id: 1,
+        btnTitle: "Additional Details",
+      },
+      {
+        id: 1,
+        btnTitle: "Product Review",
+      },
+    ],
+    productDescription: [
+      {
+        title: "General",
+        data: [
+          { id: 1, spec: "Colour", specData: "Black" },
+          { id: 2, spec: "Width", specData: "12 inch" },
+          { id: 3, spec: "Height", specData: "20 Inch" },
+          { id: 3, spec: "Weight", specData: "340 g" },
+          { id: 4, spec: "No of Space", specData: "3" },
+          { id: 5, spec: "Fabric Used", specData: "Polyster" },
+          { id: 6, spec: "Water Proof", specData: "Yes" },
+        ],
+      },
+      {
+        title: "Warranty",
+        data: [
+          {
+            id: 1,
+            spec: "Warranty Summary",
+            specData: "1 Year Onsite Warranty",
+          },
+          {
+            id: 2,
+            spec: "Warranty Service Type",
+            specData:
+              "For any warranty related issues, please call:[1800-2090365]",
+          },
+          {
+            id: 3,
+            spec: "Covered in Warranty",
+            specData: "Manufacturing Defects",
+          },
+          {
+            id: 4,
+            spec: "Not Covered in Warranty",
+            specData: "Physical Damage",
+          },
+          { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+        ],
       },
     ],
     productDetailDescription: [
@@ -2381,7 +2601,7 @@ export const PRODUCT_LAPTOP_BAG = [
   {
     id: 6,
     productTitle: "Laptop Bag (title)",
-    productShortDescription: "A short Description will be here",
+    productShortDescription: "Perfect balance of style functionality",
     productImages: [
       {
         id: 1,
@@ -2409,8 +2629,63 @@ export const PRODUCT_LAPTOP_BAG = [
       },
       {
         id: 2,
-        color: "#e74c3c",
+        color: "#FFD700",
         attribute: "color",
+      },
+    ],
+    productAdditionalButtons: [
+      {
+        id: 1,
+        btnTitle: "Specifications",
+      },
+      {
+        id: 1,
+        btnTitle: "Additional Details",
+      },
+      {
+        id: 1,
+        btnTitle: "Product Review",
+      },
+    ],
+    productDescription: [
+      {
+        title: "General",
+        data: [
+          { id: 1, spec: "Colour", specData: "Black" },
+          { id: 2, spec: "Width", specData: "12 inch" },
+          { id: 3, spec: "Height", specData: "20 Inch" },
+          { id: 3, spec: "Weight", specData: "340 g" },
+          { id: 4, spec: "No of Space", specData: "3" },
+          { id: 5, spec: "Fabric Used", specData: "Polyster" },
+          { id: 6, spec: "Water Proof", specData: "Yes" },
+        ],
+      },
+      {
+        title: "Warranty",
+        data: [
+          {
+            id: 1,
+            spec: "Warranty Summary",
+            specData: "1 Year Onsite Warranty",
+          },
+          {
+            id: 2,
+            spec: "Warranty Service Type",
+            specData:
+              "For any warranty related issues, please call:[1800-2090365]",
+          },
+          {
+            id: 3,
+            spec: "Covered in Warranty",
+            specData: "Manufacturing Defects",
+          },
+          {
+            id: 4,
+            spec: "Not Covered in Warranty",
+            specData: "Physical Damage",
+          },
+          { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+        ],
       },
     ],
     productDetailDescription: [
@@ -2830,7 +3105,7 @@ export const PRODUCT_LAPTOP_BAG = [
   {
     id: 7,
     productTitle: "Laptop Bag (title)",
-    productShortDescription: "A short Description will be here",
+    productShortDescription: "Roomy interior for daily essentials",
     productImages: [
       {
         id: 1,
@@ -2858,8 +3133,63 @@ export const PRODUCT_LAPTOP_BAG = [
       },
       {
         id: 2,
-        color: "#e74c3c",
+        color: "#8A2BE2",
         attribute: "color",
+      },
+    ],
+    productAdditionalButtons: [
+      {
+        id: 1,
+        btnTitle: "Specifications",
+      },
+      {
+        id: 1,
+        btnTitle: "Additional Details",
+      },
+      {
+        id: 1,
+        btnTitle: "Product Review",
+      },
+    ],
+    productDescription: [
+      {
+        title: "General",
+        data: [
+          { id: 1, spec: "Colour", specData: "Black" },
+          { id: 2, spec: "Width", specData: "12 inch" },
+          { id: 3, spec: "Height", specData: "20 Inch" },
+          { id: 3, spec: "Weight", specData: "340 g" },
+          { id: 4, spec: "No of Space", specData: "3" },
+          { id: 5, spec: "Fabric Used", specData: "Polyster" },
+          { id: 6, spec: "Water Proof", specData: "Yes" },
+        ],
+      },
+      {
+        title: "Warranty",
+        data: [
+          {
+            id: 1,
+            spec: "Warranty Summary",
+            specData: "1 Year Onsite Warranty",
+          },
+          {
+            id: 2,
+            spec: "Warranty Service Type",
+            specData:
+              "For any warranty related issues, please call:[1800-2090365]",
+          },
+          {
+            id: 3,
+            spec: "Covered in Warranty",
+            specData: "Manufacturing Defects",
+          },
+          {
+            id: 4,
+            spec: "Not Covered in Warranty",
+            specData: "Physical Damage",
+          },
+          { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+        ],
       },
     ],
     productDetailDescription: [
@@ -3279,7 +3609,7 @@ export const PRODUCT_LAPTOP_BAG = [
   {
     id: 8,
     productTitle: "Laptop Bag (title)",
-    productShortDescription: "A short Description will be here",
+    productShortDescription: "Timeless style meets lasting durability",
     productImages: [
       {
         id: 1,
@@ -3307,8 +3637,63 @@ export const PRODUCT_LAPTOP_BAG = [
       },
       {
         id: 2,
-        color: "#e74c3c",
+        color: "#FF6347",
         attribute: "color",
+      },
+    ],
+    productAdditionalButtons: [
+      {
+        id: 1,
+        btnTitle: "Specifications",
+      },
+      {
+        id: 1,
+        btnTitle: "Additional Details",
+      },
+      {
+        id: 1,
+        btnTitle: "Product Review",
+      },
+    ],
+    productDescription: [
+      {
+        title: "General",
+        data: [
+          { id: 1, spec: "Colour", specData: "Black" },
+          { id: 2, spec: "Width", specData: "12 inch" },
+          { id: 3, spec: "Height", specData: "20 Inch" },
+          { id: 3, spec: "Weight", specData: "340 g" },
+          { id: 4, spec: "No of Space", specData: "3" },
+          { id: 5, spec: "Fabric Used", specData: "Polyster" },
+          { id: 6, spec: "Water Proof", specData: "Yes" },
+        ],
+      },
+      {
+        title: "Warranty",
+        data: [
+          {
+            id: 1,
+            spec: "Warranty Summary",
+            specData: "1 Year Onsite Warranty",
+          },
+          {
+            id: 2,
+            spec: "Warranty Service Type",
+            specData:
+              "For any warranty related issues, please call:[1800-2090365]",
+          },
+          {
+            id: 3,
+            spec: "Covered in Warranty",
+            specData: "Manufacturing Defects",
+          },
+          {
+            id: 4,
+            spec: "Not Covered in Warranty",
+            specData: "Physical Damage",
+          },
+          { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+        ],
       },
     ],
     productDetailDescription: [
@@ -3728,7 +4113,7 @@ export const PRODUCT_LAPTOP_BAG = [
   {
     id: 9,
     productTitle: "Laptop Bag (title)",
-    productShortDescription: "A short Description will be here",
+    productShortDescription: "Comfortable, organized, and travel-ready",
     productImages: [
       {
         id: 1,
@@ -3756,8 +4141,63 @@ export const PRODUCT_LAPTOP_BAG = [
       },
       {
         id: 2,
-        color: "#e74c3c",
+        color: "#20B2AA",
         attribute: "color",
+      },
+    ],
+    productAdditionalButtons: [
+      {
+        id: 1,
+        btnTitle: "Specifications",
+      },
+      {
+        id: 1,
+        btnTitle: "Additional Details",
+      },
+      {
+        id: 1,
+        btnTitle: "Product Review",
+      },
+    ],
+    productDescription: [
+      {
+        title: "General",
+        data: [
+          { id: 1, spec: "Colour", specData: "Black" },
+          { id: 2, spec: "Width", specData: "12 inch" },
+          { id: 3, spec: "Height", specData: "20 Inch" },
+          { id: 3, spec: "Weight", specData: "340 g" },
+          { id: 4, spec: "No of Space", specData: "3" },
+          { id: 5, spec: "Fabric Used", specData: "Polyster" },
+          { id: 6, spec: "Water Proof", specData: "Yes" },
+        ],
+      },
+      {
+        title: "Warranty",
+        data: [
+          {
+            id: 1,
+            spec: "Warranty Summary",
+            specData: "1 Year Onsite Warranty",
+          },
+          {
+            id: 2,
+            spec: "Warranty Service Type",
+            specData:
+              "For any warranty related issues, please call:[1800-2090365]",
+          },
+          {
+            id: 3,
+            spec: "Covered in Warranty",
+            specData: "Manufacturing Defects",
+          },
+          {
+            id: 4,
+            spec: "Not Covered in Warranty",
+            specData: "Physical Damage",
+          },
+          { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+        ],
       },
     ],
     productDetailDescription: [
@@ -4178,7 +4618,7 @@ export const PRODUCT_LAPTOP_BAG = [
   {
     id: 10,
     productTitle: "Laptop Bag (title)",
-    productShortDescription: "A short Description will be here",
+    productShortDescription: "Minimalist look with maximum convenience",
     productImages: [
       {
         id: 1,
@@ -4206,8 +4646,63 @@ export const PRODUCT_LAPTOP_BAG = [
       },
       {
         id: 2,
-        color: "#e74c3c",
+        color: "#F08080",
         attribute: "color",
+      },
+    ],
+    productAdditionalButtons: [
+      {
+        id: 1,
+        btnTitle: "Specifications",
+      },
+      {
+        id: 1,
+        btnTitle: "Additional Details",
+      },
+      {
+        id: 1,
+        btnTitle: "Product Review",
+      },
+    ],
+    productDescription: [
+      {
+        title: "General",
+        data: [
+          { id: 1, spec: "Colour", specData: "Black" },
+          { id: 2, spec: "Width", specData: "12 inch" },
+          { id: 3, spec: "Height", specData: "20 Inch" },
+          { id: 3, spec: "Weight", specData: "340 g" },
+          { id: 4, spec: "No of Space", specData: "3" },
+          { id: 5, spec: "Fabric Used", specData: "Polyster" },
+          { id: 6, spec: "Water Proof", specData: "Yes" },
+        ],
+      },
+      {
+        title: "Warranty",
+        data: [
+          {
+            id: 1,
+            spec: "Warranty Summary",
+            specData: "1 Year Onsite Warranty",
+          },
+          {
+            id: 2,
+            spec: "Warranty Service Type",
+            specData:
+              "For any warranty related issues, please call:[1800-2090365]",
+          },
+          {
+            id: 3,
+            spec: "Covered in Warranty",
+            specData: "Manufacturing Defects",
+          },
+          {
+            id: 4,
+            spec: "Not Covered in Warranty",
+            specData: "Physical Damage",
+          },
+          { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+        ],
       },
     ],
     productDetailDescription: [
@@ -4628,7 +5123,7 @@ export const PRODUCT_LAPTOP_BAG = [
   {
     id: 11,
     productTitle: "Laptop Bag (title)",
-    productShortDescription: "A short Description will be here",
+    productShortDescription: "Sleek, compact, and highly functional",
     productImages: [
       {
         id: 1,
@@ -4656,8 +5151,63 @@ export const PRODUCT_LAPTOP_BAG = [
       },
       {
         id: 2,
-        color: "#e74c3c",
+        color: "#40E0D0",
         attribute: "color",
+      },
+    ],
+    productAdditionalButtons: [
+      {
+        id: 1,
+        btnTitle: "Specifications",
+      },
+      {
+        id: 1,
+        btnTitle: "Additional Details",
+      },
+      {
+        id: 1,
+        btnTitle: "Product Review",
+      },
+    ],
+    productDescription: [
+      {
+        title: "General",
+        data: [
+          { id: 1, spec: "Colour", specData: "Black" },
+          { id: 2, spec: "Width", specData: "12 inch" },
+          { id: 3, spec: "Height", specData: "20 Inch" },
+          { id: 3, spec: "Weight", specData: "340 g" },
+          { id: 4, spec: "No of Space", specData: "3" },
+          { id: 5, spec: "Fabric Used", specData: "Polyster" },
+          { id: 6, spec: "Water Proof", specData: "Yes" },
+        ],
+      },
+      {
+        title: "Warranty",
+        data: [
+          {
+            id: 1,
+            spec: "Warranty Summary",
+            specData: "1 Year Onsite Warranty",
+          },
+          {
+            id: 2,
+            spec: "Warranty Service Type",
+            specData:
+              "For any warranty related issues, please call:[1800-2090365]",
+          },
+          {
+            id: 3,
+            spec: "Covered in Warranty",
+            specData: "Manufacturing Defects",
+          },
+          {
+            id: 4,
+            spec: "Not Covered in Warranty",
+            specData: "Physical Damage",
+          },
+          { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+        ],
       },
     ],
     productDetailDescription: [
@@ -5078,7 +5628,7 @@ export const PRODUCT_LAPTOP_BAG = [
   {
     id: 12,
     productTitle: "Laptop Bag (title)",
-    productShortDescription: "A short Description will be here",
+    productShortDescription: "Everyday bag for every occasion",
     productImages: [
       {
         id: 1,
@@ -5106,8 +5656,63 @@ export const PRODUCT_LAPTOP_BAG = [
       },
       {
         id: 2,
-        color: "#e74c3c",
+        color: "#6A5ACD",
         attribute: "color",
+      },
+    ],
+    productAdditionalButtons: [
+      {
+        id: 1,
+        btnTitle: "Specifications",
+      },
+      {
+        id: 1,
+        btnTitle: "Additional Details",
+      },
+      {
+        id: 1,
+        btnTitle: "Product Review",
+      },
+    ],
+    productDescription: [
+      {
+        title: "General",
+        data: [
+          { id: 1, spec: "Colour", specData: "Black" },
+          { id: 2, spec: "Width", specData: "12 inch" },
+          { id: 3, spec: "Height", specData: "20 Inch" },
+          { id: 3, spec: "Weight", specData: "340 g" },
+          { id: 4, spec: "No of Space", specData: "3" },
+          { id: 5, spec: "Fabric Used", specData: "Polyster" },
+          { id: 6, spec: "Water Proof", specData: "Yes" },
+        ],
+      },
+      {
+        title: "Warranty",
+        data: [
+          {
+            id: 1,
+            spec: "Warranty Summary",
+            specData: "1 Year Onsite Warranty",
+          },
+          {
+            id: 2,
+            spec: "Warranty Service Type",
+            specData:
+              "For any warranty related issues, please call:[1800-2090365]",
+          },
+          {
+            id: 3,
+            spec: "Covered in Warranty",
+            specData: "Manufacturing Defects",
+          },
+          {
+            id: 4,
+            spec: "Not Covered in Warranty",
+            specData: "Physical Damage",
+          },
+          { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+        ],
       },
     ],
     productDetailDescription: [
@@ -5528,7 +6133,7 @@ export const PRODUCT_LAPTOP_BAG = [
   {
     id: 13,
     productTitle: "Laptop Bag (title)",
-    productShortDescription: "A short Description will be here",
+    productShortDescription: "Your essentials, perfectly organized here",
     productImages: [
       {
         id: 1,
@@ -5556,8 +6161,63 @@ export const PRODUCT_LAPTOP_BAG = [
       },
       {
         id: 2,
-        color: "#e74c3c",
+        color: "#228B22",
         attribute: "color",
+      },
+    ],
+    productAdditionalButtons: [
+      {
+        id: 1,
+        btnTitle: "Specifications",
+      },
+      {
+        id: 1,
+        btnTitle: "Additional Details",
+      },
+      {
+        id: 1,
+        btnTitle: "Product Review",
+      },
+    ],
+    productDescription: [
+      {
+        title: "General",
+        data: [
+          { id: 1, spec: "Colour", specData: "Black" },
+          { id: 2, spec: "Width", specData: "12 inch" },
+          { id: 3, spec: "Height", specData: "20 Inch" },
+          { id: 3, spec: "Weight", specData: "340 g" },
+          { id: 4, spec: "No of Space", specData: "3" },
+          { id: 5, spec: "Fabric Used", specData: "Polyster" },
+          { id: 6, spec: "Water Proof", specData: "Yes" },
+        ],
+      },
+      {
+        title: "Warranty",
+        data: [
+          {
+            id: 1,
+            spec: "Warranty Summary",
+            specData: "1 Year Onsite Warranty",
+          },
+          {
+            id: 2,
+            spec: "Warranty Service Type",
+            specData:
+              "For any warranty related issues, please call:[1800-2090365]",
+          },
+          {
+            id: 3,
+            spec: "Covered in Warranty",
+            specData: "Manufacturing Defects",
+          },
+          {
+            id: 4,
+            spec: "Not Covered in Warranty",
+            specData: "Physical Damage",
+          },
+          { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+        ],
       },
     ],
     productDetailDescription: [
@@ -5978,7 +6638,7 @@ export const PRODUCT_LAPTOP_BAG = [
   {
     id: 14,
     productTitle: "Laptop Bag (title)",
-    productShortDescription: "A short Description will be here",
+    productShortDescription: "Crafted for style and durability",
     productImages: [
       {
         id: 1,
@@ -6006,8 +6666,63 @@ export const PRODUCT_LAPTOP_BAG = [
       },
       {
         id: 2,
-        color: "#e74c3c",
+        color: "#DC143C ",
         attribute: "color",
+      },
+    ],
+    productAdditionalButtons: [
+      {
+        id: 1,
+        btnTitle: "Specifications",
+      },
+      {
+        id: 1,
+        btnTitle: "Additional Details",
+      },
+      {
+        id: 1,
+        btnTitle: "Product Review",
+      },
+    ],
+    productDescription: [
+      {
+        title: "General",
+        data: [
+          { id: 1, spec: "Colour", specData: "Black" },
+          { id: 2, spec: "Width", specData: "12 inch" },
+          { id: 3, spec: "Height", specData: "20 Inch" },
+          { id: 3, spec: "Weight", specData: "340 g" },
+          { id: 4, spec: "No of Space", specData: "3" },
+          { id: 5, spec: "Fabric Used", specData: "Polyster" },
+          { id: 6, spec: "Water Proof", specData: "Yes" },
+        ],
+      },
+      {
+        title: "Warranty",
+        data: [
+          {
+            id: 1,
+            spec: "Warranty Summary",
+            specData: "1 Year Onsite Warranty",
+          },
+          {
+            id: 2,
+            spec: "Warranty Service Type",
+            specData:
+              "For any warranty related issues, please call:[1800-2090365]",
+          },
+          {
+            id: 3,
+            spec: "Covered in Warranty",
+            specData: "Manufacturing Defects",
+          },
+          {
+            id: 4,
+            spec: "Not Covered in Warranty",
+            specData: "Physical Damage",
+          },
+          { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+        ],
       },
     ],
     productDetailDescription: [
@@ -6428,7 +7143,7 @@ export const PRODUCT_LAPTOP_BAG = [
   {
     id: 15,
     productTitle: "Laptop Bag (title)",
-    productShortDescription: "A short Description will be here",
+    productShortDescription: "Effortless style meets thoughtful design",
     productImages: [
       {
         id: 1,
@@ -6456,8 +7171,63 @@ export const PRODUCT_LAPTOP_BAG = [
       },
       {
         id: 2,
-        color: "#e74c3c",
+        color: "#B22222",
         attribute: "color",
+      },
+    ],
+    productAdditionalButtons: [
+      {
+        id: 1,
+        btnTitle: "Specifications",
+      },
+      {
+        id: 1,
+        btnTitle: "Additional Details",
+      },
+      {
+        id: 1,
+        btnTitle: "Product Review",
+      },
+    ],
+    productDescription: [
+      {
+        title: "General",
+        data: [
+          { id: 1, spec: "Colour", specData: "Black" },
+          { id: 2, spec: "Width", specData: "12 inch" },
+          { id: 3, spec: "Height", specData: "20 Inch" },
+          { id: 3, spec: "Weight", specData: "340 g" },
+          { id: 4, spec: "No of Space", specData: "3" },
+          { id: 5, spec: "Fabric Used", specData: "Polyster" },
+          { id: 6, spec: "Water Proof", specData: "Yes" },
+        ],
+      },
+      {
+        title: "Warranty",
+        data: [
+          {
+            id: 1,
+            spec: "Warranty Summary",
+            specData: "1 Year Onsite Warranty",
+          },
+          {
+            id: 2,
+            spec: "Warranty Service Type",
+            specData:
+              "For any warranty related issues, please call:[1800-2090365]",
+          },
+          {
+            id: 3,
+            spec: "Covered in Warranty",
+            specData: "Manufacturing Defects",
+          },
+          {
+            id: 4,
+            spec: "Not Covered in Warranty",
+            specData: "Physical Damage",
+          },
+          { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+        ],
       },
     ],
     productDetailDescription: [
@@ -6878,7 +7648,7 @@ export const PRODUCT_LAPTOP_BAG = [
   {
     id: 16,
     productTitle: "Laptop Bag (title)",
-    productShortDescription: "A short Description will be here",
+    productShortDescription: "Carry everything you need, effortlessly",
     productImages: [
       {
         id: 1,
@@ -6906,8 +7676,63 @@ export const PRODUCT_LAPTOP_BAG = [
       },
       {
         id: 2,
-        color: "#e74c3c",
+        color: "#20B2AA",
         attribute: "color",
+      },
+    ],
+    productAdditionalButtons: [
+      {
+        id: 1,
+        btnTitle: "Specifications",
+      },
+      {
+        id: 1,
+        btnTitle: "Additional Details",
+      },
+      {
+        id: 1,
+        btnTitle: "Product Review",
+      },
+    ],
+    productDescription: [
+      {
+        title: "General",
+        data: [
+          { id: 1, spec: "Colour", specData: "Black" },
+          { id: 2, spec: "Width", specData: "12 inch" },
+          { id: 3, spec: "Height", specData: "20 Inch" },
+          { id: 3, spec: "Weight", specData: "340 g" },
+          { id: 4, spec: "No of Space", specData: "3" },
+          { id: 5, spec: "Fabric Used", specData: "Polyster" },
+          { id: 6, spec: "Water Proof", specData: "Yes" },
+        ],
+      },
+      {
+        title: "Warranty",
+        data: [
+          {
+            id: 1,
+            spec: "Warranty Summary",
+            specData: "1 Year Onsite Warranty",
+          },
+          {
+            id: 2,
+            spec: "Warranty Service Type",
+            specData:
+              "For any warranty related issues, please call:[1800-2090365]",
+          },
+          {
+            id: 3,
+            spec: "Covered in Warranty",
+            specData: "Manufacturing Defects",
+          },
+          {
+            id: 4,
+            spec: "Not Covered in Warranty",
+            specData: "Physical Damage",
+          },
+          { id: 5, spec: "Domestic Warranty", specData: "1 Year" },
+        ],
       },
     ],
     productDetailDescription: [
